@@ -1,0 +1,42 @@
+# jemdoc: menu{MENU}{publications.html}
+== Publications
+
+= Preprints
+- Hyun Kim, *Albert No*, Hyuk-jae Lee, *"SPIHT Algorithm with Adaptive Selection of Compression Ratio Depending on DWT Coefficients"*,
+ /submitted./
+
+- *Albert No*, Tsachy Weissman, *"Universality of Logarithmic Loss in Lossy Compression"*, /submitted./
+
+= Journal Publications
+- *Albert No*, Tsachy Weissman, *"Rateless Lossy Compression via the Extremes"*, /IEEE Transactions on Information Theory/, vol. 62, no. 10, pp. 5484-5495, October 2016.
+
+- *Albert No*, Amir Ingber, Tsachy Weissman, *"Strong Successive Refinability and Rate-Distortion-Complexity Tradeoff"*, /IEEE Transactions on Information Theory/, vol. 62, no. 6, pp. 3618-3635, June 2016.
+
+- Jiantao Jiao, Thomas A. Courtade, *Albert No*, Katik Venkat, Tsachy Weissman,  *"Information Measures: The Curious Case of the Binary Alphabet"*,  /IEEE Transactions on Information Theory/, vol. 60, no. 12, pp. 7616-7626, December 2014.
+
+- *Albert No*, Tsachy Weissman, *"Minimax Filtering via Relations between Information and Estimation"*, /IEEE Transactions on Information Theory/, vol. 60, no. 8, pp. 4832-4847, August 2014. 
+
+
+= Conference Publications
+- Idoia Ochoa, *Albert No*, Mikel Hernaez, Tsachy Weissman, *"CROMqs: Rateless Lossy Compression of Quality Scores"*, /Proceedings of the Information Theory Workshop (ITW), 2016./
+
+- *Albert No*, Tsachy Weissman, *"Universality of Logarithmic Loss in Lossy Compression"*, /Proceedings of the International Symposium on Information Theory (ISIT), 2015./
+
+- *Albert No*, Tsachy Weissman, *"Rateless Lossy Compression via the Extremes"*,  /Proceedings of the 52nd Annual Allerton Conference on Communication, Control, and Computing, 2014./
+
+- Jiantao Jiao, Thomas Courtade, *Albert No*, Kartik Venkat, Tsachy Weissman, *"Information Measures: the Curious Case of the Binary Alphabet"*, /Proceedings of the International Symposium on Information Theory (ISIT), 2014./
+
+- *Albert No*, Amir Ingber, Tsachy Weissman, *"Strong Successive Refinability: Sufficient Conditions"*, /Proceedings of the International Symposium on Information Theory (ISIT), 2014./
+
+- *Albert No*, Amir Ingber, Tsachy Weissman, *"Complexity and Rate-Distortion Tradeoff via Successive Refinement "*, /Proceedings of the 51st Annual Allerton Conference on Communication, Control, and Computing, 2013./
+
+- *Albert No*, Tsachy Weissman, *"Minimax Filtering via Relations between Information and Estimation"*, /Proceedings of the International Symposium on Information Theory (ISIT), 2013./
+
+- *Albert No*, Kartik Venkat, Tsachy Weissman, *"Joint Source-Channel Coding of one Random Variable over the Poisson Channel "*, /Proceedings of the IEEE International Symposium on Information Theory (ISIT), 2012./
+
+- Bobbie G. Chern, Idoia Ochoa, Alexandros Manolakos, *Albert No*, Kartik Venkat, Tsachy Weissman, *"Reference Based Genome Compression"*, /Proceedings of the Information Theory Workshop (ITW), 2012./
+
+
+= Thesis
+- Rateless Lossy Compression via the Extremes (Advisor: prof. Tsachy Weissman)\n
+The aim of my thesis research is to understand successive refinement more thoroughly so that we can use its ideas to construct a practical lossy compressor with theoretically attractive properties.  I proposed an iterative lossy compressor achieving the information theoretic optimum distortion-rate bound with low computational complexity, low storage requirements, and additional properties of both theoretical and practical merit.
