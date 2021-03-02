@@ -1,0 +1,138 @@
+# jemdoc: menu{MENU}{publications.html}
+== Publications
+
+= Preprints
+- [https://arxiv.org/abs/2102.07541
+*WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points*]\n
+*Albert No*, Taeho Yoon, Se-Hyeon Kwon, Ernest K. Ryu\n
+submitted.
+
+- [https://arxiv.org/abs/2102.08329 *Successive Pruning for Model Compression via Rate Distortion Theory*]\n
+Berivan Isik, *Albert No*, Tsachy Weissman\n
+submitted.
+
+= Journal Publications
+- [https://ieeexplore.ieee.org/abstract/document/9186677
+*Error Rate-Based Log-Likelihood Ratio Processing for Low-Density Parity-Check Codes in DNA Storage*]\n
+Xiaozhou Lu, Jaeho Jeong, Jae-Won Kim, Jong-Seon No, Hosung Park, *Albert No*, Sunghwan Kim\n
+/IEEE Access/, September 2020.
+
+- [https://europepmc.org/article/med/32938284
+*CROMqs: Rateless Lossy Compression of Quality Scores*]\n
+*Albert No*, Mikel Hernaez, and Idoia Ochoa\n
+/Journal of Bioinformatics and Computational Biology/, September 2020.
+
+- [https://www.mdpi.com/1099-4300/21/12/1202
+*Nonasymptotic Upper Bounds on Binary Single Deletion Codes via Mixed Integer Linear Programming*]\n
+*Albert No* \n
+/Entropy/, December 2019.
+
+- [https://ieeexplore.ieee.org/document/8827577
+*Markov Decision Policies for Dynamic Video Delivery in Wireless Caching Networks*]\n
+Minseok Choi, *Albert No*, Mingyue Ji, and Joongheon Kim\n
+/IEEE Transactions on Wireless Communications/, December 2019.
+
+- [https://www.mdpi.com/1099-4300/21/6/580
+*Universality of Logarithmic Loss in Fixed-Length Lossy Compression*]\n
+*Albert No* \n
+/Entropy/, June 2019.
+
+- [https://www.mdpi.com/1099-4300/21/2/158
+*Universality of Logarithmic Loss in Successive Refinement*]\n
+*Albert No* \n
+/Entropy/, February 2019.
+
+- [https://ieeexplore.ieee.org/abstract/document/8353473
+*SPIHT Algorithm with Adaptive Selection of Compression Ratio Depending on DWT Coefficients*]\n
+Hyun Kim, *Albert No*, and  Hyuk-jae Lee \n
+/IEEE Transactions on Multimedia/, December 2018.
+
+- [https://www.mdpi.com/1099-4300/20/9/688
+*Information Geometric Approach on Most Informative Boolean Function Conjecture*]\n
+*Albert No*\n
+/Entropy/, September 2018.
+
+- [https://ieeexplore.ieee.org/abstract/document/7542580
+*Rateless Lossy Compression via the Extremes*]\n
+*Albert No* and Tsachy Weissman \n
+ /IEEE Transactions on Information Theory/, October 2016.
+
+- [https://ieeexplore.ieee.org/abstract/document/7445859
+*Strong Successive Refinability and Rate-Distortion-Complexity Tradeoff*]\n
+*Albert No*, Amir Ingber, and Tsachy Weissman \n
+ /IEEE Transactions on Information Theory/, June 2016.
+
+- [https://ieeexplore.ieee.org/abstract/document/6910242
+*Information Measures: The Curious Case of the Binary Alphabet*]\n
+Jiantao Jiao, Thomas A. Courtade, *Albert No*, Katik Venkat, and Tsachy Weissman \n
+  /IEEE Transactions on Information Theory/, December 2014.
+
+- [https://ieeexplore.ieee.org/abstract/document/6823145
+*Minimax Filtering via Relations between Information and Estimation*]\n
+*Albert No* and Tsachy Weissman \n
+ /IEEE Transactions on Information Theory/, August 2014. 
+
+
+
+= Conference Publications
+- [https://ieeexplore.ieee.org/abstract/document/7606808
+*CROMqs: Rateless Lossy Compression of Quality Scores*]\n
+Idoia Ochoa, *Albert No*, Mikel Hernaez, and Tsachy Weissman \n
+ /Proceedings of the Information Theory Workshop (ITW), 2016./
+
+- [https://ieeexplore.ieee.org/abstract/document/7282839
+*Universality of Logarithmic Loss in Lossy Compression*]\n
+ *Albert No* and Tsachy Weissman\n
+ /Proceedings of the International Symposium on Information Theory (ISIT), 2015./
+
+- [https://ieeexplore.ieee.org/document/7028440
+*Rateless Lossy Compression via the Extremes*]\n
+ *Albert No* and Tsachy Weissman \n
+  /Proceedings of the 52nd Annual Allerton Conference on Communication, Control, and Computing, 2014./
+
+- [https://ieeexplore.ieee.org/document/6874853
+*Information Divergences and the Curious Case of the Binary Alphabet*]\n
+ Jiantao Jiao, Thomas Courtade, *Albert No*, Kartik Venkat, and Tsachy Weissman \n
+ /Proceedings of the International Symposium on Information Theory (ISIT), 2014./
+
+- [https://ieeexplore.ieee.org/abstract/document/6875316
+*Strong Successive Refinability: Sufficient Conditions*]\n
+*Albert No*, Amir Ingber, and Tsachy Weissman\n
+ /Proceedings of the International Symposium on Information Theory (ISIT), 2014./
+
+- [https://ieeexplore.ieee.org/abstract/document/6736709
+*Complexity and Rate-Distortion Tradeoff via Successive Refinement*]\n
+*Albert No*, Amir Ingber, and Tsachy Weissman \n
+ /Proceedings of the 51st Annual Allerton Conference on Communication, Control, and Computing, 2013./
+
+- [https://ieeexplore.ieee.org/document/6620265
+*Minimax Filtering via Relations between Information and Estimation*]\n
+*Albert No* and Tsachy Weissman \n
+ /Proceedings of the International Symposium on Information Theory (ISIT), 2013./
+
+- [https://ieeexplore.ieee.org/document/6404708
+*Reference Based Genome Compression*]\n
+Bobbie G. Chern, Idoia Ochoa, Alexandros Manolakos, *Albert No*, Kartik Venkat,
+and Tsachy Weissman\n
+ /Proceedings of the Information Theory Workshop (ITW), 2012./
+
+- [https://ieeexplore.ieee.org/document/6283737
+*Joint Source-Channel Coding of one Random Variable over the Poisson Channel*]\n
+*Albert No*, Kartik Venkat, and Tsachy Weissman \n
+ /Proceedings of the IEEE International Symposium on Information Theory (ISIT), 2012./
+
+
+= Patents
+- *데이터 압축 및 압축해제방법*\n
+*Albert No*\n
+Korean Patent (KR 10-2016125 B1), August, 2019. /
+
+
+= Thesis
+- Rateless Lossy Compression via the Extremes (Advisor: prof. Tsachy Weissman)\n
+The aim of my thesis research is to understand successive refinement more thoroughly
+ so that we can use its ideas to construct a practical lossy compressor
+ with theoretically attractive properties.
+I proposed an iterative lossy compressor achieving the information theoretic optimum
+ distortion-rate bound with low computational complexity,
+ low storage requirements, and additional properties of both theoretical and practical merit.

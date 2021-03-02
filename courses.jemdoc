@@ -1,0 +1,22 @@
+# jemdoc: menu{MENU}{courses.html}
+== Courses
+
+= Spring, 2021
+- 013705 {{<span lang="ko" xml:lang="ko">}}디지털 논리실험 및 설계{{</span>}} (Digital Circuits Lab)
+- 106202 {{<span lang="ko" xml:lang="ko">}}디지털논리회로{{</span>}} (Digital Logic Circuits) 
+- 9266031 {{<span lang="ko" xml:lang="ko">}}확률및 결정이론(대학원){{</span>}} (Probability and Descision Theory(Graduate level))
+
+= Older classes
+- 106202 {{<span lang="ko" xml:lang="ko">}}디지털논리회로{{</span>}} (Digital Logic Circuits) 
+- 106405 {{<span lang="ko" xml:lang="ko">}}통신이론{{</span>}} (Communication Theory)
+- 106606 {{<span lang="ko" xml:lang="ko">}}디지탈통신{{</span>}} (Digital Communications)
+- 106711 {{<span lang="ko" xml:lang="ko">}}이동통신{{</span>}} (Mobile Communications)
+- 106820 {{<span lang="ko" xml:lang="ko">}}창직IT공학설계입문{{</span>}} (Introduction to Creative System Design)
+- 106827 {{<span lang="ko" xml:lang="ko">}}창직IoT공학설계입문{{</span>}} (Introduction to Creative System Design)
+- 106824 {{<span lang="ko" xml:lang="ko">}}IT시스템설계{{</span>}} (IT System Design)
+- 106825 {{<span lang="ko" xml:lang="ko">}}IT종합설계프로젝트{{</span>}}  (IT System Design Project)
+- 106823 {{<span lang="ko" xml:lang="ko">}}인공지능 및 머신러닝{{</span>}} (Artificial Intelligence and Machine Learning)
+- 9262032 {{<span lang="ko" xml:lang="ko">}}정보이론(대학원){{</span>}} (Information Theory (Graduate level))
+- 9266031 {{<span lang="ko" xml:lang="ko">}}디지털신호처리특론(대학원){{</span>}} (Special Lectures on Digital Signal Processing(Graduate level))
+- 9262043 {{<span lang="ko" xml:lang="ko">}}정보압축론(대학원){{</span>}} (Rate Distortion Theory(Graduate level))
+- 9262104 {{<span lang="ko" xml:lang="ko">}}고등수학(대학원){{</span>}} (Advanced Mathematics(Graduate level))

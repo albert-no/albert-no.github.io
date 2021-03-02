@@ -1,0 +1,41 @@
+# jemdoc: menu{MENU}{funding.html}
+== Funded Projects
+
+= Projects
+- Information Theoretic Approaches on DNA sequencing data compression
+({{<span lang="ko xml:lang="ko">}}
+ 정보이론을 이용한 차세대 DNA 시퀀싱 및 유전체데이터의 압축 연구 {{</span>}})\n
+Funded by the National Research Foundation of Korea(NRF) grant (No. NRF-2017R1C1B5019298)
+({{<span lang="ko xml:lang="ko">}}
+ 한국연구재단\/생애 첫 연구 {{</span>}})
+ (2017.03 - 2020.02); Primary-PI
+- Error Control Coding for DNA storage
+({{<span lang="ko xml:lang="ko">}}
+ DNA 저장매체에 적합한 오류제어부호 연구 {{</span>}})\n
+Funded by Samsung Research Funding \& Incubation Center for Future Technology
+({{<span lang="ko xml:lang="ko">}}
+삼성미래기술육성센터 {{</span>}})
+ (2018.12 - 2022.11); Co-PI
+- Large-Scale Korean DNA sequencing data compression
+({{<span lang="ko xml:lang="ko">}}
+대용량 한국인 유전체 데이터 압축 알고리즘 개발 연구{{</span>}})\n
+Funded by the Korean Institute of Science and Technology Information
+({{<span lang="ko xml:lang="ko">}}
+ 한국과학기술정보연구원 위탁연구{{</span>}})
+ (2020.02 - 2020.09); Primary-PI
+- Next Generation Terahertz Communication and Semiconductor
+({{<span lang="ko xml:lang="ko">}}
+차세대 테라헤르츠 통신-반도체 인력양성팀{{</span>}})\n
+Funded by the National Research Foundation of Korea(NRF) grant
+(BK21 {{<span lang="ko xml:lang="ko">}}
+지원사업{{</span>}})
+ (2020.09 - 2027.08); 
+
+= Hongik University Funded
+- Logarithmic Loss in Lossy Compression 
+({{<span lang="ko xml:lang="ko">}}
+손실압축에서의 로그 함수의 특성 {{</span>}})\n
+Funded by Hongik University new faculty research support fund
+({{<span lang="ko xml:lang="ko">}}
+신임교수연구지원비 {{</span>}})
+ (2017.03 - 2018.02); Primary-PI
