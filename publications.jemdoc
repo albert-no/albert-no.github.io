@@ -2,21 +2,34 @@
 == Publications
 
 = Preprints
-- [https://arxiv.org/abs/2102.07541
+- *FCLQC: Fast and Concurrent Lossless Quality Scores Compressor*\n
+Minhyeok Cho and *Albert No*\n
+submitted.\n
+
+- *Prune Your Model Before Distill It*\n
+Jinhyuk Park and *Albert No*\n
+submitted.\n
+
+- [https://arxiv.org/abs/2102.08329 *Successive Pruning for Model Compression via Rate Distortion Theory*]\n
+Berivan Isik, *Albert No*, and Tsachy Weissman\n
+/Sparsity in Neural Networks Workshop/, 2021. [Spotlight]\n
+submitted.\n
+
+
+# Selected
+= Selected Publications
+- [http://proceedings.mlr.press/v139/no21a.html
 *WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points*]\n
 *Albert No*, Taeho Yoon, Se-Hyeon Kwon, Ernest K. Ryu\n
-to appear in the /ICML/, 2021.
+/Proceedings of the 38th International Conference on Machine Learning (ICML)/, 2021.
 
+# Journal
+= Journal Publications
 - [https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab246/6255306
 *Cooperative Sequence Clustering and Decoding for DNA Storage System with Fountain Codes*]\n
 Jaeho Jeong, Seong-Joon Park, Jae-Won Kim, Jong-Seon No, Ha Hyeon Jeon, Jeong Wook Lee, *Albert No*, Sunghwan Kim, and Hosung Park\n
-to appear in the /Bioinformatics/, 2021.
+/Bioinformatics/, April 2021.
 
-- [https://arxiv.org/abs/2102.08329 *Successive Pruning for Model Compression via Rate Distortion Theory*]\n
-Berivan Isik, *Albert No*, Tsachy Weissman\n
-submitted.
-
-= Journal Publications
 - [https://ieeexplore.ieee.org/abstract/document/9186677
 *Error Rate-Based Log-Likelihood Ratio Processing for Low-Density Parity-Check Codes in DNA Storage*]\n
 Xiaozhou Lu, Jaeho Jeong, Jae-Won Kim, Jong-Seon No, Hosung Park, *Albert No*, Sunghwan Kim\n
@@ -79,7 +92,13 @@ Jiantao Jiao, Thomas A. Courtade, *Albert No*, Katik Venkat, and Tsachy Weissman
 
 
 
+# Conference
 = Conference Publications
+- [http://proceedings.mlr.press/v139/no21a.html
+*WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points*]\n
+*Albert No*, Taeho Yoon, Se-Hyeon Kwon, Ernest K. Ryu\n
+/Proceedings of the 38th International Conference on Machine Learning (ICML)/, 2021.
+
 - [https://ieeexplore.ieee.org/abstract/document/7606808
 *CROMqs: Rateless Lossy Compression of Quality Scores*]\n
 Idoia Ochoa, *Albert No*, Mikel Hernaez, and Tsachy Weissman \n
