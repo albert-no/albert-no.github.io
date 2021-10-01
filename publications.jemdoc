@@ -6,11 +6,11 @@
 Minhyeok Cho and *Albert No*\n
 submitted.\n
 
-- *Prune Your Model Before Distill It*\n
+- [https://arxiv.org/abs/2109.14960 *Prune Your Model Before Distill It*]\n
 Jinhyuk Park and *Albert No*\n
 submitted.\n
 
-- [https://arxiv.org/abs/2102.08329 *Successive Pruning for Model Compression via Rate Distortion Theory*]\n
+- [https://arxiv.org/abs/2102.08329 *Rate-Distortion Theoretic Model Compression: Successive Refinement for Pruning]\n
 Berivan Isik, *Albert No*, and Tsachy Weissman\n
 /Sparsity in Neural Networks Workshop/, 2021. [Spotlight]\n
 submitted.\n
