@@ -2,10 +2,6 @@
 == Publications
 
 = Preprints
-- *FCLQC: Fast and Concurrent Lossless Quality Scores Compressor*\n
-Minhyeok Cho and *Albert No*\n
-submitted.\n
-
 - [https://arxiv.org/abs/2109.14960 *Prune Your Model Before Distill It*]\n
 Jinhyuk Park and *Albert No*\n
 submitted.\n
@@ -18,6 +14,11 @@ submitted.\n
 
 # Selected
 = Selected Publications
+- [https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04516-7
+*FCLQC: Fast and Concurrent Lossless Quality Scores Compressor*]\n
+Minhyeok Cho and *Albert No*\n
+/BMC Bioinformatics/, December 2021.\n
+
 - [http://proceedings.mlr.press/v139/no21a.html
 *WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points*]\n
 *Albert No*, Taeho Yoon, Se-Hyeon Kwon, Ernest K. Ryu\n
@@ -25,6 +26,11 @@ submitted.\n
 
 # Journal
 = Journal Publications
+- [https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04516-7
+*FCLQC: Fast and Concurrent Lossless Quality Scores Compressor*]\n
+Minhyeok Cho and *Albert No*\n
+/BMC Bioinformatics/, December 2021.\n
+
 - [https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab246/6255306
 *Cooperative Sequence Clustering and Decoding for DNA Storage System with Fountain Codes*]\n
 Jaeho Jeong, Seong-Joon Park, Jae-Won Kim, Jong-Seon No, Ha Hyeon Jeon, Jeong Wook Lee, *Albert No*, Sunghwan Kim, and Hosung Park\n
