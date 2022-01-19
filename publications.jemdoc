@@ -2,166 +2,182 @@
 == Publications
 
 = Preprints
-- [https://arxiv.org/abs/2109.14960 *Prune Your Model Before Distill It*]\n
+- [https://arxiv.org/abs/2109.14960
+*\[P1\] Prune Your Model Before Distill It*]\n
 Jinhyuk Park and *Albert No*\n
 submitted.\n
 
-- [https://arxiv.org/abs/2102.08329 *Rate-Distortion Theoretic Model Compression: Successive Refinement for Pruning*]\n
-Berivan Isik, *Albert No*, and Tsachy Weissman\n
-/Sparsity in Neural Networks Workshop/, 2021. (Spotlight)\n
-submitted.\n
+- [https://arxiv.org/abs/2102.08329 
+*\[P2\] An Information-Theoretic Justification for Model Pruning*]\n
+Berivan Isik, Tsachy Weissman, and *Albert No*\n
+/International Conference on Artificial Intelligence and Statistics (AISTATS)/, 2022.
+(based on the preliminary version \[W1\])
+
 
 
 # Selected
 = Selected Publications
 - [https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04516-7
-*FCLQC: Fast and Concurrent Lossless Quality Scores Compressor*]\n
+*\[J14\] FCLQC: Fast and Concurrent Lossless Quality Scores Compressor*]\n
 Minhyeok Cho and *Albert No*\n
 /BMC Bioinformatics/, December 2021.\n
 
 - [http://proceedings.mlr.press/v139/no21a.html
-*WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points*]\n
+*\[C10\] WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points*]\n
 *Albert No*, Taeho Yoon, Se-Hyeon Kwon, Ernest K. Ryu\n
-/Proceedings of the 38th International Conference on Machine Learning (ICML)/, 2021.
+/International Conference on Machine Learning (ICML)/, 2021.
+
 
 # Journal
-= Journal Publications
-- [https://www.mdpi.com/2076-3417/12/2/749 *Age Estimation from fMRI Data Using Recurrent Neural Network*]\n
+= Peer-reviewed Journal
+- [https://www.mdpi.com/2076-3417/12/2/749 
+*\[J15\] Age Estimation from fMRI Data Using Recurrent Neural Network*]\n
 Yunfei Gao and *Albert No*\n
 /Applied Sciences/, January 2022.
 
 - [https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04516-7
-*FCLQC: Fast and Concurrent Lossless Quality Scores Compressor*]\n
+*\[J14\] FCLQC: Fast and Concurrent Lossless Quality Scores Compressor*]\n
 Minhyeok Cho and *Albert No*\n
 /BMC Bioinformatics/, December 2021.
 
 - [https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab246/6255306
-*Cooperative Sequence Clustering and Decoding for DNA Storage System with Fountain Codes*]\n
+*\[J13\] Cooperative Sequence Clustering and Decoding for DNA Storage System with Fountain Codes*]\n
 Jaeho Jeong, Seong-Joon Park, Jae-Won Kim, Jong-Seon No, Ha Hyeon Jeon, Jeong Wook Lee, *Albert No*, Sunghwan Kim, and Hosung Park\n
 /Bioinformatics/, April 2021.
 
 - [https://ieeexplore.ieee.org/abstract/document/9186677
-*Error Rate-Based Log-Likelihood Ratio Processing for Low-Density Parity-Check Codes in DNA Storage*]\n
+*\[J12\] Error Rate-Based Log-Likelihood Ratio Processing for Low-Density Parity-Check Codes in DNA Storage*]\n
 Xiaozhou Lu, Jaeho Jeong, Jae-Won Kim, Jong-Seon No, Hosung Park, *Albert No*, Sunghwan Kim\n
 /IEEE Access/, September 2020.
 
 - [https://europepmc.org/article/med/32938284
-*CROMqs: Rateless Lossy Compression of Quality Scores*]\n
+*\[J11\] CROMqs: Rateless Lossy Compression of Quality Scores*]\n
 *Albert No*, Mikel Hernaez, and Idoia Ochoa\n
 /Journal of Bioinformatics and Computational Biology/, September 2020.
 
 - [https://www.mdpi.com/1099-4300/21/12/1202
-*Nonasymptotic Upper Bounds on Binary Single Deletion Codes via Mixed Integer Linear Programming*]\n
+*\[J10\] Nonasymptotic Upper Bounds on Binary Single Deletion Codes via Mixed Integer Linear Programming*]\n
 *Albert No* \n
 /Entropy/, December 2019.
 
 - [https://ieeexplore.ieee.org/document/8827577
-*Markov Decision Policies for Dynamic Video Delivery in Wireless Caching Networks*]\n
+*\[J9\] Markov Decision Policies for Dynamic Video Delivery in Wireless Caching Networks*]\n
 Minseok Choi, *Albert No*, Mingyue Ji, and Joongheon Kim\n
 /IEEE Transactions on Wireless Communications/, December 2019.
 
 - [https://www.mdpi.com/1099-4300/21/6/580
-*Universality of Logarithmic Loss in Fixed-Length Lossy Compression*]\n
+*\[J8\] Universality of Logarithmic Loss in Fixed-Length Lossy Compression*]\n
 *Albert No* \n
 /Entropy/, June 2019.
 
 - [https://www.mdpi.com/1099-4300/21/2/158
-*Universality of Logarithmic Loss in Successive Refinement*]\n
+*\[J7\] Universality of Logarithmic Loss in Successive Refinement*]\n
 *Albert No* \n
 /Entropy/, February 2019.
 
 - [https://ieeexplore.ieee.org/abstract/document/8353473
-*SPIHT Algorithm with Adaptive Selection of Compression Ratio Depending on DWT Coefficients*]\n
+*\[J6\] SPIHT Algorithm with Adaptive Selection of Compression Ratio Depending on DWT Coefficients*]\n
 Hyun Kim, *Albert No*, and  Hyuk-jae Lee \n
 /IEEE Transactions on Multimedia/, December 2018.
 
 - [https://www.mdpi.com/1099-4300/20/9/688
-*Information Geometric Approach on Most Informative Boolean Function Conjecture*]\n
+*\[J5\] Information Geometric Approach on Most Informative Boolean Function Conjecture*]\n
 *Albert No*\n
 /Entropy/, September 2018.
 
 - [https://ieeexplore.ieee.org/abstract/document/7542580
-*Rateless Lossy Compression via the Extremes*]\n
+*\[J4\] Rateless Lossy Compression via the Extremes*]\n
 *Albert No* and Tsachy Weissman \n
  /IEEE Transactions on Information Theory/, October 2016.
 
 - [https://ieeexplore.ieee.org/abstract/document/7445859
-*Strong Successive Refinability and Rate-Distortion-Complexity Tradeoff*]\n
+*\[J3\] Strong Successive Refinability and Rate-Distortion-Complexity Tradeoff*]\n
 *Albert No*, Amir Ingber, and Tsachy Weissman \n
  /IEEE Transactions on Information Theory/, June 2016.
 
 - [https://ieeexplore.ieee.org/abstract/document/6910242
-*Information Measures: The Curious Case of the Binary Alphabet*]\n
+*\[J2\] Information Measures: The Curious Case of the Binary Alphabet*]\n
 Jiantao Jiao, Thomas A. Courtade, *Albert No*, Katik Venkat, and Tsachy Weissman \n
   /IEEE Transactions on Information Theory/, December 2014.
 
 - [https://ieeexplore.ieee.org/abstract/document/6823145
-*Minimax Filtering via Relations between Information and Estimation*]\n
+*\[J1\] Minimax Filtering via Relations between Information and Estimation*]\n
 *Albert No* and Tsachy Weissman \n
  /IEEE Transactions on Information Theory/, August 2014. 
 
 
 
 # Conference
-= Conference Publications
+= Peer-reviewed Conference
 - [http://proceedings.mlr.press/v139/no21a.html
-*WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points*]\n
+*\[C10\] WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points*]\n
 *Albert No*, Taeho Yoon, Se-Hyeon Kwon, Ernest K. Ryu\n
-/Proceedings of the 38th International Conference on Machine Learning (ICML)/, 2021.
+/International Conference on Machine Learning (ICML)/, 2021.
 
 - [https://ieeexplore.ieee.org/abstract/document/7606808
-*CROMqs: Rateless Lossy Compression of Quality Scores*]\n
+*\[C9\] CROMqs: Rateless Lossy Compression of Quality Scores*]\n
 Idoia Ochoa, *Albert No*, Mikel Hernaez, and Tsachy Weissman \n
- /Proceedings of the Information Theory Workshop (ITW), 2016./
+ /Information Theory Workshop (ITW), 2016./
 
 - [https://ieeexplore.ieee.org/abstract/document/7282839
-*Universality of Logarithmic Loss in Lossy Compression*]\n
+*\[C8\] Universality of Logarithmic Loss in Lossy Compression*]\n
  *Albert No* and Tsachy Weissman\n
- /Proceedings of the International Symposium on Information Theory (ISIT), 2015./
+ /International Symposium on Information Theory (ISIT), 2015./
 
 - [https://ieeexplore.ieee.org/document/7028440
-*Rateless Lossy Compression via the Extremes*]\n
+*\[C7\] Rateless Lossy Compression via the Extremes*]\n
  *Albert No* and Tsachy Weissman \n
-  /Proceedings of the 52nd Annual Allerton Conference on Communication, Control, and Computing, 2014./
+  /Annual Allerton Conference on Communication, Control, and Computing, 2014./
 
 - [https://ieeexplore.ieee.org/document/6874853
-*Information Divergences and the Curious Case of the Binary Alphabet*]\n
+*\[C6\] Information Divergences and the Curious Case of the Binary Alphabet*]\n
  Jiantao Jiao, Thomas Courtade, *Albert No*, Kartik Venkat, and Tsachy Weissman \n
- /Proceedings of the International Symposium on Information Theory (ISIT), 2014./
+ /International Symposium on Information Theory (ISIT), 2014./
 
 - [https://ieeexplore.ieee.org/abstract/document/6875316
-*Strong Successive Refinability: Sufficient Conditions*]\n
+*\[C5\] Strong Successive Refinability: Sufficient Conditions*]\n
 *Albert No*, Amir Ingber, and Tsachy Weissman\n
- /Proceedings of the International Symposium on Information Theory (ISIT), 2014./
+ /International Symposium on Information Theory (ISIT), 2014./
 
 - [https://ieeexplore.ieee.org/abstract/document/6736709
-*Complexity and Rate-Distortion Tradeoff via Successive Refinement*]\n
+*\[C4\] Complexity and Rate-Distortion Tradeoff via Successive Refinement*]\n
 *Albert No*, Amir Ingber, and Tsachy Weissman \n
- /Proceedings of the 51st Annual Allerton Conference on Communication, Control, and Computing, 2013./
+ /Annual Allerton Conference on Communication, Control, and Computing, 2013./
 
 - [https://ieeexplore.ieee.org/document/6620265
-*Minimax Filtering via Relations between Information and Estimation*]\n
+*\[C3\] Minimax Filtering via Relations between Information and Estimation*]\n
 *Albert No* and Tsachy Weissman \n
  /Proceedings of the International Symposium on Information Theory (ISIT), 2013./
 
 - [https://ieeexplore.ieee.org/document/6404708
-*Reference Based Genome Compression*]\n
+*\[C2\] Reference Based Genome Compression*]\n
 Bobbie G. Chern, Idoia Ochoa, Alexandros Manolakos, *Albert No*, Kartik Venkat,
 and Tsachy Weissman\n
- /Proceedings of the Information Theory Workshop (ITW), 2012./
+ /Information Theory Workshop (ITW), 2012./
 
 - [https://ieeexplore.ieee.org/document/6283737
-*Joint Source-Channel Coding of one Random Variable over the Poisson Channel*]\n
+*\[C1\] Joint Source-Channel Coding of one Random Variable over the Poisson Channel*]\n
 *Albert No*, Kartik Venkat, and Tsachy Weissman \n
- /Proceedings of the IEEE International Symposium on Information Theory (ISIT), 2012./
+ /International Symposium on Information Theory (ISIT), 2012./
 
+# Workshop
+= Peer-reviewed Workshop
+- [https://sites.google.com/view/sparsity-workshop-2021/schedule
+*\[W1\] Neural Network Pruning via Rate-Distortion Theory*]\n
+Berivan Isik, *Albert No*, and Tsachy Weissman\n
+/Sparsity in Neural Networks Workshop/, 2021. (Spotlight)
 
+# Patent
 = Patents
+- *DNA 저장 장치의 연성 정보 기반 복호화 방법, 프로그램 및 장치*\n
+Sunghwan Kim, Hosung Park, *Albert No*, Jae-Won Kim, Jaeho Jeong, and Jong-Seon No\n
+Korean Patent (KR 10-2339723), December, 2021.
+
 - *데이터 압축 및 압축해제방법*\n
 *Albert No*\n
 Korean Patent (KR 10-2016125 B1), August, 2019.
 
-
+# Thesis
 = Thesis
 - Rateless Lossy Compression via the Extremes (Advisor: prof. Tsachy Weissman)\n
 The aim of my thesis research is to understand successive refinement more thoroughly
