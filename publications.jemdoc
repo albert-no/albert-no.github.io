@@ -5,13 +5,18 @@
 - [https://arxiv.org/abs/2109.14960
 *\[P1\] Prune Your Model Before Distill It*]\n
 Jinhyuk Park and *Albert No*\n
-submitted.\n
+submitted.
 
 - [https://arxiv.org/abs/2102.08329 
 *\[P2\] An Information-Theoretic Justification for Model Pruning*]\n
 Berivan Isik, Tsachy Weissman, and *Albert No*\n
 /International Conference on Artificial Intelligence and Statistics (AISTATS)/, 2022.
 (based on the preliminary version \[W1\])
+
+- [https://arxiv.org/abs/2202.02981
+*\[P3\] Neural Tangent Kernel Analysis of Deep Narrow Neural Networks*]\n
+Jongmin Lee, Joo Young Choi, Ernest K. Ryu, and *Albert No*\n
+submitted.
 
 
 
