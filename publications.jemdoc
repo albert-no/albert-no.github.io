@@ -2,6 +2,7 @@
 == Publications
 
 = Preprints
+
 - [https://arxiv.org/abs/2109.14960
 *\[P1\] Prune Your Model Before Distill It*]\n
 Jinhyuk Park and *Albert No*\n
@@ -18,19 +19,85 @@ Berivan Isik, Tsachy Weissman, and *Albert No*\n
 Jongmin Lee, Joo Young Choi, Ernest K. Ryu, and *Albert No*\n
 submitted.
 
+- [https://arxiv.org/abs/2203.04314
+*\[P4\] PyNET-QxQ: A Distilled PyNET for QxQ Bayer Pattern Demosaicing in CMOS Image Sensor*]\n
+Minhyeok Cho, Haechang Lee, Hyunwoo Je, Kijeong Kim, Dongil Ryu, Jinsu Kim, Jonghyun Bae, and *Albert No*\n
+submitted.
 
 
 # Selected
-= Selected Publications
-- [https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04516-7
-*\[J14\] FCLQC: Fast and Concurrent Lossless Quality Scores Compressor*]\n
-Minhyeok Cho and *Albert No*\n
-/BMC Bioinformatics/, December 2021.\n
+# = Selected Publications
+# - [https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04516-7
+# *\[J14\] FCLQC: Fast and Concurrent Lossless Quality Scores Compressor*]\n
+# Minhyeok Cho and *Albert No*\n
+# /BMC Bioinformatics/, December 2021.\n
+# 
+# - [http://proceedings.mlr.press/v139/no21a.html
+# *\[C10\] WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points*]\n
+# *Albert No*, Taeho Yoon, Se-Hyeon Kwon, Ernest K. Ryu\n
+# /International Conference on Machine Learning (ICML)/, 2021.
+# 
 
+
+# Conference
+= Peer-reviewed Conference
 - [http://proceedings.mlr.press/v139/no21a.html
 *\[C10\] WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points*]\n
 *Albert No*, Taeho Yoon, Se-Hyeon Kwon, Ernest K. Ryu\n
 /International Conference on Machine Learning (ICML)/, 2021.
+
+- [https://ieeexplore.ieee.org/abstract/document/7606808
+*\[C9\] CROMqs: Rateless Lossy Compression of Quality Scores*]\n
+Idoia Ochoa, *Albert No*, Mikel Hernaez, and Tsachy Weissman \n
+ /Information Theory Workshop (ITW), 2016./
+
+- [https://ieeexplore.ieee.org/abstract/document/7282839
+*\[C8\] Universality of Logarithmic Loss in Lossy Compression*]\n
+ *Albert No* and Tsachy Weissman\n
+ /International Symposium on Information Theory (ISIT), 2015./
+
+- [https://ieeexplore.ieee.org/document/7028440
+*\[C7\] Rateless Lossy Compression via the Extremes*]\n
+ *Albert No* and Tsachy Weissman \n
+  /Annual Allerton Conference on Communication, Control, and Computing, 2014./
+
+- [https://ieeexplore.ieee.org/document/6874853
+*\[C6\] Information Divergences and the Curious Case of the Binary Alphabet*]\n
+ Jiantao Jiao, Thomas Courtade, *Albert No*, Kartik Venkat, and Tsachy Weissman \n
+ /International Symposium on Information Theory (ISIT), 2014./
+
+- [https://ieeexplore.ieee.org/abstract/document/6875316
+*\[C5\] Strong Successive Refinability: Sufficient Conditions*]\n
+*Albert No*, Amir Ingber, and Tsachy Weissman\n
+ /International Symposium on Information Theory (ISIT), 2014./
+
+- [https://ieeexplore.ieee.org/abstract/document/6736709
+*\[C4\] Complexity and Rate-Distortion Tradeoff via Successive Refinement*]\n
+*Albert No*, Amir Ingber, and Tsachy Weissman \n
+ /Annual Allerton Conference on Communication, Control, and Computing, 2013./
+
+- [https://ieeexplore.ieee.org/document/6620265
+*\[C3\] Minimax Filtering via Relations between Information and Estimation*]\n
+*Albert No* and Tsachy Weissman \n
+ /Proceedings of the International Symposium on Information Theory (ISIT), 2013./
+
+- [https://ieeexplore.ieee.org/document/6404708
+*\[C2\] Reference Based Genome Compression*]\n
+Bobbie G. Chern, Idoia Ochoa, Alexandros Manolakos, *Albert No*, Kartik Venkat,
+and Tsachy Weissman\n
+ /Information Theory Workshop (ITW), 2012./
+
+- [https://ieeexplore.ieee.org/document/6283737
+*\[C1\] Joint Source-Channel Coding of one Random Variable over the Poisson Channel*]\n
+*Albert No*, Kartik Venkat, and Tsachy Weissman \n
+ /International Symposium on Information Theory (ISIT), 2012./
+
+# Workshop
+= Peer-reviewed Workshop
+- [https://sites.google.com/view/sparsity-workshop-2021/schedule
+*\[W1\] Neural Network Pruning via Rate-Distortion Theory*]\n
+Berivan Isik, *Albert No*, and Tsachy Weissman\n
+/Sparsity in Neural Networks Workshop/, 2021. (Spotlight)
 
 
 # Journal
@@ -109,68 +176,6 @@ Jiantao Jiao, Thomas A. Courtade, *Albert No*, Katik Venkat, and Tsachy Weissman
 *\[J1\] Minimax Filtering via Relations between Information and Estimation*]\n
 *Albert No* and Tsachy Weissman \n
  /IEEE Transactions on Information Theory/, August 2014. 
-
-
-
-# Conference
-= Peer-reviewed Conference
-- [http://proceedings.mlr.press/v139/no21a.html
-*\[C10\] WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points*]\n
-*Albert No*, Taeho Yoon, Se-Hyeon Kwon, Ernest K. Ryu\n
-/International Conference on Machine Learning (ICML)/, 2021.
-
-- [https://ieeexplore.ieee.org/abstract/document/7606808
-*\[C9\] CROMqs: Rateless Lossy Compression of Quality Scores*]\n
-Idoia Ochoa, *Albert No*, Mikel Hernaez, and Tsachy Weissman \n
- /Information Theory Workshop (ITW), 2016./
-
-- [https://ieeexplore.ieee.org/abstract/document/7282839
-*\[C8\] Universality of Logarithmic Loss in Lossy Compression*]\n
- *Albert No* and Tsachy Weissman\n
- /International Symposium on Information Theory (ISIT), 2015./
-
-- [https://ieeexplore.ieee.org/document/7028440
-*\[C7\] Rateless Lossy Compression via the Extremes*]\n
- *Albert No* and Tsachy Weissman \n
-  /Annual Allerton Conference on Communication, Control, and Computing, 2014./
-
-- [https://ieeexplore.ieee.org/document/6874853
-*\[C6\] Information Divergences and the Curious Case of the Binary Alphabet*]\n
- Jiantao Jiao, Thomas Courtade, *Albert No*, Kartik Venkat, and Tsachy Weissman \n
- /International Symposium on Information Theory (ISIT), 2014./
-
-- [https://ieeexplore.ieee.org/abstract/document/6875316
-*\[C5\] Strong Successive Refinability: Sufficient Conditions*]\n
-*Albert No*, Amir Ingber, and Tsachy Weissman\n
- /International Symposium on Information Theory (ISIT), 2014./
-
-- [https://ieeexplore.ieee.org/abstract/document/6736709
-*\[C4\] Complexity and Rate-Distortion Tradeoff via Successive Refinement*]\n
-*Albert No*, Amir Ingber, and Tsachy Weissman \n
- /Annual Allerton Conference on Communication, Control, and Computing, 2013./
-
-- [https://ieeexplore.ieee.org/document/6620265
-*\[C3\] Minimax Filtering via Relations between Information and Estimation*]\n
-*Albert No* and Tsachy Weissman \n
- /Proceedings of the International Symposium on Information Theory (ISIT), 2013./
-
-- [https://ieeexplore.ieee.org/document/6404708
-*\[C2\] Reference Based Genome Compression*]\n
-Bobbie G. Chern, Idoia Ochoa, Alexandros Manolakos, *Albert No*, Kartik Venkat,
-and Tsachy Weissman\n
- /Information Theory Workshop (ITW), 2012./
-
-- [https://ieeexplore.ieee.org/document/6283737
-*\[C1\] Joint Source-Channel Coding of one Random Variable over the Poisson Channel*]\n
-*Albert No*, Kartik Venkat, and Tsachy Weissman \n
- /International Symposium on Information Theory (ISIT), 2012./
-
-# Workshop
-= Peer-reviewed Workshop
-- [https://sites.google.com/view/sparsity-workshop-2021/schedule
-*\[W1\] Neural Network Pruning via Rate-Distortion Theory*]\n
-Berivan Isik, *Albert No*, and Tsachy Weissman\n
-/Sparsity in Neural Networks Workshop/, 2021. (Spotlight)
 
 # Patent
 = Patents
