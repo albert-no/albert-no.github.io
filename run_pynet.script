@@ -1,8 +1,0 @@
-#!/bin/bash
-
-python main.py --template pynet_lv5 --datadim=448
-python main.py --template pynet_lv4 --datadim=448
-python main.py --template pynet_lv3 --datadim=448
-python main.py --template pynet_lv2 --datadim=448
-python main.py --template pynet_lv1 --datadim=448
-python main.py --template pynet_lv0 --datadim=448
