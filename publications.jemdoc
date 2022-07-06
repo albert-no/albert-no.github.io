@@ -2,20 +2,13 @@
 == Publications
 
 = Preprints
-
-- [https://arxiv.org/abs/2109.14960
-*\[P1\] Prune Your Model Before Distill It*]\n
-Jinhyuk Park and *Albert No*\n
-submitted.
-
-
 - [https://arxiv.org/abs/2203.04314
-*\[P2\] PyNET-QxQ: A Distilled PyNET for QxQ Bayer Pattern Demosaicing in CMOS Image Sensor*]\n
+*\[P1\] PyNET-QxQ: A Distilled PyNET for QxQ Bayer Pattern Demosaicing in CMOS Image Sensor*]\n
 Minhyeok Cho, Haechang Lee, Hyunwoo Je, Kijeong Kim, Dongil Ryu, Jinsu Kim, Jonghyun Bae, and *Albert No*\n
 submitted.
 
 - [https://arxiv.org/
-*\[P3\] Generative Adversarial Networks for DNA Storage Channel Simulator*]\n
+*\[P2\] Generative Adversarial Networks for DNA Storage Channel Simulator*]\n
 Sanghoon Kang, Yunfei Gao, Jaeho Jeong, Seong-Joon Park, Jae-Won Kim, Jong-Seon No, Ha Hyeon Jeon, Jeong Wook Lee, Sunghwan Kim, Hosung Park, and *Albert No*\n
 submitted.
 
@@ -25,6 +18,11 @@ submitted.
 
 # Conference
 = Peer-reviewed Conference
+- [https://arxiv.org/abs/2109.14960
+*\[C13\] Prune Your Model Before Distill It*]\n
+Jinhyuk Park and *Albert No*\n
+To Appear in /European Conference on Computer Vision (ECCV)/, 2022.
+
 - [https://arxiv.org/abs/2202.02981
 *\[C12\] Neural Tangent Kernel Analysis of Deep Narrow Neural Networks*]\n
 Jongmin Lee, Joo Young Choi, Ernest K. Ryu, and *Albert No*\n
