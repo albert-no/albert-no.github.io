@@ -1,2 +1,7 @@
+.jekyll-cache/
+_data/.jekyll-cache/
+
 *bak
 *swp
+.DS_Store
+

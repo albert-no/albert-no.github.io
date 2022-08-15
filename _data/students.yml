@@ -1,0 +1,52 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+- name: Sanghoon Kang (강상훈)
+  fname: dummy.png
+  ump: 2
+  email: shkang@g.hongik.ac.kr 
+  desc: "hi"
+
+- name: Yunfei Gao (고운비)
+  fname: dummy.png
+  ump: 2
+  email: gyfbianhuandeyun@mail.hongik.ac.kr 
+  desc: "hi"
+
+- name: Minhyeok Cho (조민혁)
+  fname: dummy.png
+  ump: 1
+  email: waveguryu@naver.com
+  desc: "hi"
+
+- name: Jinhyuk Park (박진혁)
+  fname: dummy.png
+  ump: 1
+  email: ososos888@naver.com 
+  desc: "hi"
+
+- name: Yebin Wang (왕예빈)
+  fname: dummy.png
+  ump: 1
+  email: kingkongyebin@gmail.com  
+  desc: "hi"
+
+- name: Haonan Yang (양호남)
+  fname: dummy.png
+  ump: 1
+  email: gyfbianhuandeyun@mail.hongik.ac.kr 
+  desc: "hi"
+
+- name: Kyelim Lee (이계림)
+  fname: dummy.png
+  ump: 0
+  email: lklkevin@gmail.com 
+  desc: "hi"
+
