@@ -8,6 +8,13 @@ permalink: /publications/
 
 
 # Publications
+Jump to 
+[preprints](#preprints),
+[conference papers](#peer-reviewed-conference),
+ [workshop papers](#peer-reviewed-workshop),
+ [journal papers](#peer-reviewed-journal),
+ [patents](#patents), [thesis](#thesis).
+
 
 ## Highlights
 

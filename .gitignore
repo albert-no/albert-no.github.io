@@ -4,4 +4,5 @@ _data/.jekyll-cache/
 *bak
 *swp
 .DS_Store
+.jekyll-metadata
 

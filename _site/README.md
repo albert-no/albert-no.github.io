@@ -1,11 +1,8 @@
-# Allan Lab Website
+# Information Systems Lab Webpage
 
-This is the website of our academic research group at Leiden University.
-
-This website is powered by Jekyll and some Bootstrap, Bootwatch. We tried to make it simple yet adaptable, so that it is easy for you to use it as a template. Plese feel free to copy and modify for your own purposes.  You don't have to link to us or mention us (but of course we appreciate it).
-
-Go to *aboutwebsite.md*  to learn how to copy and modidy this page for your purpose. 
-
-
-Copyright Allan Lab. Code released under the MIT License.
-
+This is the webpage of our academic research group at Hongik University.
+The webpage is mostly from Allan Lab's webpage ([link](https://github.com/albert-no/albert-no.github.io/tree/gh-pages)).
+To run page locally:
+```
+bundle exec jekyll serve --incremental --trace
+```
