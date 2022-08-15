@@ -90,11 +90,11 @@ Jump to
 
 ## Patents
 **DNA 저장 장치의 연성 정보 기반 복호화 방법, 프로그램 및 장치** <br />
-Sunghwan Kim, Hosung Park, **Albert No**, Jae-Won Kim, Jaeho Jeong, and Jong-Seon No <br /> 
+Sunghwan Kim, Hosung Park, Albert No, Jae-Won Kim, Jaeho Jeong, and Jong-Seon No <br /> 
 Korean Patent (KR 10-2339723), December 2021
 
 **데이터 압축 및 압축해제방법** <br />
- **Albert No** <br /> 
+ Albert No <br /> 
 Korean Patent (KR 10-2016125 B1), August 2019
 
 
