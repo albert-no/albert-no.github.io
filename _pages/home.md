@@ -3,7 +3,7 @@ title: "Information Systems Lab - Home"
 layout: homelay
 excerpt: "Information Systems Lab at Hongik University."
 sitemap: false
-permalink: /index
+permalink: /
 ---
 
 
