@@ -8,16 +8,39 @@
 #  education3:
 #  education4:
 
-- name: Thijs van den Munckhof
-  photo: rock.jpg
-  info: Master student
-  email: m.ortego.larrazabal@umail.leidenuniv.nl
-  number_educ: 0
-  education1:
+- name: Sanghoon Kang (강상훈)
+  fname: dummy.png
+  ump: 2
+  email: shkang@g.hongik.ac.kr 
+  desc: "hi"
 
-- name: João van der Ven
-  photo: rock.jpg
-  info: BSc student
-  email: m.ortego.larrazabal@umail.leidenuniv.nl
-  number_educ: 0
-  education1:
+- name: Yunfei Gao (고운비)
+  fname: dummy.png
+  ump: 2
+  email: gyfbianhuandeyun@mail.hongik.ac.kr 
+  desc: "hi"
+
+- name: Minhyeok Cho (조민혁)
+  fname: dummy.png
+  ump: 1
+  email: waveguryu@naver.com
+  desc: "hi"
+
+- name: Jinhyuk Park (박진혁)
+  fname: dummy.png
+  ump: 1
+  email: ososos888@naver.com 
+  desc: "hi"
+
+- name: Yebin Wang (왕예빈)
+  fname: dummy.png
+  ump: 1
+  email: kingkongyebin@gmail.com  
+  desc: "hi"
+
+- name: Kyelim Lee (이계림)
+  fname: dummy.png
+  ump: 0
+  email: lklkevin@gmail.com 
+  desc: "hi"
+
