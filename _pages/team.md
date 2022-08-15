@@ -91,9 +91,9 @@ Undergraduate Intern<br />
 
 ## Alumni
   <ul style="overflow: hidden">
-<li> Haonan Yang (양호남, Master 2021.03--2022.08) </li>
-<li> Youna Shin (신유나, Undergrad 2021.07--2021.12) </li>
-<li> Yunfei Gao (고운비, Master 2017.09--2019.08) </li>
+<li> Haonan Yang (양호남, Master 2021.03-2022.08) </li>
+<li> Youna Shin (신유나, Undergrad 2021.07-2021.12) </li>
+<li> Yunfei Gao (고운비, Master 2017.09-2019.08) </li>
 </ul>
 
 
