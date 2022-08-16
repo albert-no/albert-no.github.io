@@ -1,5 +1,5 @@
 ---
-title: "Information Systems Lab - Publications"
+title: "ISL - Publications"
 layout: gridlay
 excerpt: "Publications."
 sitemap: false

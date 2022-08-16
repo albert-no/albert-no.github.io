@@ -1,14 +1,17 @@
 ---
-title: "Information Systems Lab - Home"
+title: "ISL - Home"
 layout: homelay
-excerpt: "Information Systems Lab at Hongik University."
+excerpt: "ISL at Hongik University."
 sitemap: false
 permalink: /
 ---
 
+<p> &nbsp;</p>
 
-ISL at Hongik University is a deep learning research lab, 
+Information Systems Laboratory (ISL) is a deep learning research lab, 
 focuses on information theoretic approach on variaous machine learning problems.
+
+<p> &nbsp;</p>
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -44,6 +47,7 @@ focuses on information theoretic approach on variaous machine learning problems.
   </a>
 </div>
 
+<p> &nbsp;</p>
 
 
 ## News

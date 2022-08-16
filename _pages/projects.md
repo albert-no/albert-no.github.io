@@ -1,11 +1,13 @@
 --- 
-title: "Information Systems Lab - Projects"
+title: "ISL - Projects"
 layout: textlay
 excerpt: "Projects"
 sitemap: false
 permalink: /projects/
 ---
 
+
+<p> &nbsp; </p>
 
 # Projects
 - Development of High-performance, high-reliability DNA Memory Software and Hardware <br />

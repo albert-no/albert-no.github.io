@@ -1,17 +1,18 @@
 ---
-title: "Information Systems Lab - Team"
+title: "ISL - Team"
 layout: gridlay
 excerpt: "Team"
 sitemap: false
 permalink: /team/
 ---
 
+<p> &nbsp;</p>
 # Group Members
 
 ## Professor
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/albert.jpg" class="img-responsive" width="25%" style="float: left" />
-<h2>Albert No (노승문) </h2>
+<h3>Albert No (노승문) </h3>
 Assistant Professor <br />
 Electronic and Electrical Engineering<br />
 Hongik University P501, 94 Wausan-ro, Mapo-gu, Seoul <br />
@@ -40,7 +41,7 @@ Seoul National University, 2009 </li>
 
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
-<h2>{{ s.name }}</h2>
+<h3>{{ s.name }}</h3>
 PhD Candidate <br />
   <ul style="overflow: hidden">
 <li> {{ s.desc }} </li>
@@ -58,7 +59,7 @@ PhD Candidate <br />
 
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
-<h2>{{ s.name }}</h2>
+<h3>{{ s.name }}</h3>
 MS Candidate <br />
   <ul style="overflow: hidden">
 <li> {{ s.desc }} </li>
@@ -77,7 +78,7 @@ MS Candidate <br />
 
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
-<h2>{{ s.name }}</h2>
+<h3>{{ s.name }}</h3>
 Undergraduate Intern<br />
   <ul style="overflow: hidden">
 <li> {{ s.desc }} </li>
