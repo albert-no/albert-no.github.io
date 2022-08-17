@@ -5,6 +5,9 @@ excerpt: "Team"
 sitemap: false
 permalink: /team/
 ---
+<p> &nbsp;</p>
+<b>We are looking for passionate new PhD students, Master students, and Undergraduate Interns to join the team</b><br />
+ - 학부연구생 또는 석사/박사과정에 관심있는 학생들은 연락바랍니다
 
 <p> &nbsp;</p>
 # Group Members
@@ -16,7 +19,7 @@ permalink: /team/
 Assistant Professor <br />
 Electronic and Electrical Engineering<br />
 Hongik University P501, 94 Wausan-ro, Mapo-gu, Seoul <br />
-albertno {AT} hongik {DOT} ac {DOT} kr<br />
+<a href="mailto:albertno@hongik.ac.kr">albertno@hongik.ac.kr</a><br />
 <h4> Education </h4>
   <ul style="overflow: hidden">
 <li> PhD, Department of Electrical Engineering, Stanford University, 2015</li>
@@ -40,12 +43,11 @@ Seoul National University, 2009 </li>
 {% if s.ump == 2 %}
 
 <div class="row">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
 <h3>{{ s.name }}</h3>
-PhD Candidate <br />
-  <ul style="overflow: hidden">
-<li> {{ s.desc }} </li>
-</ul>
+<h4>PhD Candidate </h4>
+<a href="mailto:{{ s.email }}">{{ s.email }}</a><br />
+Research Interest: {{ s.desc }}
 </div>
 
 {% endif %}
@@ -58,12 +60,11 @@ PhD Candidate <br />
 {% if s.ump == 1 %}
 
 <div class="row">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
 <h3>{{ s.name }}</h3>
-MS Candidate <br />
-  <ul style="overflow: hidden">
-<li> {{ s.desc }} </li>
-</ul>
+<h4>MS Candidate </h4>
+<a href="mailto:{{ s.email }}">{{ s.email }}</a><br />
+Research Interest: {{ s.desc }}
 </div>
 
 {% endif %}
@@ -77,12 +78,11 @@ MS Candidate <br />
 {% if s.ump == 0 %}
 
 <div class="row">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
 <h3>{{ s.name }}</h3>
-Undergraduate Intern<br />
-  <ul style="overflow: hidden">
-<li> {{ s.desc }} </li>
-</ul>
+<h4>Undergraduate Intern</h4>
+<a href="mailto:{{ s.email }}">{{ s.email }}</a><br />
+Research Interest: {{ s.desc }}
 </div>
 
 {% endif %}
