@@ -12,7 +12,7 @@ permalink: /projects/
 # Projects
 <b>Development of High-performance, high-reliability DNA Memory Software and Hardware <br />
 (고성능, 고신뢰도 DNA 분자메모리 소프트웨어와 하드웨어 구현)<br /></b>
-Funded by National Research Foundation of Korea (NRF) grant (no. )<br />
+Funded by National Research Foundation of Korea (NRF) grant (no. NRF-2022M3C1A3090863)<br />
 (STEAM 연구사업(미래유망융합기술파이오니어)); Co--PI<br />
  2022.06 - 2026.12
 
