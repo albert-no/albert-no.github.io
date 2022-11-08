@@ -9,7 +9,7 @@ permalink: /
 <p> &nbsp;</p>
 
 Information Systems Laboratory (ISL) is a deep learning research lab, 
-focuses on information theoretic approach on variaous machine learning problems.
+focuses on information theoretic approach on various machine learning problems.
 
 <p> &nbsp;</p>
 
