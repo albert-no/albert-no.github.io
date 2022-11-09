@@ -130,14 +130,6 @@
 
 
 
-- title: "[W1] Neural Network Pruning via Rate-Distortion Theory"
-  authors:
-      Berivan Isik, Albert No, and Tsachy Weissman
-  link: "https://sites.google.com/view/sparsity-workshop-2021/schedule"
-  venue: Sparsity in Neural Networks Workshop (**SNN2021 Spotlight**)
-  highlight: 0
-  cwj_code: 1
-  published: 1
 
 
 - title: "[W2] Learned Smartphone ISP on Mobile GPUs with Deep Learning, Mobile AI & AIM 2022 Challenge: Report"
@@ -145,6 +137,15 @@
       Ignatov et al.
   link: "https://polybox.ethz.ch/index.php/s/CxqzyzdBn0AgSZc"
   venue: European Conference on Computer Vision Workshop (**ECCVW 2022**)
+  highlight: 0
+  cwj_code: 1
+  published: 1
+
+- title: "[W1] Neural Network Pruning via Rate-Distortion Theory"
+  authors:
+      Berivan Isik, Albert No, and Tsachy Weissman
+  link: "https://sites.google.com/view/sparsity-workshop-2021/schedule"
+  venue: Sparsity in Neural Networks Workshop (**SNN2021 Spotlight**)
   highlight: 0
   cwj_code: 1
   published: 1
