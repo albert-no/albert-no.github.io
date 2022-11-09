@@ -19,8 +19,8 @@
 - title: "[C13] Prune Your Model Before Distill It"
   authors:
       Jinhyuk Park and Albert No
-  link: "https://arxiv.org/abs/2109.14960"
-  venue: To Appear in European Conference on Computer Vision (**ECCV2022**)
+  link: "https://link.springer.com/chapter/10.1007/978-3-031-20083-0_8"
+  venue: European Conference on Computer Vision (**ECCV2022**)
   highlight: 1
   cwj_code: 0
   published: 1
@@ -140,6 +140,14 @@
   published: 1
 
 
+- title: "[W2] Learned Smartphone ISP on Mobile GPUs with Deep Learning, Mobile AI & AIM 2022 Challenge: Report"
+  authors:
+      Ignatov et al.
+  link: "https://polybox.ethz.ch/index.php/s/CxqzyzdBn0AgSZc"
+  venue: European Conference on Computer Vision Workshop (**ECCVW 2022**)
+  highlight: 0
+  cwj_code: 1
+  published: 1
 
 
 
