@@ -30,7 +30,43 @@
 
 - name: Kyelim Lee (이계림)
   fname: kyelim.jpg
-  ump: 0
+  ump: 1
   email: lklkevin@g.hongik.ac.kr
   desc: "Data Embedding via Deep Neural Networks"
+
+- name: Halyn Yu (유하린)
+  fname: halyn_yu.jpg
+  ump: 1
+  email: halynyu@g.hongik.ac.kr
+  desc: "Deep Learning for Medical Images"
+
+- name: Beom Soo Lee (이범수)
+  fname: beom_soo_lee.jpg
+  ump: 1
+  email: leebs_khan@g.hongik.ac.kr
+  desc: "Object Detection, Light-weighted Neural Networks"
+
+- name: Beomseok Seo (서범석)
+  fname: beomseok_seo.jpg
+  ump: 0
+  email: beom4653@g.hongik.ac.kr
+  desc: "Transformer, Attention Models"
+
+- name: Junseok Jang (장준석)
+  fname: junseok_jang.jpg
+  ump: 0
+  email: jjs4502@g.hongik.ac.kr
+  desc: "Information Theory and Deep Learning"
+
+- name: Giuk Hong (홍기욱)
+  fname: giuk_hong.jpg
+  ump: 0
+  email: sssss21333@mail.hongik.ac.kr
+  desc: "Demosaicing Algorithms, Network Compression"
+
+- name: Jae Hyeok Lee (이재혁)
+  fname: jae_hyeok_lee.jpg
+  ump: 0
+  email: dlwogurgur@g.hongik.ac.kr
+  desc: "Deep Learning for Medical Images"
 

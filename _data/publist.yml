@@ -7,14 +7,6 @@
   cwj_code: 0
   published: 0
 
-- title: "[P2] Generative Adversarial Networks for DNA Storage Channel Simulator"
-  authors:
-    Sanghoon Kang, Yunfei Gao, Jaeho Jeong, Seong-Joon Park, Jae-Won Kim, Jong-Seon No, Ha Hyeon Jeon, Jeong Wook Lee, Sunghwan Kim, Hosung Park, and Albert No
-  link: "https://arxiv.org/"
-  venue: submitted
-  highlight: 0
-  cwj_code: 2
-  published: 0
 
 - title: "[C13] Prune Your Model Before Distill It"
   authors:
@@ -151,6 +143,17 @@
   published: 1
 
 
+
+
+
+- title: "[J16] Generative Adversarial Networks for DNA Storage Channel Simulator"
+  authors:
+    Sanghoon Kang, Yunfei Gao, Jaeho Jeong, Seong-Joon Park, Jae-Won Kim, Jong-Seon No, Ha Hyeon Jeon, Jeong Wook Lee, Sunghwan Kim, Hosung Park, and Albert No
+  link: "https://arxiv.org/"
+  venue: IEEE ACCESS, 2023 (to appear)
+  highlight: 0
+  cwj_code: 2
+  published: 1
 
 - title: "[J15] Age Estimation from fMRI Data Using Recurrent Neural Network"
   authors: Yunfei Gao and Albert No
