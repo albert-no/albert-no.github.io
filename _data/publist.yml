@@ -4,7 +4,7 @@
   link: "https://arxiv.org/abs/2203.04314"
   venue: submitted
   highlight: 0
-  cwj_code: 0
+  cwj_code: 2
   published: 0
 
 
@@ -126,8 +126,8 @@
 
 - title: "[W2] Learned Smartphone ISP on Mobile GPUs with Deep Learning, Mobile AI & AIM 2022 Challenge: Report"
   authors:
-      Ignatov et al.
-  link: "https://polybox.ethz.ch/index.php/s/CxqzyzdBn0AgSZc"
+      Andrey Ignatov, Radu Timofte, Shuai Liu, Chaoyu Feng, Furui Bai, Xiaotao Wang, Lei Lei, Ziyao Yi, Yan Xiang, Zibin Liu, Shaoqing Li, Keming Shi, Dehui Kong, Ke Xu, Minsu Kwon, Yaqi Wu, Jiesi Zheng, Zhihao Fan, Xun Wu, Feng Zhang, Albert No, Minhyeok Cho, Zewen Chen, Xiaze Zhang, Ran Li, Juan Wang, Zhiming Wang, Marcos V. Conde, Ui-Jin Choi, Georgy Perevozchikov, Egor Ershov, Zheng Hui, Mengchuan Dong, Xin Lou, Wei Zhou, Cong Pang, Haina Qin, and  Mingxuan Cai
+  link: "https://link.springer.com/chapter/10.1007/978-3-031-25066-8_3"
   venue: European Conference on Computer Vision Workshop (**ECCVW 2022**)
   highlight: 0
   cwj_code: 1
