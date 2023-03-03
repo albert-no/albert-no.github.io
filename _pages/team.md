@@ -92,6 +92,8 @@ Research Interest: {{ s.desc }}
 
 ## Alumni
   <ul style="overflow: hidden">
+<li> Minhyeok Cho (조민혁, MS '23), currently at FuriosaAI </li>
+<li> Jinhyuk Park (박진혁, MS '23), currently at Nota AI </li>
 <li> Haonan Yang (양호남, MS '22), currently at State Power Investment Corporation (중국국가전력투자공사) </li>
 <li> Yunfei Gao (고운비, MS '19), PhD student at Hongik University </li>
 </ul>

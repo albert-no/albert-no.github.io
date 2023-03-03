@@ -10,18 +10,6 @@
   email: gyfhongik@g.hongik.ac.kr
   desc: "DNA Storage, Transformer Models"
 
-- name: Minhyeok Cho (조민혁)
-  fname: minhyeok.jpg
-  ump: 1
-  email: mincho@mail.hongik.ac.kr
-  desc: "Data Compression, Light-weighted Neural Networks, Generative Models"
-
-- name: Jinhyuk Park (박진혁)
-  fname: jinhyuk.jpg
-  ump: 1
-  email: c0292601@g.hongik.ac.kr
-  desc: "Knowledge Distillation, Network Pruning"
-
 - name: Yebin Wang (왕예빈)
   fname: yebin.jpg
   ump: 1
