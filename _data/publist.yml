@@ -134,17 +134,17 @@
   published: 1
 
 
+
+
+
 - title: "[J17] PyNET-QxQ: An Efficient PyNET Variant for QxQ Bayer Pattern Demosaicing in CMOS Image Sensors"
   authors:
     Minhyeok Cho, Haechang Lee, Hyunwoo Je, Kijeong Kim, Dongil Ryu, and Albert No
-  link: "https://arxiv.org/abs/2203.04314"
-  venue: to appear in IEEE Access
+  link: "https://ieeexplore.ieee.org/document/10114931"
+  venue: IEEE Access, May 2023
   highlight: 0
   cwj_code: 2
   published: 1
-
-
-
 
 - title: "[J16] Generative Adversarial Networks for DNA Storage Channel Simulator"
   authors:
