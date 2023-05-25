@@ -14,7 +14,7 @@ permalink: /team/
 
 ## Professor
 <div class="row">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/albert_230507.png" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/albert_230525.jpg" class="img-responsive" width="25%" style="float: left" />
 <h3>Albert No (노승문) </h3>
 Assistant Professor <br />
 Electronic and Electrical Engineering<br />
