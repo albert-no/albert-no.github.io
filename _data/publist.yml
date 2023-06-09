@@ -1,7 +1,13 @@
+- title: "[P1] Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation"
+  authors: Berivan Isik, Wei-Ning Chen, Ayfer Ozgur, Tsachy Weissman, Albert No
+  link: "https://arxiv.org/abs/2306.04924"
+  venue: submitted
+  highlight: 0
+  cwj_code: 0
+  published: 0
 
 - title: "[C13] Prune Your Model Before Distill It"
-  authors:
-      Jinhyuk Park and Albert No
+  authors: Jinhyuk Park and Albert No
   link: "https://link.springer.com/chapter/10.1007/978-3-031-20083-0_8"
   venue: European Conference on Computer Vision (**ECCV2022**)
   highlight: 1
@@ -9,8 +15,7 @@
   published: 1
 
 - title: "[C12] Neural Tangent Kernel Analysis of Deep Narrow Neural Networks"
-  authors:
-      Jongmin Lee, Joo Young Choi, Ernest K. Ryu, and Albert No
+  authors: Jongmin Lee, Joo Young Choi, Ernest K. Ryu, and Albert No
   link: "https://proceedings.mlr.press/v162/lee22a.html"
   venue: International Conference on Machine Learning (**ICML2022**)
   highlight: 1
@@ -18,8 +23,7 @@
   published: 1
 
 - title: "[C11] An Information-Theoretic Justification for Model Pruning"
-  authors:
-      Berivan Isik, Tsachy Weissman, and Albert No
+  authors: Berivan Isik, Tsachy Weissman, and Albert No
   link: "https://proceedings.mlr.press/v151/isik22a.html"
   venue: "International Conference on Artificial Intelligence and Statistics (**AISTATS2022**)<br />
     (based on the preliminary version [W1])"
