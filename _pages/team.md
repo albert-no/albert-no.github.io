@@ -16,7 +16,7 @@ permalink: /team/
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/albert_230525.jpg" class="img-responsive" width="25%" style="float: left" />
 <h3>Albert No (노승문) </h3>
-Assistant Professor <br />
+Associate Professor <br />
 Electronic and Electrical Engineering<br />
 Hongik University P501, 94 Wausan-ro, Mapo-gu, Seoul <br />
 <a href="mailto:albertno@hongik.ac.kr">albertno@hongik.ac.kr</a><br />
@@ -29,7 +29,8 @@ Seoul National University, 2009 </li>
 </ul>
 <h4> Work Experience </h4>
   <ul style="overflow: hidden">
-<li> Assistant Professor, Hongik University, 2017.03 - </li>
+<li> Associate Professor, Hongik University, 2023.03 - </li>
+<li> Assistant Professor, Hongik University, 2017.03 -2023.02 </li>
 <li> Principal Scientist, Roche Sequencing Solutions, 2015.11 - 2017.02</li>
 </ul>
 </div>
