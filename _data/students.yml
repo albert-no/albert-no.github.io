@@ -1,14 +1,3 @@
-- name: Sanghoon Kang (강상훈)
-  fname: sanghoon.jpg
-  ump: 2
-  email: shkang@g.hongik.ac.kr 
-  desc: "DNA Storage, Object Detection"
-
-- name: Yunfei Gao (고운비)
-  fname: yunfei.jpg
-  ump: 2
-  email: gyfhongik@g.hongik.ac.kr
-  desc: "DNA Storage, Transformer Models"
 
 - name: Yebin Wang (왕예빈)
   fname: yebin.jpg
@@ -49,12 +38,23 @@
 - name: Ki-wook Hong (홍기욱)
   fname: ki-wook_hong.jpg
   ump: 0
-  email: sssss21333@mail.hongik.ac.kr
+  email: sssss21333@g.hongik.ac.kr
   desc: "Demosaicing Algorithms, Network Compression"
 
-- name: Jae Hyeok Lee (이재혁)
-  fname: jae_hyeok_lee.jpg
+- name: Dayeon Kim (김다연)
+  fname: dayeon.jpg
   ump: 0
-  email: dlwogurgur@g.hongik.ac.kr
-  desc: "Deep Learning for Medical Images"
+  email: dayeon323@g.hongik.ac.kr
+  desc: "Implicit Neural Representation"
 
+- name: JiHyun Jung (정지현)
+  fname: jihyun.jpg
+  ump: 0
+  email: jihyun.rachel.jung@gmail.com
+  desc: "Federated Learning"
+
+- name: BumJun Kim (김범준)
+  fname: bumjun.jpeg
+  ump: 0
+  email: quasar0529@gmail.com
+  desc: "Network Facotrization"

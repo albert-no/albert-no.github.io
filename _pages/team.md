@@ -14,7 +14,7 @@ permalink: /team/
 
 ## Professor
 <div class="row">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/albert_230525.jpg" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/albert_230824.jpg" class="img-responsive" width="25%" style="float: left" />
 <h3>Albert No (노승문) </h3>
 Associate Professor <br />
 Electronic and Electrical Engineering<br />
@@ -93,10 +93,11 @@ Research Interest: {{ s.desc }}
 
 ## Alumni
   <ul style="overflow: hidden">
+<li> Sanghoon Kang (강상훈, PhD '23), currently at University of Florida (Postdoctoral Associate) </li>
+<li> Yunfei Gao (고운비, MS '19, PhD '23)</li>
 <li> Minhyeok Cho (조민혁, MS '23), currently at FuriosaAI </li>
 <li> Jinhyuk Park (박진혁, MS '23), currently at Nota AI </li>
 <li> Haonan Yang (양호남, MS '22), currently at State Power Investment Corporation (중국국가전력투자공사) </li>
-<li> Yunfei Gao (고운비, MS '19), PhD student at Hongik University </li>
 </ul>
 
 
