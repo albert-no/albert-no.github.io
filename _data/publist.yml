@@ -156,6 +156,14 @@
 
 
 
+- title: "[J18] Reducing cost in DNA-based data storage by sequence analysis-aided soft information decoding of variable-length reads"
+  authors:
+      Seong-Joon Park, Sunghwan Kim, Jaeho Jeong, Albert No, Jong-Seon No, and Hosung Park
+  link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10500082/"
+  venue: Bioinformatics, September 2023
+  highlight: 0
+  cwj_code: 2
+  published: 1
 
 - title: "[J17] PyNET-QxQ: An Efficient PyNET Variant for QxQ Bayer Pattern Demosaicing in CMOS Image Sensors"
   authors:
