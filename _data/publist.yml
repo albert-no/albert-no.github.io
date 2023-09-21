@@ -1,7 +1,7 @@
 - title: "[P2] Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback"
   authors: TaeHo Yoon, Kibeom Myoung, Keon Lee, Jaewoong Cho, Albert No, and Ernest K. Ryu
   link: "https://arxiv.org/abs/2307.02770"
-  venue: submitted
+  venue: To appear in Neural Information Processing Systems (**NeurIPS 2023**)
   highlight: 0
   cwj_code: 0
   published: 0
@@ -9,7 +9,8 @@
 - title: "[P1] Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation"
   authors: Berivan Isik, Wei-Ning Chen, Ayfer Ozgur, Tsachy Weissman, and Albert No
   link: "https://arxiv.org/abs/2306.04924"
-  venue: submitted
+  venue: "To appear in Neural Information Processing Systems (**NeurIPS 2023**) <br />
+    (based on the preliminary version [W3])"
   highlight: 0
   cwj_code: 0
   published: 0
@@ -125,6 +126,13 @@
 
 
 
+- title: "[W3] Exact Optimality in Communication-Privacy-Utility Tradeoffs"
+  authors:
+      link: "https://openreview.net/forum?id=TF2sP6bTUI"
+  venue: International Conference on Machine Learning Workshop (**FL @ ICML 2023**)
+  highlight: 0
+  cwj_code: 1
+  published: 1
 
 
 - title: "[W2] Learned Smartphone ISP on Mobile GPUs with Deep Learning, Mobile AI & AIM 2022 Challenge: Report"
