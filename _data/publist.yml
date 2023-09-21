@@ -2,7 +2,7 @@
   authors: TaeHo Yoon, Kibeom Myoung, Keon Lee, Jaewoong Cho, Albert No, and Ernest K. Ryu
   link: "https://arxiv.org/abs/2307.02770"
   venue: To appear in Neural Information Processing Systems (**NeurIPS 2023**)
-  highlight: 0
+  highlight: 1
   cwj_code: 0
   published: 0
 
@@ -11,7 +11,7 @@
   link: "https://arxiv.org/abs/2306.04924"
   venue: "To appear in Neural Information Processing Systems (**NeurIPS 2023**) <br />
     (based on the preliminary version [W3])"
-  highlight: 0
+  highlight: 1
   cwj_code: 0
   published: 0
 
@@ -44,7 +44,7 @@
   authors: Albert No, Taeho Yoon, Se-Hyeon Kwon, and Ernest K. Ryu
   link: "http://proceedings.mlr.press/v139/no21a.html"
   venue: International Conference on Machine Learning (**ICML2021**)
-  highlight: 1
+  highlight: 0
   cwj_code: 0
   published: 1
 
