@@ -127,8 +127,8 @@
 
 
 - title: "[W3] Exact Optimality in Communication-Privacy-Utility Tradeoffs"
-  authors:
-      link: "https://openreview.net/forum?id=TF2sP6bTUI"
+  authors: Berivan Isik, Wei-Ning Chen, Ayfer Ozgur, Tsachy Weissman, and Albert No
+  link: "https://openreview.net/forum?id=TF2sP6bTUI"
   venue: International Conference on Machine Learning Workshop (**FL @ ICML 2023**)
   highlight: 0
   cwj_code: 1
