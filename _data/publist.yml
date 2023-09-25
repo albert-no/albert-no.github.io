@@ -1,19 +1,19 @@
-- title: "[P2] Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback"
+- title: "[C15] Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback"
   authors: TaeHo Yoon, Kibeom Myoung, Keon Lee, Jaewoong Cho, Albert No, and Ernest K. Ryu
   link: "https://arxiv.org/abs/2307.02770"
-  venue: To appear in Neural Information Processing Systems (**NeurIPS 2023**)
+  venue: Neural Information Processing Systems (**NeurIPS2023**)
   highlight: 1
   cwj_code: 0
-  published: 0
+  published: 1
 
-- title: "[P1] Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation"
+- title: "[C14] Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation"
   authors: Berivan Isik, Wei-Ning Chen, Ayfer Ozgur, Tsachy Weissman, and Albert No
   link: "https://arxiv.org/abs/2306.04924"
-  venue: "To appear in Neural Information Processing Systems (**NeurIPS 2023**) <br />
-    (based on the preliminary version [W3])"
+  venue: Neural Information Processing Systems (**NeurIPS2023**) <br />
+    (based on the preliminary version [W3])
   highlight: 1
   cwj_code: 0
-  published: 0
+  published: 1
 
 - title: "[C13] Prune Your Model Before Distill It"
   authors: Jinhyuk Park and Albert No
@@ -126,20 +126,27 @@
 
 
 
-- title: "[W3] Exact Optimality in Communication-Privacy-Utility Tradeoffs"
-  authors: Berivan Isik, Wei-Ning Chen, Ayfer Ozgur, Tsachy Weissman, and Albert No
-  link: "https://openreview.net/forum?id=TF2sP6bTUI"
-  venue: International Conference on Machine Learning Workshop (**FL @ ICML 2023**)
+- title: "[W4] Fully Quantized Always-on Face Detector Considering Mobile Image Sensors"
+  authors: Haechang Lee, Wongi Jeong, Dongil Ryu, Hyunwoo Je, Albert No, Kijeong Kim, Se Young Chun
+  link: "https://sites.google.com/view/lbqnn-iccv-23/accepted-papers?authuser=0"
+  venue: International Conference on Computer Vision Workshop (**LBQNN @ ICCV2023, Oral**)
   highlight: 0
   cwj_code: 1
   published: 1
 
+- title: "[W3] Exact Optimality in Communication-Privacy-Utility Tradeoffs"
+  authors: Berivan Isik, Wei-Ning Chen, Ayfer Ozgur, Tsachy Weissman, and Albert No
+  link: "https://openreview.net/forum?id=TF2sP6bTUI"
+  venue: International Conference on Machine Learning Workshop (**FL @ ICML2023**)
+  highlight: 0
+  cwj_code: 1
+  published: 1
 
 - title: "[W2] Learned Smartphone ISP on Mobile GPUs with Deep Learning, Mobile AI & AIM 2022 Challenge: Report"
   authors:
       Andrey Ignatov, Radu Timofte, Shuai Liu, Chaoyu Feng, Furui Bai, Xiaotao Wang, Lei Lei, Ziyao Yi, Yan Xiang, Zibin Liu, Shaoqing Li, Keming Shi, Dehui Kong, Ke Xu, Minsu Kwon, Yaqi Wu, Jiesi Zheng, Zhihao Fan, Xun Wu, Feng Zhang, Albert No, Minhyeok Cho, Zewen Chen, Xiaze Zhang, Ran Li, Juan Wang, Zhiming Wang, Marcos V. Conde, Ui-Jin Choi, Georgy Perevozchikov, Egor Ershov, Zheng Hui, Mengchuan Dong, Xin Lou, Wei Zhou, Cong Pang, Haina Qin, and  Mingxuan Cai
   link: "https://link.springer.com/chapter/10.1007/978-3-031-25066-8_3"
-  venue: European Conference on Computer Vision Workshop (**ECCVW 2022**)
+  venue: European Conference on Computer Vision Workshop (**AIM @ ECCV2022**)
   highlight: 0
   cwj_code: 1
   published: 1
@@ -148,7 +155,7 @@
   authors:
       Berivan Isik, Albert No, and Tsachy Weissman
   link: "https://sites.google.com/view/sparsity-workshop-2021/schedule"
-  venue: Sparsity in Neural Networks Workshop (**SNN2021 Spotlight**)
+  venue: Sparsity in Neural Networks Workshop (**SNN2021, Spotlight**)
   highlight: 0
   cwj_code: 1
   published: 1
