@@ -125,6 +125,13 @@
 
 
 
+- title: "[W5] LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models"
+  authors: Joo Young Choi, Jaesung Park, Inkyu Park, Jaewoong Cho, Albert No, and Ernest Ryu,
+  link: "https://sites.google.com/view/lbqnn-iccv-23/accepted-papers?authuser=0"
+  venue: Neural Information Processing Systems Workshop (**Diffusion Models @ NeurIPS**)
+  highlight: 0
+  cwj_code: 1
+  published: 1
 
 - title: "[W4] Fully Quantized Always-on Face Detector Considering Mobile Image Sensors"
   authors: Haechang Lee, Wongi Jeong, Dongil Ryu, Hyunwoo Je, Albert No, Kijeong Kim, Se Young Chun
