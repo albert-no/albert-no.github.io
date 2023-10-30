@@ -1,6 +1,6 @@
 - title: "[C15] Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback"
   authors: TaeHo Yoon, Kibeom Myoung, Keon Lee, Jaewoong Cho, Albert No, and Ernest K. Ryu
-  link: "https://arxiv.org/abs/2307.02770"
+  link: "https://nips.cc/virtual/2023/poster/72833"
   venue: Neural Information Processing Systems (**NeurIPS2023**)
   highlight: 1
   cwj_code: 0
@@ -8,7 +8,7 @@
 
 - title: "[C14] Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation"
   authors: Berivan Isik, Wei-Ning Chen, Ayfer Ozgur, Tsachy Weissman, and Albert No
-  link: "https://arxiv.org/abs/2306.04924"
+  link: "https://nips.cc/virtual/2023/poster/72717"
   venue: Neural Information Processing Systems (**NeurIPS2023**) <br />
     (based on the preliminary version [W3])
   highlight: 1
@@ -127,7 +127,7 @@
 
 - title: "[W5] LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models"
   authors: Joo Young Choi, Jaesung Park, Inkyu Park, Jaewoong Cho, Albert No, and Ernest Ryu,
-  link: "https://sites.google.com/view/lbqnn-iccv-23/accepted-papers?authuser=0"
+  link: "https://openreview.net/forum?id=TV3puxNDAE"
   venue: Neural Information Processing Systems Workshop (**Diffusion Models @ NeurIPS**)
   highlight: 0
   cwj_code: 1
