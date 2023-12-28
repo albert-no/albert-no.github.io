@@ -128,7 +128,7 @@
 - title: "[W5] LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models"
   authors: Joo Young Choi, Jaesung Park, Inkyu Park, Jaewoong Cho, Albert No, and Ernest Ryu,
   link: "https://openreview.net/forum?id=TV3puxNDAE"
-  venue: Neural Information Processing Systems Workshop (**Diffusion Models @ NeurIPS**)
+  venue: Neural Information Processing Systems Workshop (**Diffusion Models @ NeurIPS2023**)
   highlight: 0
   cwj_code: 1
   published: 1
@@ -169,6 +169,14 @@
 
 
 
+- title: "[J19] How Does a Transformer Learn Compression? An Attention Study on Huffman and LZ4"
+  authors:
+      Beomseok Seo and Albert No
+  link: "https://ieeexplore.ieee.org/abstract/document/10353923"
+  venue: IEEE Access, December 2023
+  highlight: 0
+  cwj_code: 2
+  published: 1
 
 - title: "[J18] Reducing cost in DNA-based data storage by sequence analysis-aided soft information decoding of variable-length reads"
   authors:
