@@ -168,6 +168,14 @@
   published: 1
 
 
+- title: "[J20] Adaptable DNA Storage Coding: An Efficient Framework for Homopolymer Constraint Transitions"
+  authors:
+      Yunfei Gao and Albert No
+  link: "https://ieeexplore.ieee.org/document/10398196"
+  venue: IEEE Access, January 2024
+  highlight: 0
+  cwj_code: 2
+  published: 1
 
 - title: "[J19] How Does a Transformer Learn Compression? An Attention Study on Huffman and LZ4"
   authors:
