@@ -8,7 +8,7 @@ permalink: /courses/
 
 <p>&nbsp;</p>
 
-# Fall, 2022
+# Fall, 2023
 106827 창직IoT공학설계입문 (Introduction to Creative System Design) x2 <br />
 106823 인공지능 및 머신러닝 (Artificial Intelligence and Machine Learning) <br />
 9262043 정보압축론 (대학원) (Compression Theory (Graduate level)) <br />
