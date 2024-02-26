@@ -17,8 +17,8 @@ permalink: /team/
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/albert_230824.jpg" class="img-responsive" width="25%" style="float: left" />
 <h3>Albert No (노승문) </h3>
 Associate Professor <br />
-Electronic and Electrical Engineering<br />
-Hongik University P501, 94 Wausan-ro, Mapo-gu, Seoul <br />
+Department of Artificial Intelligence<br />
+Yonsei University, Engineering Research Park (공학원) Room 449D, 50 Yonsei-ro, Seodaemun-gu, Seoul <br />
 <a href="mailto:albertno@hongik.ac.kr">albertno@hongik.ac.kr</a><br />
 <h4> Education </h4>
   <ul style="overflow: hidden">
