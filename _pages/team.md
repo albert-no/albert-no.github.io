@@ -29,7 +29,8 @@ Seoul National University, 2009 </li>
 </ul>
 <h4> Work Experience </h4>
   <ul style="overflow: hidden">
-<li> Associate Professor, Hongik University, 2023.03 - </li>
+<li> Associate Professor, Yonsei University, 2024.03 - </li>
+<li> Associate Professor, Hongik University, 2023.03 - 2023.02 </li>
 <li> Assistant Professor, Hongik University, 2017.03 -2023.02 </li>
 <li> Principal Scientist, Roche Sequencing Solutions, 2015.11 - 2017.02</li>
 </ul>
