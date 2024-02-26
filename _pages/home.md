@@ -62,7 +62,6 @@ focuses on information theoretic approach on various machine learning problems.
 ## News
 <ul>
  <li> <b>ISL moved to department of Artificial Intelligence at Yonsei University.</b><br /> 
- &emsp;- 학부연구생 또는 석사/박사과정에 관심있는 학생들은 연락바랍니다</li>
  <li> <b>We are  looking for passionate new PhD students, Master students, and Undergraduate Interns to join the team </b><br /> 
  &emsp;- 학부연구생 또는 석사/박사과정에 관심있는 학생들은 연락바랍니다</li>
 <li> Our group has 1 papers accepted to <b>NeurIPS 2023 Workshop on Diffusion Models</b><br />
