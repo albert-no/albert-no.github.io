@@ -62,8 +62,8 @@ Research Interest: {{ s.desc }}
 
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
-<h3>{{ s.name }}</h3>
-<h4>MS Candidate </h4>
+<h3>{{ s.name }} </h3>
+<h4>MS Candidate at {{ s.hy }} </h4>
 <a href="mailto:{{ s.email }}">{{ s.email }}</a><br />
 Research Interest: {{ s.desc }}
 </div>
@@ -81,7 +81,7 @@ Research Interest: {{ s.desc }}
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
 <h3>{{ s.name }}</h3>
-<h4>Undergraduate Intern</h4>
+<h4>Undergraduate Intern at {{ s.hy }} </h4>
 <a href="mailto:{{ s.email }}">{{ s.email }}</a><br />
 Research Interest: {{ s.desc }}
 </div>
@@ -93,11 +93,12 @@ Research Interest: {{ s.desc }}
 
 ## Alumni
   <ul style="overflow: hidden">
-<li> Sanghoon Kang (강상훈, PhD '23), currently at University of Florida (Postdoctoral Associate) </li>
-<li> Yunfei Gao (고운비, MS '19, PhD '23)</li>
-<li> Minhyeok Cho (조민혁, MS '23), currently at FuriosaAI </li>
-<li> Jinhyuk Park (박진혁, MS '23), currently at Nota AI </li>
-<li> Haonan Yang (양호남, MS '22), currently at State Power Investment Corporation (중국국가전력투자공사) </li>
+<li> Yebin Wang (왕예빈, Hongik University, MS '24)  </li>
+<li> Sanghoon Kang (강상훈, Hongik University, PhD '23), currently at University of Florida (Postdoctoral Associate) </li>
+<li> Yunfei Gao (고운비, Hongik University, MS '19, PhD '23)</li>
+<li> Minhyeok Cho (조민혁, Hongik University, MS '23), currently at FuriosaAI </li>
+<li> Jinhyuk Park (박진혁, Hongik University, MS '23), currently at Nota AI </li>
+<li> Haonan Yang (양호남, Hongik University, MS '22), currently at State Power Investment Corporation (중국국가전력투자공사) </li>
 </ul>
 
 

@@ -1,7 +1,7 @@
 ---
 title: "ISL - Home"
 layout: homelay
-excerpt: "ISL at Hongik University."
+excerpt: "ISL at Yonsei University."
 sitemap: false
 permalink: /
 ---

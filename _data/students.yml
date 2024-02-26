@@ -1,60 +1,63 @@
 
-- name: Yebin Wang (왕예빈)
-  fname: yebin.jpg
-  ump: 1
-  email: wangyb@g.hongik.ac.kr
-  desc: "Knowledge Distillation"
-
 - name: Kyelim Lee (이계림)
   fname: kyelim.jpg
   ump: 1
+  hy: "Hongik University" 
   email: lklkevin@g.hongik.ac.kr
   desc: "Data Embedding via Deep Neural Networks"
 
 - name: Halyn Yu (유하린)
   fname: halyn_yu.jpg
   ump: 1
+  hy: "Hongik University" 
   email: halynyu@g.hongik.ac.kr
   desc: "Deep Learning for Medical Images"
 
 - name: Beom Soo Lee (이범수)
   fname: beom_soo_lee.jpg
   ump: 1
+  hy: "Hongik University" 
   email: leebs_khan@g.hongik.ac.kr
   desc: "Object Detection, Light-weighted Neural Networks"
 
 - name: Beomseok Seo (서범석)
   fname: beomseok_seo.jpg
   ump: 0
+  hy: "Hongik University" 
   email: beom4653@g.hongik.ac.kr
   desc: "Transformer, Attention Models"
 
 - name: Junseok Jang (장준석)
   fname: junseok_jang.jpg
-  ump: 0
+  ump: 1
+  hy: "Yonsei University" 
   email: jjs4502@g.hongik.ac.kr
   desc: "Information Theory and Deep Learning"
 
 - name: Ki-wook Hong (홍기욱)
   fname: ki-wook_hong.jpg
   ump: 0
+  hy: "Hongik University" 
   email: sssss21333@g.hongik.ac.kr
   desc: "Demosaicing Algorithms, Network Compression"
 
 - name: Dayeon Kim (김다연)
   fname: dayeon.jpg
   ump: 0
+  hy: "Hongik University" 
   email: dayeon323@g.hongik.ac.kr
   desc: "Implicit Neural Representation"
 
 - name: JiHyun Jung (정지현)
   fname: jihyun.jpg
   ump: 0
+  hy: "Hongik University" 
   email: jihyun.rachel.jung@gmail.com
   desc: "Federated Learning"
 
 - name: BumJun Kim (김범준)
   fname: bumjun.jpeg
   ump: 0
+  hy: "Hongik University" 
   email: quasar0529@gmail.com
   desc: "Network Factorization"
