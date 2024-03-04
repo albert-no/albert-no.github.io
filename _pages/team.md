@@ -19,7 +19,7 @@ permalink: /team/
 Associate Professor <br />
 Department of Artificial Intelligence<br />
 Yonsei University, Engineering Research Park (공학원) Room 449D, 50 Yonsei-ro, Seodaemun-gu, Seoul <br />
-<a href="mailto:albertno@hongik.ac.kr">albertno@hongik.ac.kr</a><br />
+albertno AT yonsei DOT ac DOT kr<br />
 <h4> Education </h4>
   <ul style="overflow: hidden">
 <li> PhD, Department of Electrical Engineering, Stanford University, 2015</li>
