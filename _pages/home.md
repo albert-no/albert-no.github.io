@@ -61,9 +61,9 @@ focuses on information theoretic approach on various machine learning problems.
 
 ## News
 <ul>
- <li> <b>ISL moved to department of Artificial Intelligence at Yonsei University.</b><br /> 
- <li> <b>We are  looking for passionate new PhD students, Master students, and Undergraduate Interns to join the team </b><br /> 
- &emsp;- 학부연구생 또는 석사/박사과정에 관심있는 학생들은 연락바랍니다</li>
+<li> <b>We are  looking for passionate new graduate students and undergrad interns to join our team. </b><br />
+&emsp;- Check <a href="http://localhost:4000/joinus">Join Us</a></li>
+<li> <b>ISL moved to department of Artificial Intelligence at Yonsei University.</b><br /> 
 <li> Our group has 1 papers accepted to <b>NeurIPS 2023 Workshop on Diffusion Models</b><br />
 &emsp;- LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models</li>
 <li> Our group has 2 papers accepted to <b>NeurIPS 2023</b><br />
