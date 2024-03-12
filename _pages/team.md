@@ -6,7 +6,7 @@ sitemap: false
 permalink: /team/
 ---
 <p> &nbsp;</p>
-<b>If you are interested to join us, please check the <a href=http://localhost:4000/joinus>Join Us</a> page</b><br />
+<b>If you are interested to join us, please check the <a href="{{ site.url }}{{ site.baseurl }}/joinus">Join Us</a> page</b><br />
 
 <p> &nbsp;</p>
 # Group Members
