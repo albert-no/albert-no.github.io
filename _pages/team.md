@@ -6,8 +6,7 @@ sitemap: false
 permalink: /team/
 ---
 <p> &nbsp;</p>
-<b>We are looking for passionate new PhD students, Master students, and Undergraduate Interns to join the team</b><br />
- - 학부연구생 또는 석사/박사과정에 관심있는 학생들은 연락바랍니다
+<b>If you are interested to join us, please check the <a href=http://localhost:4000/joinus>Join Us</a> page</b><br />
 
 <p> &nbsp;</p>
 # Group Members
