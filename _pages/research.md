@@ -15,7 +15,7 @@ permalink: /research/
   Differential privacy is a robust statistical technique that protects individual data privacy within datasets while enabling precise aggregate data analysis.
   Our group is dedicated to integrating differential privacy into various deep learning frameworks,
   such as large language models and diffusion generative models, to enhance their privacy safeguards.
-  <li> <a href="https://ealizadeh.com/blog/abc-of-differential-privacy/">img source</a></li>
+  <a href="https://ealizadeh.com/blog/abc-of-differential-privacy/">img source</a>
 </div>
 
 ## Diffusion Generative Models
@@ -25,7 +25,7 @@ permalink: /research/
   These models are deeply rooted in the theoretical frameworks of stochastic differential equations, probability theory, and optimization.
   Our research group is committed to further exploring diffusion models and their mechanisms of sample generation,
   examining them through the perspectives of mathematics and information theory.
-  <li> <a href="https://arxiv.org/pdf/2011.13456.pdf">img source</a></li>
+  <a href="https://arxiv.org/pdf/2011.13456.pdf">img source</a>
 </div>
 
 ## Deep Learning Theory

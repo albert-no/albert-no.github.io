@@ -24,7 +24,7 @@ What we expect from you:
 
 Highly desirable qualificiations:
 - Experience in machine/deep learning tools (e.g., Tensorflow, PyTorch, Jax) is a plus.
-- Backgrounds in real analysis, convex optimization is a huge plus.
+- Backgrounds in real analysis, advanced probability theory (measure theory, etc), or convex optimization is a huge plus.
 
 ## Getting Involved
 When you are writing a contact e-mail to Prof. Albert No, PLEASE INCLUDE the following information.
