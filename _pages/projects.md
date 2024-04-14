@@ -1,5 +1,5 @@
 --- 
-title: "ISL - Projects"
+title: "AI-ISL - Projects"
 layout: textlay
 excerpt: "Projects"
 sitemap: false

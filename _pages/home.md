@@ -1,14 +1,14 @@
 ---
-title: "ISL - Home"
+title: "AI-ISL - Home"
 layout: homelay
-excerpt: "ISL at Yonsei University."
+excerpt: "AI-ISL at Yonsei University."
 sitemap: false
 permalink: /
 ---
 
 <p> &nbsp;</p>
 
-Information Systems Laboratory (ISL) is a deep learning research lab, 
+Artificial Intelligence and Information Systems Laboratory (AI-ISL) is a deep learning research lab, 
 focuses on information theoretic approach on various machine learning problems.
 
 <p> &nbsp;</p>

@@ -1,5 +1,5 @@
 --- 
-title: "ISL - Courses"
+title: "AI-ISL - Courses"
 layout: textlay
 excerpt: "Courses"
 sitemap: false

@@ -1,5 +1,5 @@
 ---
-title: "ISL - Team"
+title: "AI-ISL - Team"
 layout: gridlay
 excerpt: "Team"
 sitemap: false

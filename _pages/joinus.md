@@ -1,5 +1,5 @@
 --- 
-title: "ISL - Join Us"
+title: "AI-ISL - Join Us"
 layout: textlay
 excerpt: "Projects"
 sitemap: false

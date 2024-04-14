@@ -1,7 +1,7 @@
 ---
-title: "ISL - Pictures"
+title: "AI-ISL - Pictures"
 layout: piclay
-excerpt: "ISL -- Pictures"
+excerpt: "AI-ISL -- Pictures"
 permalink: /pictures/
 ---
 

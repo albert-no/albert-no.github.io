@@ -1,5 +1,5 @@
 ---
-title: "ISL - Publications"
+title: "AI-ISL - Publications"
 layout: gridlay
 excerpt: "Publications."
 sitemap: false
