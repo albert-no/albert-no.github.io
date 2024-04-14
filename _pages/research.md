@@ -18,6 +18,8 @@ permalink: /research/
   <a href="https://ealizadeh.com/blog/abc-of-differential-privacy/">img source</a>
 </div>
 
+<p>&nbsp;</p>
+
 ## Diffusion Generative Models
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/respic/diffusion.png" class="center" width="50%" style="float: left" />
@@ -27,6 +29,8 @@ permalink: /research/
   examining them through the perspectives of mathematics and information theory.
   <a href="https://arxiv.org/pdf/2011.13456.pdf">img source</a>
 </div>
+
+<p>&nbsp;</p>
 
 ## Deep Learning Theory
 <div class="row">
