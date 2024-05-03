@@ -1,3 +1,11 @@
+- title: "[C16] Improved Communication-Privacy Trade-offs in L2 Mean Estimation under Streaming Differential Privacy"
+  authors: Wei-Ning Chen, Berivan Isik, Peter Kairouz, Albert No, Sewoong Oh, Zheng Xu
+  link: "https://arxiv.org"
+  venue: International Conference on Machine Learning (**ICML2024**)
+  highlight: 1
+  cwj_code: 0
+  published: 1
+
 - title: "[C15] Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback"
   authors: TaeHo Yoon, Kibeom Myoung, Keon Lee, Jaewoong Cho, Albert No, and Ernest K. Ryu
   link: "https://nips.cc/virtual/2023/poster/72833"

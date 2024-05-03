@@ -67,6 +67,8 @@ focuses on information theoretic approach on various machine learning problems.
 <ul>
 <li> <b>We are  looking for passionate new graduate students and undergrad interns to join our team. </b><br />
 &emsp;- Check <a href="{{ site.url }}{{ site.baseurl }}/joinus">Join Us</a></li>
+<li> Our group has 1 paper accepted to <b>ICML 2024</b><br />
+&emsp;- Improved Communication-Privacy Trade-offs in L2 Mean Estimation under Streaming Differential Privacy</li>
 <li> <b>ISL moved to department of Artificial Intelligence at Yonsei University.</b><br /> 
 <li> Our group has 1 papers accepted to <b>NeurIPS 2023 Workshop on Diffusion Models</b><br />
 &emsp;- LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models</li>

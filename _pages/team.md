@@ -95,7 +95,7 @@ Research Interest: {{ s.desc }}
   <ul style="overflow: hidden">
 <li> Yebin Wang (왕예빈, Hongik University, MS '24)  </li>
 <li> Sanghoon Kang (강상훈, Hongik University, PhD '23), currently at University of Florida (Postdoctoral Associate) </li>
-<li> Yunfei Gao (고운비, Hongik University, MS '19, PhD '23)</li>
+<li> Yunfei Gao (고운비, Hongik University, MS '19, PhD '23), currently at Shanghai Jiao Tong University (Postdoctoral Associate) </li>
 <li> Minhyeok Cho (조민혁, Hongik University, MS '23), currently at FuriosaAI </li>
 <li> Jinhyuk Park (박진혁, Hongik University, MS '23), currently at Nota AI </li>
 <li> Haonan Yang (양호남, Hongik University, MS '22), currently at State Power Investment Corporation (중국국가전력투자공사) </li>

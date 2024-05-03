@@ -10,6 +10,12 @@ permalink: /projects/
 <p> &nbsp; </p>
 
 # Projects
+<b>Development of Transformer Acceleration Solution Including Quantization and Scheduling Techniques for LLM<br />
+(초거대 언어모델을 위한 양자화 기술 및 스케줄링 기법을 포함하는 Transformer 가속 솔루션 개발)<br /></b>
+Funded by Ministry of Trade, Industry and Energy<br />
+(민관공동투자 반도체고급인력양성); Co--PI<br />
+ 2024.04 - 2026.12
+
 <b>Optimal Transport for Diffusion Models<br />
 (Diffusion Model에서의 optimal transport)<br /></b>
 Funded by KRAFTON<br />
