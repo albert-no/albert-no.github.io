@@ -1,6 +1,16 @@
+- title: "[P1] Simple Drop-in LoRA Conditioning on Attention Layers Will Improve Your Diffusion Model"
+  authors: Joo Young Choi, Jaesung R. Park, Inkyu Park, Jaewoong Cho, Albert No, and Ernest K. Ryu
+  link: "https://arxiv.org/"
+  venue: submitted
+    (based on the preliminary version [W5])
+  highlight: 0
+  cwj_code: 2
+  published: 0
+
+
 - title: "[C16] Improved Communication-Privacy Trade-offs in L2 Mean Estimation under Streaming Differential Privacy"
-  authors: Wei-Ning Chen, Berivan Isik, Peter Kairouz, Albert No, Sewoong Oh, Zheng Xu
-  link: "https://arxiv.org"
+  authors: Wei-Ning Chen, Berivan Isik, Peter Kairouz, Albert No, Sewoong Oh, and Zheng Xu
+  link: "https://arxiv.org/pdf/2405.02341"
   venue: International Conference on Machine Learning (**ICML2024**)
   highlight: 1
   cwj_code: 0
