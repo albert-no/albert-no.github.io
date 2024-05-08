@@ -1,6 +1,6 @@
 - title: "[P1] Simple Drop-in LoRA Conditioning on Attention Layers Will Improve Your Diffusion Model"
   authors: Joo Young Choi, Jaesung R. Park, Inkyu Park, Jaewoong Cho, Albert No, and Ernest K. Ryu
-  link: "https://arxiv.org/"
+  link: "https://arxiv.org/pdf/2405.03958"
   venue: submitted
     (based on the preliminary version [W5])
   highlight: 0
