@@ -186,6 +186,17 @@
   published: 1
 
 
+
+
+- title: "[J21] Needleman-Wunsch Attention: A Framework for Enhancing DNA Sequence Embedding"
+  authors:
+      Kyelim Lee and Albert No
+  link: "https://ieeexplore.ieee.org/"
+  venue: IEEE Access, to appear 
+  highlight: 0
+  cwj_code: 2
+  published: 1
+
 - title: "[J20] Adaptable DNA Storage Coding: An Efficient Framework for Homopolymer Constraint Transitions"
   authors:
       Yunfei Gao and Albert No
