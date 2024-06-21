@@ -20,33 +20,12 @@
   email: leebs_khan@g.hongik.ac.kr
   desc: "Object Detection, Light-weighted Neural Networks"
 
-- name: Beomseok Seo (서범석)
-  fname: beomseok_seo.jpg
-  ump: 0
-  hy: "Hongik University" 
-  email: beom4653@g.hongik.ac.kr
-  desc: "Transformer, Attention Models"
-
 - name: Junseok Jang (장준석)
   fname: junseok_jang.jpg
   ump: 1
   hy: "Yonsei University" 
   email: jjs4502@yonsei.ac.kr
   desc: "Information Theory and Deep Learning"
-
-- name: Ki-wook Hong (홍기욱)
-  fname: ki-wook_hong.jpg
-  ump: 0
-  hy: "Hongik University" 
-  email: sssss21333@g.hongik.ac.kr
-  desc: "Demosaicing Algorithms, Network Compression"
-
-- name: Dayeon Kim (김다연)
-  fname: dayeon.jpg
-  ump: 0
-  hy: "Hongik University" 
-  email: dayeon323@g.hongik.ac.kr
-  desc: "Implicit Neural Representation"
 
 - name: JiHyun Jung (정지현)
   fname: jihyun.jpg
@@ -61,3 +40,24 @@
   hy: "Hongik University" 
   email: quasar0529@gmail.com
   desc: "Network Factorization"
+
+- name: Yeachan Chun(전예찬)
+  fname: yeachan.jpg
+  ump: 1
+  hy: "Yonsei University" 
+  email: dpcks8942@yonsei.ac.kr
+  desc: "Differential Privacy"
+
+- name: Yoonjun Cho (조윤준)
+  fname: yoonjun.jpg
+  ump: 2
+  hy: "Yonsei University" 
+  email: cyoonjun@yonsei.ac.kr
+  desc: "Network Quantization and Compression"
+
+- name: Sangyeon Yoon (윤상연)
+  fname: sangyeon.jpg
+  ump: 0
+  hy: "Hongik University" 
+  email: pingpinglee00@gmail.com
+  desc: "Boolean Networks"

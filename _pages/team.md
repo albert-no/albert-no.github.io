@@ -93,6 +93,9 @@ Research Interest: {{ s.desc }}
 
 ## Alumni
   <ul style="overflow: hidden">
+<li> Ki-wook Hong (홍기욱, Hongik University, undergrad intern)  </li>
+<li> Dayeon Kim (김다연, Hongik University, undergrad intern)  </li>
+<li> Beomseok Seo (서범석, Hongik University, undergrad intern)  </li>
 <li> Yebin Wang (왕예빈, Hongik University, MS '24)  </li>
 <li> Sanghoon Kang (강상훈, Hongik University, PhD '23), currently at University of Florida (Postdoctoral Associate) </li>
 <li> Yunfei Gao (고운비, Hongik University, MS '19, PhD '23), currently at Shanghai Jiao Tong University (Postdoctoral Associate) </li>
