@@ -1,7 +1,25 @@
 
+- title: "[P2] Efficient and Low-Complexity Variable-to-VariableLength Coding for DNA Storage"
+  authors: Yunfei Gao and Albert No
+  link: ""
+  venue: submitted
+  highlight: 0
+  cwj_code: 2
+  published: 1
+
+- title: "[P1] An Information Theoretic Metric for Evaluating Unlearning Models"
+  authors: Dongjae Jeon, Wonje Jeung, Taeheon Kim, Albert No, Jonghyun Choi
+  link: "https://arxiv.org/abs/2405.17878"
+  venue: submitted
+  highlight: 0
+  cwj_code: 0
+  published: 1
+
+
+
 - title: "[C16] Improved Communication-Privacy Trade-offs in L2 Mean Estimation under Streaming Differential Privacy"
   authors: Wei-Ning Chen, Berivan Isik, Peter Kairouz, Albert No, Sewoong Oh, and Zheng Xu
-  link: "https://arxiv.org/pdf/2405.02341"
+  link: "https://icml.cc/virtual/2024/poster/32729"
   venue: International Conference on Machine Learning (**ICML2024**)
   highlight: 1
   cwj_code: 0
