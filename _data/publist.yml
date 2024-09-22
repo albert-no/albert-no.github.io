@@ -5,7 +5,7 @@
   venue: submitted
   highlight: 0
   cwj_code: 2
-  published: 1
+  published: 0
 
 - title: "[P1] An Information Theoretic Metric for Evaluating Unlearning Models"
   authors: Dongjae Jeon, Wonje Jeung, Taeheon Kim, Albert No, Jonghyun Choi
@@ -13,7 +13,7 @@
   venue: submitted
   highlight: 0
   cwj_code: 0
-  published: 1
+  published: 0
 
 
 
