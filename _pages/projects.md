@@ -10,6 +10,18 @@ permalink: /projects/
 <p> &nbsp; </p>
 
 # Projects
+<b>AI Research Hub Project<br />
+(AI 거점연구 프로젝트)<br /></b>
+Funded by Institute for Information & Communication Technology Planning & Evaluation (IITP)<br />
+(AI 거점연구 프로젝트); Co--PI<br />
+ 2024.07 - 2028.12
+
+<b>DNA Computing Systems and Algorithms for Large-Scale Artificial Neural Networks<br />
+(대규모 인공신경망을 위한 DNA 컴퓨팅 시스템 및 알고리즘)<br /></b>
+Funded by the National Research Foundation of Korea (NRF) grant (No. NRF-) <br />
+(한국연구재단 기초연구실); Co--PI<br />
+ 2024.09 - 2026.12
+
 <b>Development of Transformer Acceleration Solution Including Quantization and Scheduling Techniques for LLM<br />
 (초거대 언어모델을 위한 양자화 기술 및 스케줄링 기법을 포함하는 Transformer 가속 솔루션 개발)<br /></b>
 Funded by Ministry of Trade, Industry and Energy<br />

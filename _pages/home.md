@@ -87,5 +87,4 @@ focuses on information theoretic approach on various machine learning problems.
 &emsp;- An Information-Theoretic Justification for Model Pruning</li>
 <li> Our group has 1 paper accepted to <b>ICML 2021</b><br />
 &emsp;- WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points</li>
-</ul>
 
