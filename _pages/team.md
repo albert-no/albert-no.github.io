@@ -93,6 +93,7 @@ Research Interest: {{ s.desc }}
 
 ## Alumni
   <ul style="overflow: hidden">
+<li> JiHyun Jung (정지현, Hongik University, undergrad intern), currently at Virginia Tech (Master Program)  </li>
 <li> Ki-wook Hong (홍기욱, Hongik University, undergrad intern)  </li>
 <li> Dayeon Kim (김다연, Hongik University, undergrad intern)  </li>
 <li> Beomseok Seo (서범석, Hongik University, undergrad intern)  </li>
