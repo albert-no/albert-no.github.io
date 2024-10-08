@@ -1,12 +1,4 @@
 
-- title: "[P2] Efficient and Low-Complexity Variable-to-VariableLength Coding for DNA Storage"
-  authors: Yunfei Gao and Albert No
-  link: ""
-  venue: submitted
-  highlight: 0
-  cwj_code: 2
-  published: 0
-
 - title: "[P1] An Information Theoretic Metric for Evaluating Unlearning Models"
   authors: Dongjae Jeon, Wonje Jeung, Taeheon Kim, Albert No, Jonghyun Choi
   link: "https://arxiv.org/abs/2405.17878"
@@ -196,11 +188,18 @@
 
 
 
+- title: "[J23] Efficient and Low-Complexity Variable-to-VariableLength Coding for DNA Storage"
+  authors: Yunfei Gao and Albert No
+  link: "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-024-05943-y"
+  venue: BMC Bioinformatics, October 2024
+  highlight: 0
+  cwj_code: 2
+  published: 1
 
 - title: "[J22] Simple Drop-in LoRA Conditioning on Attention Layers Will Improve Your Diffusion Model"
   authors: Joo Young Choi, Jaesung R. Park, Inkyu Park, Jaewoong Cho, Albert No, and Ernest K. Ryu
   link: "https://openreview.net/forum?id=38P40gJPrI"
-  venue:  Transactions on Machine Learning Research (**TMLR**), To appear
+  venue:  Transactions on Machine Learning Research (**TMLR**), October 2024
     (based on the preliminary version [W5])
   highlight: 0
   cwj_code: 2
