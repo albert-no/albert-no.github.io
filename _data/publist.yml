@@ -1,12 +1,19 @@
 
 - title: "[P1] An Information Theoretic Metric for Evaluating Unlearning Models"
-  authors: Dongjae Jeon, Wonje Jeung, Taeheon Kim, Albert No, Jonghyun Choi
+  authors: Dongjae Jeon, Wonje Jeung, Taeheon Kim, Albert No, and Jonghyun Choi
   link: "https://arxiv.org/abs/2405.17878"
   venue: submitted
   highlight: 0
   cwj_code: 0
   published: 0
 
+- title: "[P2] Differentially Private Adaptation of Diffusion Models via Noisy Aggregated Embeddings"
+  authors: Pura Peetathawatchai, Wei-Ning Chen, Berivan Isik, Sanmi Koyejo, and Albert No
+  link: "http://arxiv.org/abs/2411.14639"
+  venue: submitted
+  highlight: 0
+  cwj_code: 0
+  published: 0
 
 
 - title: "[C16] Improved Communication-Privacy Trade-offs in L2 Mean Estimation under Streaming Differential Privacy"
