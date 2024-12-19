@@ -172,8 +172,8 @@
   link: "https://arxiv.org/abs/2412.01756"
   venue: Neural Information Processing Systems Workshop (**Statistical Frontiers in LLMs and Foundation Models @ NeurIPS2024**)
   highlight: 0
-  cwj_code: 0
-  published: 0
+  cwj_code: 1
+  published: 1
 
 - title: "[W5] LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models"
   authors: Joo Young Choi, Jaesung Park, Inkyu Park, Jaewoong Cho, Albert No, and Ernest Ryu,
