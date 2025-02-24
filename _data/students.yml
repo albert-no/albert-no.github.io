@@ -1,7 +1,29 @@
 
+
+- name: Sangwoo Shin(신상우)
+  fname: sangwoo.jpg
+  ump: 1
+  hy: "Yonsei University" 
+  email: sangwoo8392@gmail.com
+  desc: "Memorization in LLM"
+
+- name: Moongyu Jeon(전문규)
+  fname: moongyu.jpg
+  ump: 1
+  hy: "Yonsei University" 
+  email: mkjmkjmkj@yonsei.ac.kr
+  desc: "Discrete Diffusion Models"
+
+- name: Soeun Kim(김소은)
+  fname: soeun.jpg
+  ump: 1
+  hy: "Yonsei University" 
+  email: soeunkim@yonsei.ac.kr
+  desc: "Network Quantization and Compression"
+
 - name: Dueun Kim(김두은)
   fname: dueun.jpg
-  ump: 0
+  ump: 1
   hy: "Yonsei University" 
   email: jinha2536@yonsei.ac.kr
   desc: "Memorization in Diffusion Models"
@@ -34,30 +56,9 @@
   email: "thisislim@yonsei.ac.kr"
   desc: "Data Embedding via Deep Neural Networks"
 
-- name: Halyn Yu (유하린)
-  fname: halyn_yu.jpg
-  ump: 1
-  hy: "Hongik University" 
-  email: halynyu@g.hongik.ac.kr
-  desc: "Deep Learning for Medical Images"
-
-- name: Beom Soo Lee (이범수)
-  fname: beom_soo_lee.jpg
-  ump: 1
-  hy: "Hongik University" 
-  email: leebs_khan@g.hongik.ac.kr
-  desc: "Object Detection, Light-weighted Neural Networks"
-
-- name: Junseok Jang (장준석)
-  fname: junseok_jang.jpg
-  ump: 1
-  hy: "Yonsei University" 
-  email: jjs4502@yonsei.ac.kr
-  desc: "Information Theory and Deep Learning"
-
 - name: BumJun Kim (김범준)
   fname: bumjun.jpeg
-  ump: 0
+  ump: 1
   hy: "Hongik University" 
   email: quasar0529@gmail.com
   desc: "Differential Privacy and Diffusion Models"

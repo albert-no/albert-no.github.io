@@ -93,6 +93,9 @@ Research Interest: {{ s.desc }}
 
 ## Alumni
   <ul style="overflow: hidden">
+<li> Halyn Yu (유하린, Hongik University, MS '25) </li>
+<li> Beom Soo Lee (이범수, Hongik University, MS '25)  </li>
+<li> Junseok Jang (장준석, Hongik University, undergrad intern)  </li>
 <li> JiHyun Jung (정지현, Hongik University, undergrad intern), currently at Virginia Tech (Master Program)  </li>
 <li> Ki-wook Hong (홍기욱, Hongik University, undergrad intern)  </li>
 <li> Dayeon Kim (김다연, Hongik University, undergrad intern)  </li>
