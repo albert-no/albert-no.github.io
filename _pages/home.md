@@ -67,6 +67,8 @@ focuses on information theoretic approach on various machine learning problems.
 <ul>
 <li> <b>We are  looking for passionate new graduate students and undergrad interns to join our team. </b><br />
 &emsp;- Check <a href="{{ site.url }}{{ site.baseurl }}/joinus">Join Us</a></li>
+<li> Our group has 1 papers accepted to <b>AAAI 2025 Workshop on Privacy-Preserving Artificial Intelligence (oral presentation)</b><br />
+&emsp;- Understanding Memorization In Generative Models Through A Geometric Framework</li>
 <li> Our group has 1 papers accepted to <b>NeurIPS 2024 Workshop on Statistical Foundations of LLMs and Foundation Models</b><br />
 &emsp;- Adversarial Sample-Based Approach for Tighter Privacy Auditing in Final Model-Only Scenarios</li>
 <li> Our group has 1 paper accepted to <b>ICML 2024</b><br />
@@ -77,7 +79,7 @@ focuses on information theoretic approach on various machine learning problems.
 <li> Our group has 2 papers accepted to <b>NeurIPS 2023</b><br />
 &emsp;- Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback<br />
 &emsp;- Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation</li>
-<li> Our group has 1 papers accepted to <b>ICCV 2023 Workshop on Low-Bit Quantized Neural Networks</b><br />
+<li> Our group has 1 papers accepted to <b>ICCV 2023 Workshop on Low-Bit Quantized Neural Networks (oral presentation)</b><br />
 &emsp;- Fully Quantized Always-on Face Detector Considering Mobile Image Sensors</li>
 <li> Our group has 1 papers accepted to <b>ICML 2023 Workshop on Federated Learning</b><br />
 &emsp;- Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation</li>
