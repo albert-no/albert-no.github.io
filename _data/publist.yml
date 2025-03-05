@@ -18,8 +18,8 @@
 - title: "[P3] Adversarial Sample-Based Approach for Tighter Privacy Auditing in Final Model-Only Scenarios"
   authors: Sangyeon Yoon\*, Wonje Jeung\*, and Albert No
   link: "https://arxiv.org/abs/2412.01756"
-  venue: submitted
-    (based on the preliminary version [W6])
+  venue: "submitted <br />
+    (based on the preliminary version [W6])"
   highlight: 0
   cwj_code: 0
   published: 0
@@ -27,8 +27,8 @@
 - title: "[P4] Understanding Memorization in Generative Models via Sharpness in Probability Landscapes"
   authors: Dongjae Jeon, Dueun Kim, and Albert No
   link: "https://arxiv.org/abs/2412.04140"
-  venue: submitted
-    (based on the preliminary version [W7])
+  venue: "submitted <br />
+    (based on the preliminary version [W7])"
   highlight: 0
   cwj_code: 0
   published: 0
@@ -53,8 +53,8 @@
 - title: "[C14] Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation"
   authors: Berivan Isik, Wei-Ning Chen, Ayfer Ozgur, Tsachy Weissman, and Albert No
   link: "https://nips.cc/virtual/2023/poster/72717"
-  venue: Neural Information Processing Systems (**NeurIPS2023**) <br />
-    (based on the preliminary version [W3])
+  venue: "Neural Information Processing Systems (**NeurIPS2023**) <br />
+    (based on the preliminary version [W3])"
   highlight: 1
   cwj_code: 0
   published: 1
@@ -171,8 +171,8 @@
 - title: "[W7] Understanding Memorization In Generative Models Through A Geometric Framework
   authors: Dongjae Jeon, Dueun Kim, and Albert No
   link: "https://ppai-workshop.github.io/"
-  venue: Association for the Advancement of Artificial Intelligence Workshop (**PPAI @ AAAI2025, Oral**)
-    (the newer version [P4] available) # at ICML 2025
+  venue: "Association for the Advancement of Artificial Intelligence Workshop (**PPAI @ AAAI2025, Oral**) <br />
+    (the newer version [P4] available)"
   highlight: 0
   cwj_code: 1
   published: 1
@@ -188,8 +188,8 @@
 - title: "[W5] LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models"
   authors: Joo Young Choi, Jaesung Park, Inkyu Park, Jaewoong Cho, Albert No, and Ernest Ryu,
   link: "https://openreview.net/forum?id=TV3puxNDAE"
-  venue: Neural Information Processing Systems Workshop (**Diffusion Models @ NeurIPS2023**)
-    (the newer version [J22] available at TMLR)
+  venue: "Neural Information Processing Systems Workshop (**Diffusion Models @ NeurIPS2023**) <br />
+    (the newer version [J22] available at TMLR)"
   highlight: 0
   cwj_code: 1
   published: 1
@@ -205,8 +205,8 @@
 - title: "[W3] Exact Optimality in Communication-Privacy-Utility Tradeoffs"
   authors: Berivan Isik, Wei-Ning Chen, Ayfer Ozgur, Tsachy Weissman, and Albert No
   link: "https://openreview.net/forum?id=TF2sP6bTUI"
-  venue: International Conference on Machine Learning Workshop (**FL @ ICML2023**)
-    (the newer version [C14] available at NeurIPS 2023)
+  venue: "International Conference on Machine Learning Workshop (**FL @ ICML2023**) <br />
+    (the newer version [C14] available at NeurIPS 2023)"
   highlight: 0
   cwj_code: 1
   published: 1
@@ -224,8 +224,8 @@
   authors:
       Berivan Isik, Albert No, and Tsachy Weissman
   link: "https://sites.google.com/view/sparsity-workshop-2021/schedule"
-  venue: Sparsity in Neural Networks Workshop (**SNN2021, Spotlight**)
-    (the newer version [C11] available at AISTATS 2022)
+  venue: "Sparsity in Neural Networks Workshop (**SNN2021, Spotlight**) <br />
+    (the newer version [C11] available at AISTATS 2022)"
   highlight: 0
   cwj_code: 1
   published: 1
@@ -243,15 +243,14 @@
 - title: "[J22] Simple Drop-in LoRA Conditioning on Attention Layers Will Improve Your Diffusion Model"
   authors: Joo Young Choi, Jaesung R. Park, Inkyu Park, Jaewoong Cho, Albert No, and Ernest K. Ryu
   link: "https://openreview.net/forum?id=38P40gJPrI"
-  venue:  Transactions on Machine Learning Research (**TMLR**), October 2024 <br />
-    (based on the preliminary version [W5])
+  venue:  "Transactions on Machine Learning Research (**TMLR**), October 2024 <br />
+    (based on the preliminary version [W5])"
   highlight: 0
   cwj_code: 2
   published: 1
 
 - title: "[J21] Needleman-Wunsch Attention: A Framework for Enhancing DNA Sequence Embedding"
-  authors:
-      Kyelim Lee and Albert No
+  authors: Kyelim Lee and Albert No
   link: "https://ieeexplore.ieee.org/abstract/document/10530619"
   venue: IEEE Access, May 2024
   highlight: 0
@@ -259,8 +258,7 @@
   published: 1
 
 - title: "[J20] Adaptable DNA Storage Coding: An Efficient Framework for Homopolymer Constraint Transitions"
-  authors:
-      Yunfei Gao and Albert No
+  authors: Yunfei Gao and Albert No
   link: "https://ieeexplore.ieee.org/document/10398196"
   venue: IEEE Access, January 2024
   highlight: 0
@@ -268,8 +266,7 @@
   published: 1
 
 - title: "[J19] How Does a Transformer Learn Compression? An Attention Study on Huffman and LZ4"
-  authors:
-      Beomseok Seo and Albert No
+  authors: Beomseok Seo and Albert No
   link: "https://ieeexplore.ieee.org/abstract/document/10353923"
   venue: IEEE Access, December 2023
   highlight: 0
@@ -277,8 +274,7 @@
   published: 1
 
 - title: "[J18] Reducing cost in DNA-based data storage by sequence analysis-aided soft information decoding of variable-length reads"
-  authors:
-      Seong-Joon Park, Sunghwan Kim, Jaeho Jeong, Albert No, Jong-Seon No, and Hosung Park
+  authors: Seong-Joon Park, Sunghwan Kim, Jaeho Jeong, Albert No, Jong-Seon No, and Hosung Park
   link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10500082/"
   venue: Bioinformatics, September 2023
   highlight: 0
@@ -286,8 +282,7 @@
   published: 1
 
 - title: "[J17] PyNET-QxQ: An Efficient PyNET Variant for QxQ Bayer Pattern Demosaicing in CMOS Image Sensors"
-  authors:
-    Minhyeok Cho, Haechang Lee, Hyunwoo Je, Kijeong Kim, Dongil Ryu, and Albert No
+  authors: Minhyeok Cho, Haechang Lee, Hyunwoo Je, Kijeong Kim, Dongil Ryu, and Albert No
   link: "https://ieeexplore.ieee.org/document/10114931"
   venue: IEEE Access, May 2023
   highlight: 0
@@ -295,8 +290,7 @@
   published: 1
 
 - title: "[J16] Generative Adversarial Networks for DNA Storage Channel Simulator"
-  authors:
-    Sanghoon Kang, Yunfei Gao, Jaeho Jeong, Seong-Joon Park, Jae-Won Kim, Jong-Seon No, Ha Hyeon Jeon, Jeong Wook Lee, Sunghwan Kim, Hosung Park, and Albert No
+  authors: Sanghoon Kang, Yunfei Gao, Jaeho Jeong, Seong-Joon Park, Jae-Won Kim, Jong-Seon No, Ha Hyeon Jeon, Jeong Wook Lee, Sunghwan Kim, Hosung Park, and Albert No
   link: "https://ieeexplore.ieee.org/document/10011419"
   venue: IEEE Access, January 2023
   highlight: 0
