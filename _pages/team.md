@@ -46,7 +46,7 @@ Seoul National University, 2009 </li>
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
 <h3>{{ s.name }}</h3>
-<h4>PhD Candidate at {{ s.hy }}  </h4>
+<h4>PhD Candidate </h4>
 <a href="mailto:{{ s.email }}">{{ s.email }}</a><br />
 Research Interest: {{ s.desc }}
 </div>
@@ -63,7 +63,7 @@ Research Interest: {{ s.desc }}
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
 <h3>{{ s.name }} </h3>
-<h4>MS Candidate at {{ s.hy }} </h4>
+<h4>MS Candidate </h4>
 <a href="mailto:{{ s.email }}">{{ s.email }}</a><br />
 Research Interest: {{ s.desc }}
 </div>
@@ -81,7 +81,7 @@ Research Interest: {{ s.desc }}
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
 <h3>{{ s.name }}</h3>
-<h4>Undergraduate Intern at {{ s.hy }} </h4>
+<h4>Undergraduate Intern </h4>
 <a href="mailto:{{ s.email }}">{{ s.email }}</a><br />
 Research Interest: {{ s.desc }}
 </div>

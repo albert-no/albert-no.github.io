@@ -2,83 +2,71 @@
 - name: Yoonjun Cho (조윤준)
   fname: yoonjun.jpg
   ump: 2
-  hy: "Yonsei University" 
   email: cyoonjun@yonsei.ac.kr
   desc: "Network Quantization and Compression"
 
 - name: Yeachan Jun(전예찬)
   fname: yeachan.jpeg
   ump: 1
-  hy: "Yonsei University" 
   email: dpcks8942@yonsei.ac.kr
   desc: "Differential Privacy"
 
 - name: Kyelim Lee (이계림)
   fname: kyelim.jpg
   ump: 1
-  hy: "Yonsei University" 
   email: "thisislim@yonsei.ac.kr"
   desc: "Data Embedding via Deep Neural Networks"
 
 - name: Wonje Jeung(정원제)
   fname: wonje.jpg
   ump: 1
-  hy: "Yonsei University" 
   email: specific0924@yonsei.ac.kr
-  desc: "Unlearning and Diffusion Model"
+  desc: "Unlearning and Large Language Models"
 
 - name: Hyesoo Hong (홍혜수)
   fname: hyesoo.jpg
   ump: 1
-  hy: "Yonsei University" 
   email: hyesoo.hong@yonsei.ac.kr
   desc: "Data Embedding via Deep Neural Networks"
 
 - name: Soeun Kim(김소은)
   fname: soeun.jpg
   ump: 1
-  hy: "Yonsei University" 
   email: soeunkim@yonsei.ac.kr
   desc: "Network Quantization and Compression"
 
 - name: BumJun Kim (김범준)
   fname: bumjun.jpeg
   ump: 1
-  hy: "Yonsei University" 
-  email: quasar0529@gmail.com
+  email: quasar529@yonsei.ac.kr
   desc: "Differential Privacy and Diffusion Models"
 
 - name: Dueun Kim(김두은)
   fname: dueun.jpg
   ump: 1
-  hy: "Yonsei University" 
   email: jinha2536@yonsei.ac.kr
   desc: "Memorization in Diffusion Models"
 
 - name: Sangwoo Shin(신상우)
   fname: sangwoo.jpg
   ump: 1
-  hy: "Yonsei University" 
-  email: sangwoo8392@gmail.com
+  email: 2019142201@yonsei.ac.kr
   desc: "Memorization in LLM"
 
 - name: Moongyu Jeon(전문규)
   fname: moongyu.jpg
   ump: 1
-  hy: "Yonsei University" 
   email: mkjmkjmkj@yonsei.ac.kr
   desc: "Discrete Diffusion Models"
 
 - name: Dongjae Jeon (전동재)
   fname: dongjae.jpg
   ump: 0
-  hy: "Yonsei University" 
   email: dongjae0324@yonsei.ac.kr
   desc: "Unlearning and Diffusion Model"
 
 - name: Sangyeon Yoon (윤상연)
   fname: sangyeon.jpg
   ump: 0
-  hy: "Hongik University" 
   email: pingpinglee00@gmail.com
   desc: "Differential Privacy"
