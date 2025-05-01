@@ -24,14 +24,14 @@
   cwj_code: 0
   published: 0
 
-- title: "[P4] Understanding Memorization in Generative Models via Sharpness in Probability Landscapes"
-  authors: Dongjae Jeon, Dueun Kim, and Albert No
+- title: "[C17] Understanding and Mitigating Memorization in Generative Models via Sharpness of Probability Landscapes"
+  authors: Dongjae Jeon\*, Dueun Kim\*, and Albert No
   link: "https://arxiv.org/abs/2412.04140"
-  venue: "submitted <br />
+  venue: "International Conference on Machine Learning (**ICML2025 Spotlight (top 2.6%)**) <br />
     (based on the preliminary version [W7])"
-  highlight: 0
+  highlight: 1
   cwj_code: 0
-  published: 0
+  published: 1
 
 
 - title: "[C16] Improved Communication-Privacy Trade-offs in L2 Mean Estimation under Streaming Differential Privacy"

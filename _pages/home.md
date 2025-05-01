@@ -65,6 +65,8 @@ focuses on information theoretic approach on various machine learning problems.
 
 ## News
 <ul>
+<li> Our group has 1 papers accepted to <b>ICML 2025 (Spotlight)</b><br />
+&emsp;- Understanding and Mitigating Memorization in Generative Models via Sharpness of Probability Landscape</li>
 <li> <b>We are  looking for passionate new graduate students and undergrad interns to join our team. </b><br />
 &emsp;- Check <a href="{{ site.url }}{{ site.baseurl }}/joinus">Join Us</a></li>
 <li> Our group has 1 papers accepted to <b>AAAI 2025 Workshop on Privacy-Preserving Artificial Intelligence (oral presentation)</b><br />
