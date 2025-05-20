@@ -66,7 +66,7 @@ focuses on information theoretic approach on various machine learning problems.
 ## News
 <ul>
 <li> Our group has 1 papers accepted to <b>ACL 2025 Findings</b><br />
-&emsp;- Assigning Distinct Roles to Quantized and Low-Rank Matrices \\ Toward Optimal Weight Decomposition</li>
+&emsp;- Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition</li>
 <li> Our group has 1 papers accepted to <b>ICML 2025 (Spotlight)</b><br />
 &emsp;- Understanding and Mitigating Memorization in Generative Models via Sharpness of Probability Landscape</li>
 <li> <b>We are  looking for passionate new graduate students and undergrad interns to join our team. </b><br />
