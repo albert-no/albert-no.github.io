@@ -1,6 +1,6 @@
 
 - title: "[P1] An Information Theoretic Metric for Evaluating Unlearning Models"
-  authors: Dongjae Jeon\*, Wonje Jeung\*, Taeheon Kim, Albert No, and Jonghyun Choi
+  authors: Dongjae Jeon\*, Wonje Jeung\*, Taeheon Kim, Albert No\+, and Jonghyun Choi\+
   link: "https://arxiv.org/abs/2405.17878"
   venue: submitted
   highlight: 0
@@ -23,6 +23,15 @@
   highlight: 0
   cwj_code: 0
   published: 0
+
+- title: "[P4] SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment"
+  authors: Wonje Jeung, Sangyeon Yoon, Minsuk Kahng\+, and Albert No\+
+  link: "https://arxiv.org/abs/2505.14667"
+  venue: "submitted
+  highlight: 0
+  cwj_code: 0
+  published: 0
+
 
 - title: "[C18] Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition"
   authors: Yoonjun Cho, Soeun Kim, Dongjae Jeon, Kyelim Lee, Beomsoo Lee, and Albert No
