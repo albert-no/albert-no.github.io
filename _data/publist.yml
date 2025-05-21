@@ -1,6 +1,6 @@
 
 - title: "[P1] An Information Theoretic Metric for Evaluating Unlearning Models"
-  authors: Dongjae Jeon\*, Wonje Jeung\*, Taeheon Kim, Albert No\+, and Jonghyun Choi\+
+  authors: Dongjae Jeon\*, Wonje Jeung\*, Taeheon Kim, Albert No<sup>&dagger;</sup>, and Jonghyun Choi<sup>&dagger;</sup>
   link: "https://arxiv.org/abs/2405.17878"
   venue: submitted
   highlight: 0
@@ -25,7 +25,7 @@
   published: 0
 
 - title: "[P4] SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment"
-  authors: Wonje Jeung, Sangyeon Yoon, Minsuk Kahng\+, and Albert No\+
+  authors: Wonje Jeung, Sangyeon Yoon, Minsuk Kahng<sup>&dagger;</sup>, and Albert No<sup>&dagger;</sup>
   link: "https://arxiv.org/abs/2505.14667"
   venue: "submitted
   highlight: 0
@@ -84,7 +84,7 @@
   published: 1
 
 - title: "[C12] Neural Tangent Kernel Analysis of Deep Narrow Neural Networks"
-  authors: Jongmin Lee, Joo Young Choi, Ernest K. Ryu, and Albert No
+  authors: Jongmin Lee, Joo Young Choi, Ernest K. Ryu<sup>&dagger;</sup>, and Albert No<sup>&dagger;</sup>
   link: "https://proceedings.mlr.press/v162/lee22a.html"
   venue: International Conference on Machine Learning (**ICML2022**)
   highlight: 1
