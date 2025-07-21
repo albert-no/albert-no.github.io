@@ -65,6 +65,8 @@ focuses on information theoretic approach on various machine learning problems.
 
 ## News
 <ul>
+<li> Our group has 1 papers accepted to <b>ICML 2025 Workshop on Tiny Titans: The next wave of On-Device Learning for Foundational Models (TTODLer-FM) (oral presentation)</b><br />
+&emsp;- Preserve then Quantize: Dominant-Subspace Guided Low-Rank Reconstruction</li>
 <li> Our group has 1 papers accepted to <b>ACL 2025 Findings</b><br />
 &emsp;- Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition</li>
 <li> Our group has 1 papers accepted to <b>ICML 2025 (Spotlight)</b><br />

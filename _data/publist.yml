@@ -208,6 +208,14 @@
   published: 1
 
 
+- title: "[W8] Understanding Memorization In Generative Models Through A Geometric Framework"
+  authors: Yoonjun Cho\*, Dongjae Jeon\*, Soeun Kim, and Albert No
+  link: "https://openreview.net/forum?id=cHUXlmsSXK"
+  venue: "International Conference on Machine Learning Workshop (**TTODLer-FM @ ICML2025, Oral**) <br />
+  highlight: 0
+  cwj_code: 1
+  published: 1
+
 - title: "[W7] Understanding Memorization In Generative Models Through A Geometric Framework"
   authors: Dongjae Jeon, Dueun Kim, and Albert No
   link: "https://ppai-workshop.github.io/"
@@ -271,6 +279,14 @@
   published: 1
 
 
+
+- title: "[J24] A Simple Extension of Bayer Demosaicing For Lightweight Non-Bayer Demosaicing
+  authors: Ki-Wook Hong\*, Minhyeok Jo\*, Haechang Lee\*, Se Young Chun, and Albert No
+  link: "https://ieeexplore.ieee.org/document/11080384"
+  venue: IEEE Access, July, 2025
+  highlight: 0
+  cwj_code: 2
+  published: 1
 
 - title: "[J23] Efficient and Low-Complexity Variable-to-VariableLength Coding for DNA Storage"
   authors: Yunfei Gao and Albert No
