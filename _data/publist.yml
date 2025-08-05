@@ -59,7 +59,7 @@
 
 - title: "[C18] Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition"
   authors: Yoonjun Cho, Soeun Kim, Dongjae Jeon, Kyelim Lee, Beomsoo Lee, and Albert No
-  link: "http://arxiv.org/abs/2506.02077"
+  link: "https://aclanthology.org/2025.findings-acl.746/"
   venue: Annual Meeting of the Association for Computational Linguistics (**ACL2025 Findings**)
   highlight: 1
   cwj_code: 0
@@ -67,7 +67,7 @@
 
 - title: "[C17] Understanding and Mitigating Memorization in Generative Models via Sharpness of Probability Landscapes"
   authors: Dongjae Jeon\*, Dueun Kim\*, and Albert No
-  link: "https://arxiv.org/abs/2412.04140"
+  link: "https://icml.cc/virtual/2025/poster/45941"
   venue: "International Conference on Machine Learning (**ICML2025 Spotlight (top 2.6%)**) <br />
     (based on the preliminary version [W7])"
   highlight: 1
@@ -208,7 +208,7 @@
   published: 1
 
 
-- title: "[W8] Understanding Memorization In Generative Models Through A Geometric Framework"
+- title: "[W8] Preserve then Quantize: Dominant-Subspace Guided Low-Rank Reconstruction"
   authors: Yoonjun Cho\*, Dongjae Jeon\*, Soeun Kim, and Albert No
   link: "https://openreview.net/forum?id=cHUXlmsSXK"
   venue: "International Conference on Machine Learning Workshop (**TTODLer-FM @ ICML2025, Oral**)"
