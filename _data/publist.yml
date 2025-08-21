@@ -32,15 +32,7 @@
   cwj_code: 0
   published: 0
 
-- title: "[P5] R-TOFU: Unlearning in Large Reasoning Models"
-  authors: Sangyeon Yoon, Wonje Jeung, and Albert No
-  link: "https://arxiv.org/abs/2505.15214"
-  venue: "submitted"
-  highlight: 0
-  cwj_code: 0
-  published: 0
-
-- title: "[P6] DUSK: Do Not Unlearn Shared Knowledge"
+- title: "[P5] DUSK: Do Not Unlearn Shared Knowledge"
   authors: Wonje Jeung, Sangyeon Yoon, Hyesoo Hong, Soeun Kim, Seungju Han, Youngjae Yu, and Albert No
   link: "https://arxiv.org/abs/2505.15209"
   venue: "submitted"
@@ -48,14 +40,22 @@
   cwj_code: 0
   published: 0
 
-- title: "[P7] SEPS: A Separability Measure for Robust Unlearning in LLMs"
+
+- title: "[C20] SEPS: A Separability Measure for Robust Unlearning in LLMs"
   authors: Wonje Jeung, Sangyeon Yoon, and Albert No
   link: "https://arxiv.org/abs/2505.14832"
-  venue: "submitted"
-  highlight: 0
+  venue: "Conference on Empirical Methods in Natural Language Processing (**EMNLP Main**)"
+  highlight: 1
   cwj_code: 0
-  published: 0
+  published: 1
 
+- title: "[C19] R-TOFU: Unlearning in Large Reasoning Models"
+  authors: Sangyeon Yoon, Wonje Jeung, and Albert No
+  link: "https://arxiv.org/abs/2505.15214"
+  venue: "Conference on Empirical Methods in Natural Language Processing (**EMNLP Main**)"
+  highlight: 1
+  cwj_code: 0
+  published: 1
 
 - title: "[C18] Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition"
   authors: Yoonjun Cho, Soeun Kim, Dongjae Jeon, Kyelim Lee, Beomsoo Lee, and Albert No

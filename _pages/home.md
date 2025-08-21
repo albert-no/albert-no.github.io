@@ -65,6 +65,9 @@ focuses on information theoretic approach on various machine learning problems.
 
 ## News
 <ul>
+<li> Our group has 2 papers accepted to <b>EMNLP 2025 Main</b><br />
+&emsp;- R-TOFU: Unlearning in Large Reasoning Models <br />
+&emsp;- SEPS: A Separability Measure for Robust Unlearning in LLMs</li>
 <li> Our group has 1 papers accepted to <b>ICML 2025 Workshop on Tiny Titans: The next wave of On-Device Learning for Foundational Models (TTODLer-FM) (oral presentation)</b><br />
 &emsp;- Preserve then Quantize: Dominant-Subspace Guided Low-Rank Reconstruction</li>
 <li> Our group has 1 papers accepted to <b>ACL 2025 Findings</b><br />
