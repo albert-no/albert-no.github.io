@@ -44,7 +44,7 @@
 - title: "[C20] SEPS: A Separability Measure for Robust Unlearning in LLMs"
   authors: Wonje Jeung, Sangyeon Yoon, and Albert No
   link: "https://arxiv.org/abs/2505.14832"
-  venue: "Conference on Empirical Methods in Natural Language Processing (**EMNLP Main**)"
+  venue: "Conference on Empirical Methods in Natural Language Processing (**EMNLP2025 Main**)"
   highlight: 1
   cwj_code: 0
   published: 1
@@ -52,7 +52,7 @@
 - title: "[C19] R-TOFU: Unlearning in Large Reasoning Models"
   authors: Sangyeon Yoon, Wonje Jeung, and Albert No
   link: "https://arxiv.org/abs/2505.15214"
-  venue: "Conference on Empirical Methods in Natural Language Processing (**EMNLP Main**)"
+  venue: "Conference on Empirical Methods in Natural Language Processing (**EMNLP2025 Main**)"
   highlight: 1
   cwj_code: 0
   published: 1
