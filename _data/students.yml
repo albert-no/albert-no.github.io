@@ -3,14 +3,14 @@
   fname: yoonjun.jpg
   ump: 2
   email: cyoonjun@yonsei.ac.kr
-  desc: "Network Quantization and Compression"
+  desc: "Quantization"
 
 - name: Yeachan Jun(전예찬)
   fname: yeachan.jpeg
   ump: 1
   email: dpcks8942@yonsei.ac.kr
-  desc: "Differential Privacy"
-
+  desc: "AI Safety"
+  
 - name: Kyelim Lee (이계림)
   fname: kyelim.jpg
   ump: 1
@@ -21,52 +21,52 @@
   fname: wonje.jpg
   ump: 1
   email: specific0924@yonsei.ac.kr
-  desc: "Unlearning and Large Language Models"
+  desc: "AI Safety"
 
 - name: Hyesoo Hong (홍혜수)
   fname: hyesoo.jpg
   ump: 1
   email: hyesoo.hong@yonsei.ac.kr
-  desc: "Data Embedding via Deep Neural Networks"
+  desc: "AI Safety and Explainable AI"
 
 - name: Soeun Kim(김소은)
   fname: soeun.jpg
   ump: 1
   email: soeunkim@yonsei.ac.kr
-  desc: "Network Quantization and Compression"
+  desc: "Quantization"
 
 - name: BumJun Kim (김범준)
   fname: bumjun.jpeg
   ump: 1
   email: quasar529@yonsei.ac.kr
-  desc: "Differential Privacy and Diffusion Models"
+  desc: "Diffusion Models"
 
 - name: Dueun Kim(김두은)
   fname: dueun.jpg
   ump: 1
   email: jinha2536@yonsei.ac.kr
-  desc: "Memorization in Diffusion Models"
+  desc: "Diffusion Models"
 
 - name: Sangwoo Shin(신상우)
   fname: sangwoo.jpg
   ump: 1
   email: 2019142201@yonsei.ac.kr
-  desc: "Memorization in LLM"
+  desc: "Diffusion Models"
 
 - name: Moongyu Jeon(전문규)
   fname: moongyu.jpg
   ump: 1
   email: mkjmkjmkj@yonsei.ac.kr
-  desc: "Discrete Diffusion Models"
+  desc: "Diffusion Models"
 
 - name: Dongjae Jeon (전동재)
   fname: dongjae.jpg
   ump: 0
   email: dongjae0324@yonsei.ac.kr
-  desc: "Unlearning and Diffusion Model"
+  desc: "Diffusion Models, Quantization and AI Safety"
 
 - name: Sangyeon Yoon (윤상연)
   fname: sangyeon.jpg
   ump: 0
   email: pingpinglee00@gmail.com
-  desc: "Differential Privacy"
+  desc: "AI Safety"
