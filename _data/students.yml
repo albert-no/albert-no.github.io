@@ -61,12 +61,12 @@
 
 - name: Dongjae Jeon (전동재)
   fname: dongjae.jpg
-  ump: 0
+  ump: 1
   email: dongjae0324@yonsei.ac.kr
   desc: "Diffusion Models, Quantization and AI Safety"
 
 - name: Sangyeon Yoon (윤상연)
   fname: sangyeon.jpg
-  ump: 0
+  ump: 1
   email: pingpinglee00@gmail.com
   desc: "AI Safety"
