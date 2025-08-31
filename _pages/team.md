@@ -74,9 +74,9 @@ Research Interest: {{ s.desc }}
 <p> &nbsp; </p>
 
 
-## BS Interns
+<!-- ## BS Interns
 {% for s in site.data.students %}
-{% if s.ump == 0 %}
+{% if s.ump == 0 %} -->
 
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
