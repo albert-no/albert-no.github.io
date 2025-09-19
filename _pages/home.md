@@ -65,7 +65,7 @@ focuses on information theoretic approach on various machine learning problems.
 
 ## News
 <ul>
-<li> Our group has 2 papers accepted to <b>Neurips 2025</b><br />
+<li> Our group has 2 papers accepted to <b>NeurIPS 2025</b><br />
 &emsp;- SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment <br />
 &emsp;- Information-Theoretic Discrete Diffusion </li>
 <li> Our group has 2 papers accepted to <b>EMNLP 2025 Main</b><br />
