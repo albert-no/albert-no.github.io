@@ -15,24 +15,7 @@
   cwj_code: 0
   published: 0
 
-- title: "[P3] Adversarial Sample-Based Approach for Tighter Privacy Auditing in Final Model-Only Scenarios"
-  authors: Sangyeon Yoon\*, Wonje Jeung\*, and Albert No
-  link: "https://arxiv.org/abs/2412.01756"
-  venue: "submitted <br />
-    (based on the preliminary version [W6])"
-  highlight: 0
-  cwj_code: 0
-  published: 0
-
-- title: "[P4] SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment"
-  authors: Wonje Jeung, Sangyeon Yoon, Minsuk Kahng<sup>&dagger;</sup>, and Albert No<sup>&dagger;</sup>
-  link: "https://arxiv.org/abs/2505.14667"
-  venue: "submitted"
-  highlight: 0
-  cwj_code: 0
-  published: 0
-
-- title: "[P5] DUSK: Do Not Unlearn Shared Knowledge"
+- title: "[P3] DUSK: Do Not Unlearn Shared Knowledge"
   authors: Wonje Jeung\*, Sangyeon Yoon\*, Hyesoo Hong, Soeun Kim, Seungju Han, Youngjae Yu, and Albert No
   link: "https://arxiv.org/abs/2505.15209"
   venue: "submitted"
@@ -40,6 +23,13 @@
   cwj_code: 0
   published: 0
 
+- title: "[C21] SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment"
+  authors: Wonje Jeung, Sangyeon Yoon, Minsuk Kahng<sup>&dagger;</sup>, and Albert No<sup>&dagger;</sup>
+  link: "https://arxiv.org/abs/2505.14667"
+  venue: "Neural Information Processing Systems (**NeurIPS2025**)"
+  highlight: 0
+  cwj_code: 0
+  published: 0
 
 - title: "[C20] SEPS: A Separability Measure for Robust Unlearning in LLMs"
   authors: Wonje Jeung\*, Sangyeon Yoon\*, and Albert No
