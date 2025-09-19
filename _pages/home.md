@@ -67,7 +67,7 @@ focuses on information theoretic approach on various machine learning problems.
 <ul>
 <li> Our group has 2 papers accepted to <b>Neurips 2025</b><br />
 &emsp;- SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment <br />
-&emsp;- Information Theoretic Discrete Diffusion </li>
+&emsp;- Information-Theoretic Discrete Diffusion </li>
 <li> Our group has 2 papers accepted to <b>EMNLP 2025 Main</b><br />
 &emsp;- R-TOFU: Unlearning in Large Reasoning Models <br />
 &emsp;- SEPS: A Separability Measure for Robust Unlearning in LLMs</li>
