@@ -74,7 +74,7 @@ Research Interest: {{ s.desc }}
 <p> &nbsp; </p>
 
 
-## BS Interns
+<!-- ## BS Interns
 {% for s in site.data.students %}
 {% if s.ump == 0 %}
 
@@ -89,7 +89,7 @@ Research Interest: {{ s.desc }}
 {% endif %}
 {% endfor %}
 
-<p> &nbsp; </p>
+<p> &nbsp; </p> -->
 
 ## Alumni
   <ul style="overflow: hidden">
