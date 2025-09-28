@@ -16,7 +16,7 @@ Jump to
  [patents](#patents), [thesis](#thesis).
 
 
-## Highlights
+<!-- ## Highlights
 
 {% for publi in site.data.publist %}
 {% if publi.highlight == 1 %}
@@ -26,7 +26,7 @@ Jump to
   {{ publi.venue }}
 
 {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 
 <p> &nbsp; </p>
