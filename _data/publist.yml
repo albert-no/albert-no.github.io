@@ -23,6 +23,14 @@
   cwj_code: 0
   published: 0
 
+- title: "[C22] Information-Theoretic Discrete Diffusion"
+  authors: Moongyu Jeon, Sangwoo Shin, Dongjae Jeon, and Albert No<sup>&dagger;</sup>
+  link: "https://arxiv.org"
+  venue: "Neural Information Processing Systems (**NeurIPS2025**)"
+  highlight: 1
+  cwj_code: 0
+  published: 1
+
 - title: "[C21] SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment"
   authors: Wonje Jeung, Sangyeon Yoon, Minsuk Kahng<sup>&dagger;</sup>, and Albert No<sup>&dagger;</sup>
   link: "https://arxiv.org/abs/2505.14667"
