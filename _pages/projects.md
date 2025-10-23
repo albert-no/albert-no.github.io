@@ -10,6 +10,12 @@ permalink: /projects/
 <p> &nbsp; </p>
 
 # Projects
+<b>Detecting and Mitigating Memorization in Diffusion Models for Privacy Protection<br />
+(디퓨전 생성모델의 데이터 암기 취약점 탐지 및 프라이버시보호 연구)<br /></b>
+Funded by the National Research Foundation of Korea (NRF) grant (No. RS-2025-23525649)<br />
+(한국 연구재단 국가아젠다 기초연구); Primary--PI<br />
+ 2025.09-2028.08
+
 <b>AI Research Hub Project<br />
 (AI 거점연구 프로젝트)<br /></b>
 Funded by Institute for Information & Communication Technology Planning & Evaluation (IITP)<br />
