@@ -31,7 +31,7 @@
   cwj_code: 0
   published: 0
 
-- title: "[P4] Rainbow Padding: Mitigating Early Termination in Instruction-Tuned Diffusion LLMs"
+- title: "[P5] Rainbow Padding: Mitigating Early Termination in Instruction-Tuned Diffusion LLMs"
   authors: Bumjun Kim\*, Donjae Jeon\*, Dueun Kim\*, Wonje Jeung, and Albert No
   link: "https://arxiv.org/abs/2510.03680"
   venue: "submitted"
