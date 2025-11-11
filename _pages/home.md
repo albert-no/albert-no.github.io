@@ -65,6 +65,9 @@ focuses on information theoretic approach on various machine learning problems.
 
 ## News
 <ul>
+<li> Our group has 1 papers accepted to <b>AAAI 2026</b><br />
+&emsp;- An Information Theoretic Evaluation Metric For Strong Unlearning
+</li>
 <li> Our group has 2 papers accepted to <b>NeurIPS 2025</b><br />
 &emsp;- SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment <br />
 &emsp;- Information-Theoretic Discrete Diffusion </li>
