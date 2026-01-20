@@ -77,29 +77,29 @@ focuses on information theoretic approach on various machine learning problems.
 <li> Our group has 2 papers accepted to <b>EMNLP 2025 Main</b><br />
 &emsp;- R-TOFU: Unlearning in Large Reasoning Models <br />
 &emsp;- SEPS: A Separability Measure for Robust Unlearning in LLMs</li>
-<li> Our group has 1 papers accepted to <b>ICML 2025 Workshop on Tiny Titans: The next wave of On-Device Learning for Foundational Models (TTODLer-FM) (oral presentation)</b><br />
+<li> Our group has 1 paper accepted to <b>ICML 2025 Workshop on Tiny Titans: The next wave of On-Device Learning for Foundational Models (TTODLer-FM) (oral presentation)</b><br />
 &emsp;- Preserve then Quantize: Dominant-Subspace Guided Low-Rank Reconstruction</li>
-<li> Our group has 1 papers accepted to <b>ACL 2025 Findings</b><br />
+<li> Our group has 1 paper accepted to <b>ACL 2025 Findings</b><br />
 &emsp;- Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition</li>
-<li> Our group has 1 papers accepted to <b>ICML 2025 (Spotlight)</b><br />
+<li> Our group has 1 paper accepted to <b>ICML 2025 (Spotlight)</b><br />
 &emsp;- Understanding and Mitigating Memorization in Generative Models via Sharpness of Probability Landscape</li>
 <li> <b>We are  looking for passionate new graduate students and undergrad interns to join our team. </b><br />
 &emsp;- Check <a href="{{ site.url }}{{ site.baseurl }}/joinus">Join Us</a></li>
-<li> Our group has 1 papers accepted to <b>AAAI 2025 Workshop on Privacy-Preserving Artificial Intelligence (oral presentation)</b><br />
+<li> Our group has 1 paper accepted to <b>AAAI 2025 Workshop on Privacy-Preserving Artificial Intelligence (oral presentation)</b><br />
 &emsp;- Understanding Memorization In Generative Models Through A Geometric Framework</li>
-<li> Our group has 1 papers accepted to <b>NeurIPS 2024 Workshop on Statistical Foundations of LLMs and Foundation Models</b><br />
+<li> Our group has 1 paper accepted to <b>NeurIPS 2024 Workshop on Statistical Foundations of LLMs and Foundation Models</b><br />
 &emsp;- Adversarial Sample-Based Approach for Tighter Privacy Auditing in Final Model-Only Scenarios</li>
 <li> Our group has 1 paper accepted to <b>ICML 2024</b><br />
 &emsp;- Improved Communication-Privacy Trade-offs in L2 Mean Estimation under Streaming Differential Privacy</li>
 <li> <b>ISL moved to department of Artificial Intelligence at Yonsei University.</b><br /> 
-<li> Our group has 1 papers accepted to <b>NeurIPS 2023 Workshop on Diffusion Models</b><br />
+<li> Our group has 1 paper accepted to <b>NeurIPS 2023 Workshop on Diffusion Models</b><br />
 &emsp;- LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models</li>
 <li> Our group has 2 papers accepted to <b>NeurIPS 2023</b><br />
 &emsp;- Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback<br />
 &emsp;- Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation</li>
-<li> Our group has 1 papers accepted to <b>ICCV 2023 Workshop on Low-Bit Quantized Neural Networks (oral presentation)</b><br />
+<li> Our group has 1 paper accepted to <b>ICCV 2023 Workshop on Low-Bit Quantized Neural Networks (oral presentation)</b><br />
 &emsp;- Fully Quantized Always-on Face Detector Considering Mobile Image Sensors</li>
-<li> Our group has 1 papers accepted to <b>ICML 2023 Workshop on Federated Learning</b><br />
+<li> Our group has 1 paper accepted to <b>ICML 2023 Workshop on Federated Learning</b><br />
 &emsp;- Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation</li>
 <li> Our group has 1 paper accepted to <b>ECCV 2022</b><br />
 &emsp;- Prune Your Model Before Distill It</li>
