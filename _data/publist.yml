@@ -1,12 +1,4 @@
-- title: "[P1] Differentially Private Adaptation of Diffusion Models via Noisy Aggregated Embeddings"
-  authors: Pura Peetathawatchai, Wei-Ning Chen, Berivan Isik, Sanmi Koyejo, and Albert No
-  link: "http://arxiv.org/abs/2411.14639"
-  venue: submitted
-  highlight: 0
-  cwj_code: 0
-  published: 0
-
-- title: "[P2] DUSK: Do Not Unlearn Shared Knowledge"
+- title: "[P1] DUSK: Do Not Unlearn Shared Knowledge"
   authors: Wonje Jeung\*, Sangyeon Yoon\*, Hyesoo Hong, Soeun Kim, Seungju Han, Youngjae Yu, and Albert No
   link: "https://arxiv.org/abs/2505.15209"
   venue: "submitted"
@@ -14,7 +6,7 @@
   cwj_code: 0
   published: 0
 
-- title: "[P3] A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models"
+- title: "[P2] A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models"
   authors: Wonje Jeung\*, Sangyeon Yoon\*, Yoonjun Cho, Donjae Jeon, Sangwoo Shin, Hyesoo Hong, and Albert No
   link: "https://arxiv.org/abs/2509.23286"
   venue: "submitted"
@@ -22,13 +14,21 @@
   cwj_code: 0
   published: 0
 
-- title: "[P4] Rainbow Padding: Mitigating Early Termination in Instruction-Tuned Diffusion LLMs"
+- title: "[P3] Rainbow Padding: Mitigating Early Termination in Instruction-Tuned Diffusion LLMs"
   authors: Bumjun Kim\*, Donjae Jeon\*, Dueun Kim\*, Wonje Jeung, and Albert No
   link: "https://arxiv.org/abs/2510.03680"
   venue: "submitted"
   highlight: 0
   cwj_code: 0
   published: 0
+
+- title: "[C24] Differentially Private Adaptation of Diffusion Models via Noisy Aggregated Embeddings"
+  authors: Pura Peetathawatchai, Wei-Ning Chen, Berivan Isik, Sanmi Koyejo, and Albert No
+  link: "http://arxiv.org/abs/2411.14639"
+  venue: "IEEE Secure and Trustworthy Machine Learning Conference (SaTML2026)"
+  highlight: 1
+  cwj_code: 0
+  published: 1
 
 - title: "[C23] An Information Theoretic Evaluation Metric For Strong Unlearning"
   authors: Dongjae Jeon\*, Wonje Jeung\*, Taeheon Kim, Albert No<sup>&dagger;</sup>, and Jonghyun Choi<sup>&dagger;</sup>
@@ -40,7 +40,7 @@
 
 - title: "[C22] Information-Theoretic Discrete Diffusion"
   authors: Moongyu Jeon, Sangwoo Shin, Dongjae Jeon, and Albert No
-  link: "https://arxiv.org"
+  link: "https://neurips.cc/virtual/2025/loc/san-diego/poster/119416"
   venue: "Neural Information Processing Systems (**NeurIPS2025**)"
   highlight: 1
   cwj_code: 0
@@ -48,7 +48,7 @@
 
 - title: "[C21] SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment"
   authors: Wonje Jeung, Sangyeon Yoon, Minsuk Kahng<sup>&dagger;</sup>, and Albert No<sup>&dagger;</sup>
-  link: "https://arxiv.org/abs/2505.14667"
+  link: "https://neurips.cc/virtual/2025/loc/san-diego/poster/115425"
   venue: "Neural Information Processing Systems (**NeurIPS2025**)"
   highlight: 1
   cwj_code: 0
@@ -56,7 +56,7 @@
 
 - title: "[C20] SEPS: A Separability Measure for Robust Unlearning in LLMs"
   authors: Wonje Jeung\*, Sangyeon Yoon\*, and Albert No
-  link: "https://arxiv.org/abs/2505.14832"
+  link: "https://aclanthology.org/2025.emnlp-main.283/"
   venue: "Conference on Empirical Methods in Natural Language Processing (**EMNLP2025 Main**)"
   highlight: 1
   cwj_code: 0
@@ -64,7 +64,7 @@
 
 - title: "[C19] R-TOFU: Unlearning in Large Reasoning Models"
   authors: Sangyeon Yoon, Wonje Jeung, and Albert No
-  link: "https://arxiv.org/abs/2505.15214"
+  link: "https://aclanthology.org/2025.emnlp-main.265/"
   venue: "Conference on Empirical Methods in Natural Language Processing (**EMNLP2025 Main**)"
   highlight: 1
   cwj_code: 0
