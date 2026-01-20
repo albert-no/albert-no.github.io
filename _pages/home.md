@@ -65,6 +65,9 @@ focuses on information theoretic approach on various machine learning problems.
 
 ## News
 <ul>
+<li> Our group has 1 papers accepted to <b>SaTML 2026</b><br />
+&emsp;- Differentially Private Adaptation of Diffusion Models via Noisy Aggregated Embeddings
+</li>    
 <li> Our group has 1 papers accepted to <b>AAAI 2026</b><br />
 &emsp;- An Information Theoretic Evaluation Metric For Strong Unlearning
 </li>
