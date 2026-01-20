@@ -25,7 +25,7 @@
 - title: "[C24] Differentially Private Adaptation of Diffusion Models via Noisy Aggregated Embeddings"
   authors: Pura Peetathawatchai, Wei-Ning Chen, Berivan Isik, Sanmi Koyejo, and Albert No
   link: "http://arxiv.org/abs/2411.14639"
-  venue: "IEEE Secure and Trustworthy Machine Learning Conference (SaTML2026)"
+  venue: "IEEE Secure and Trustworthy Machine Learning Conference (**SaTML2026**)"
   highlight: 1
   cwj_code: 0
   published: 1
