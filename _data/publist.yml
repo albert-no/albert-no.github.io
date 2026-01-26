@@ -6,21 +6,29 @@
   cwj_code: 0
   published: 0
 
-- title: "[P2] A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models"
+- title: "[C27] Rethinking Benign Relearning: Syntax as the Hidden Driver of Unlearning Failures"
+  authors: Sangyeon Yoon, Hyesoo Hong, Wonje Jeung, and Albert No
+  link: "https://openreview.net/forum?id=URTnuyQJI1"
+  venue: "International Conference on Learning Representations (**ICLR2026**)"
+  highlight: 1
+  cwj_code: 0
+  published: 1
+  
+- title: "[C26] A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models"
   authors: Wonje Jeung\*, Sangyeon Yoon\*, Yoonjun Cho, Donjae Jeon, Sangwoo Shin, Hyesoo Hong, and Albert No
-  link: "https://arxiv.org/abs/2509.23286"
-  venue: "submitted"
-  highlight: 0
+  link: "https://openreview.net/forum?id=URTnuyQJI1"
+  venue: "International Conference on Learning Representations (**ICLR2026**)"
+  highlight: 1
   cwj_code: 0
-  published: 0
+  published: 1
 
-- title: "[P3] Rainbow Padding: Mitigating Early Termination in Instruction-Tuned Diffusion LLMs"
+- title: "[C25] Rainbow Padding: Mitigating Early Termination in Instruction-Tuned Diffusion LLMs"
   authors: Bumjun Kim\*, Donjae Jeon\*, Dueun Kim\*, Wonje Jeung, and Albert No
-  link: "https://arxiv.org/abs/2510.03680"
-  venue: "submitted"
-  highlight: 0
+  link: "https://openreview.net/forum?id=cznTlh7Msz"
+  venue: "International Conference on Learning Representations (**ICLR2026**)"
+  highlight: 1
   cwj_code: 0
-  published: 0
+  published: 1
 
 - title: "[C24] Differentially Private Adaptation of Diffusion Models via Noisy Aggregated Embeddings"
   authors: Pura Peetathawatchai, Wei-Ning Chen, Berivan Isik, Sanmi Koyejo, and Albert No
