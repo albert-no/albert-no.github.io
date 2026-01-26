@@ -65,6 +65,11 @@ focuses on information theoretic approach on various machine learning problems.
 
 ## News
 <ul>
+<li> Our group has 3 papers accepted to <b>ICLR 2026</b><br />
+&emsp;- A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models <br />
+&emsp;- Rainbow Padding: Mitigating Early Termination in Instruction-Tuned Diffusion LLMs <br />
+&emsp;- Rethinking Benign Relearning: Syntax as the Hidden Driver of Unlearning Failures     
+</li>      
 <li> Our group has 1 paper accepted to <b>SaTML 2026</b><br />
 &emsp;- Differentially Private Adaptation of Diffusion Models via Noisy Aggregated Embeddings
 </li>    
