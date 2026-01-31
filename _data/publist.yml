@@ -15,7 +15,7 @@
   published: 1
   
 - title: "[C26] A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models"
-  authors: Wonje Jeung\*, Sangyeon Yoon\*, Yoonjun Cho, Donjae Jeon, Sangwoo Shin, Hyesoo Hong, and Albert No
+  authors: Wonje Jeung\*, Sangyeon Yoon\*, Yoonjun Cho, Dongjae Jeon, Sangwoo Shin, Hyesoo Hong, and Albert No
   link: "https://openreview.net/forum?id=URTnuyQJI1"
   venue: "International Conference on Learning Representations (**ICLR2026**)"
   highlight: 1
@@ -23,7 +23,7 @@
   published: 1
 
 - title: "[C25] Rainbow Padding: Mitigating Early Termination in Instruction-Tuned Diffusion LLMs"
-  authors: Bumjun Kim\*, Donjae Jeon\*, Dueun Kim\*, Wonje Jeung, and Albert No
+  authors: Bumjun Kim\*, Dongjae Jeon\*, Dueun Kim\*, Wonje Jeung, and Albert No
   link: "https://openreview.net/forum?id=cznTlh7Msz"
   venue: "International Conference on Learning Representations (**ICLR2026**)"
   highlight: 1
