@@ -63,9 +63,10 @@ Research Interest: {{ s.desc }}
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
 <h3>
-  {{ s.name }}
   {% if s.link %}
-    <a href="{{ s.link }}" target="_blank" style="font-size: 0.8em;">🔗</a>
+    <a href="{{ s.link }}" target="_blank">{{ s.name }}</a>
+  {% else %}
+    {{ s.name }}
   {% endif %}
 </h3>
 <h4>MS Candidate </h4>
