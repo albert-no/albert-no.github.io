@@ -5,8 +5,6 @@ excerpt: "Team"
 sitemap: false
 permalink: /team/
 ---
-<p> &nbsp;</p>
-<b>If you are interested to join us, please check the <a href="{{ site.url }}{{ site.baseurl }}/joinus">Join Us</a> page</b><br />
 
 <p> &nbsp;</p>
 # Group Members
