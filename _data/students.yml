@@ -4,6 +4,7 @@
   ump: 2
   email: cyoonjun@yonsei.ac.kr
   desc: "Quantization"
+  link: "https://cyoonjun.github.io/"
 
 - name: Yeachan Jun(전예찬)
   fname: yeachan.jpeg
@@ -65,9 +66,11 @@
   ump: 1
   email: dongjae0324@yonsei.ac.kr
   desc: "Diffusion Models, Quantization and AI Safety"
+  link: "https://dongjae0324.github.io/"
 
 - name: Sangyeon Yoon (윤상연)
   fname: sangyeon.jpg
   ump: 1
   email: 2025324135@yonsei.ac.kr
   desc: "AI Safety"
+  link: "https://ssangyeon.github.io/"
