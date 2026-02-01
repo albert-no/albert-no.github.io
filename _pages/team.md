@@ -62,7 +62,12 @@ Research Interest: {{ s.desc }}
 
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
-<h3>{{ s.name }} </h3>
+<h3>
+  {{ s.name }}
+  {% if s.link %}
+    <a href="{{ s.link }}" target="_blank" style="font-size: 0.8em;">🔗</a>
+  {% endif %}
+</h3>
 <h4>MS Candidate </h4>
 <a href="mailto:{{ s.email }}">{{ s.email }}</a><br />
 Research Interest: {{ s.desc }}
