@@ -45,7 +45,13 @@ Seoul National University, 2009 </li>
 
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ s.fname }}" class="img-responsive" width="25%" style="float: left" />
-<h3>{{ s.name }}</h3>
+<h3>
+  {% if s.link %}
+    <a href="{{ s.link }}" target="_blank">{{ s.name }}</a>
+  {% else %}
+    {{ s.name }}
+  {% endif %}
+</h3>
 <h4>PhD Candidate </h4>
 <a href="mailto:{{ s.email }}">{{ s.email }}</a><br />
 Research Interest: {{ s.desc }}
