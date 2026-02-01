@@ -51,7 +51,7 @@ Seoul National University, 2009 </li>
   {% endif %}
 </h3>
 <h4>PhD Candidate </h4>
-<a href="mailto:{{ s.email }}">{{ s.email }}</a><br />
+{{ s.email | replace: "@", " [at] " | replace: ".", " [dot] " }}<br />
 Research Interest: {{ s.desc }}
 </div>
 
@@ -74,7 +74,7 @@ Research Interest: {{ s.desc }}
   {% endif %}
 </h3>
 <h4>MS Candidate </h4>
-<a href="mailto:{{ s.email }}">{{ s.email }}</a><br />
+{{ s.email | replace: "@", " [at] " | replace: ".", " [dot] " }}<br />
 Research Interest: {{ s.desc }}
 </div>
 
