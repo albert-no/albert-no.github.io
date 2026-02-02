@@ -63,20 +63,32 @@ Jump to
 {% for publi in site.data.publist %}
 {% if publi.cwj_code == 0 and publi.published == 1 %}
 
-**{{ publi.title }}** <br />
-{{ publi.authors }} <br />
-{{ publi.venue }} <br />
+<div class="publication">
 
-Paper:
-<a href="{{ publi.link }}">PDF</a>
-{% if publi.webpage %}
- | <a href="{{ publi.webpage }}">Webpage</a>
-{% endif %}
+  <div class="pub-title">
+    <strong>{{ publi.title }}</strong>
+  </div>
 
-<br /><br />
+  <div class="pub-authors">
+    {{ publi.authors }}
+  </div>
+
+  <div class="pub-venue">
+    {{ publi.venue }}
+  </div>
+
+  <div class="pub-links">
+    <a href="{{ publi.link }}" target="_blank">Paper</a>
+    {% if publi.webpage %}
+      | <a href="{{ publi.webpage }}" target="_blank">Webpage</a>
+    {% endif %}
+  </div>
+
+</div>
 
 {% endif %}
 {% endfor %}
+
 
 ## Peer-reviewed Workshop
 
