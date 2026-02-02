@@ -1,11 +1,3 @@
-- title: "[P3] Position: The Term “Machine Unlearning” Is Overused in LLMs"
-  authors: Sangyeon Yoon\*, Yeachan Jun\*, and Albert No
-  link: "https://arxiv.org/"
-  venue: "submitted"
-  highlight: 0
-  cwj_code: 0
-  published: 0
-  
 - title: "[P2] dgMARK: Decoding-Guided Watermarking for Diffusion Language Models"
   authors: PyoMin Hong and Albert No
   link: "https://arxiv.org/abs/2601.22985"
