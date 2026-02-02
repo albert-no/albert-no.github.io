@@ -1,10 +1,11 @@
 - title: "[P2] dgMARK: Decoding-Guided Watermarking for Diffusion Language Models"
-  authors: Pyo Min Hong and Albert No
+  authors: PyoMin Hong and Albert No
   link: "https://arxiv.org/abs/2601.22985"
   venue: "submitted"
   highlight: 0
   cwj_code: 0
   published: 0
+  
 - title: "[P1] DUSK: Do Not Unlearn Shared Knowledge"
   authors: Wonje Jeung\*, Sangyeon Yoon\*, Hyesoo Hong\*, Soeun Kim, Seungju Han, Youngjae Yu, and Albert No
   link: "https://arxiv.org/abs/2505.15209"
