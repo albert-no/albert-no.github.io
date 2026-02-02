@@ -58,37 +58,6 @@ Jump to
 {% endif %}
 {% endfor %}
 
-## Peer-reviewed Conference
-
-{% for publi in site.data.publist %}
-{% if publi.cwj_code == 0 and publi.published == 1 %}
-
-<div class="publication">
-
-  <div class="pub-title">
-    <strong>{{ publi.title }}</strong>
-  </div>
-
-  <div class="pub-authors">
-    {{ publi.authors }}
-  </div>
-
-  <div class="pub-venue">
-    {{ publi.venue }}
-  </div>
-
-  <div class="pub-links">
-    <a href="{{ publi.link }}" target="_blank">Paper</a>
-    {% if publi.webpage %}
-      | <a href="{{ publi.webpage }}" target="_blank">Webpage</a>
-    {% endif %}
-  </div>
-
-</div>
-
-{% endif %}
-{% endfor %}
-
 
 ## Peer-reviewed Workshop
 
