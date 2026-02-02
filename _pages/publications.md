@@ -58,6 +58,25 @@ Jump to
 {% endif %}
 {% endfor %}
 
+## Peer-reviewed Conference
+
+{% for publi in site.data.publist %}
+{% if publi.cwj_code == 0 and publi.published == 1 %}
+
+**{{ publi.title }}** <br />
+{{ publi.authors }} <br />
+{{ publi.venue }} <br />
+
+Paper:
+<a href="{{ publi.link }}">PDF</a>
+{% if publi.webpage %}
+ | <a href="{{ publi.webpage }}">Webpage</a>
+{% endif %}
+
+<br /><br />
+
+{% endif %}
+{% endfor %}
 
 ## Peer-reviewed Workshop
 
