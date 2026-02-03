@@ -1,3 +1,11 @@
+- title: "[P4] Understanding the Reversal Curse Mitigation in Masked Diffusion Models through Attention and Training Dynamics"
+  authors: Sangwoo Shin\*, BumJun Kim\*, Kyelim Lee\*, Moongyu Jeon\*, and Albert No
+  link: "https://arxiv.org/abs/2602.02133"
+  venue: "submitted"
+  highlight: 0
+  cwj_code: 0
+  published: 0
+  
 - title: "[P3] Preserve-Then-Quantize: Balancing Rank Budgets for Quantization Error Reconstruction in LLMs"
   authors: Yoonjun Cho\*, Dongjae Jeon\*, Soeun Kim, Moongyu Jeon, and Albert No
   link: "https://arxiv.org/abs/2602.02001"
