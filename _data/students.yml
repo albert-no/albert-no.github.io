@@ -29,7 +29,7 @@
   fname: hyesoo.jpg
   ump: 1
   email: hyesoo.hong@yonsei.ac.kr
-  desc: "AI Safety and Explainable AI"
+  desc: "AI Safety and Vision Language Model"
 
 - name: Soeun Kim(김소은)
   fname: soeun.jpg
@@ -74,3 +74,9 @@
   email: 2025324135@yonsei.ac.kr
   desc: "AI Safety"
   link: "https://ssangyeon.github.io/"
+
+- name: MinSoo Kim (김민수)
+  fname: minsu.jpg
+  ump: 1
+  email: markkim1@yonsei.ac.kr
+  desc: "Vison Language Model"
