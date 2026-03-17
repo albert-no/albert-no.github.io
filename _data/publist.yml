@@ -1,3 +1,11 @@
+- title: "[P5] Dependency-Aware Parallel Decoding via Attention for Diffusion LLMs"
+  authors: Bumjun Kim\*, Dongjae Jeon\*, Moongyu Jeon, and Albert No
+  link: "https://arxiv.org//2603.12996"
+  venue: "submitted"
+  highlight: 0
+  cwj_code: 0
+  published: 0
+  
 - title: "[P4] Understanding the Reversal Curse Mitigation in Masked Diffusion Models through Attention and Training Dynamics"
   authors: Sangwoo Shin\*, BumJun Kim\*, Kyelim Lee\*, Moongyu Jeon\*, and Albert No
   link: "https://arxiv.org/abs/2602.02133"
