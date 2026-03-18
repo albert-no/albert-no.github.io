@@ -1,3 +1,11 @@
+- title: "[P6] BenchPreS: A Benchmark for Context-Aware Personalized Preference Selectivity of Persistent-Memory LLMs"
+  authors: Sangyeon Yoon, Sunkyoung Kim, Hyesoo Hong, Wonje Jeung, Yongil Kim, Wooseok Seo, Heuiyeen Yeen, and Albert No
+  link: "https://arxiv.org/abs/2603.16557"
+  venue: "submitted"
+  highlight: 0
+  cwj_code: 0
+  published: 0
+  
 - title: "[P5] Dependency-Aware Parallel Decoding via Attention for Diffusion LLMs"
   authors: Bumjun Kim\*, Dongjae Jeon\*, Moongyu Jeon, and Albert No
   link: "https://arxiv.org/abs/2603.12996"
