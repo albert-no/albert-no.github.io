@@ -46,6 +46,14 @@
   cwj_code: 0
   published: 0
 
+- title: "[C28] Memorization In Stable Diffusion Is Unexpectedly Driven by CLIP Embeddings"
+  authors: Bumjun Kim , Albert No
+  link: "https://arxiv.org/"
+  venue: "The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026"
+  highlight: 1
+  cwj_code: 0
+  published: 1
+  
 - title: "[C27] Rethinking Benign Relearning: Syntax as the Hidden Driver of Unlearning Failures"
   authors: Sangyeon Yoon, Hyesoo Hong, Wonje Jeung, and Albert No
   link: "https://openreview.net/forum?id=IU4rqTlpRb"
