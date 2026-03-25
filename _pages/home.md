@@ -65,6 +65,9 @@ focuses on information theoretic approach on various machine learning problems.
 
 ## News
 <ul>
+<li> Our group has 1 paper accepted to <b>CVPR 2026 Findings</b><br />
+&emsp;- Memorization In Stable Diffusion Is Unexpectedly Driven by CLIP Embeddings
+</li>        
 <li> Our group has 3 papers accepted to <b>ICLR 2026</b><br />
 &emsp;- A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models <br />
 &emsp;- Rainbow Padding: Mitigating Early Termination in Instruction-Tuned Diffusion LLMs <br />
