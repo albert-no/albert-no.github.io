@@ -1,0 +1,10 @@
+_site
+**/_site
+.jekyll-cache/
+_data/.jekyll-cache/
+
+*bak
+*swp
+.DS_Store
+.jekyll-metadata
+

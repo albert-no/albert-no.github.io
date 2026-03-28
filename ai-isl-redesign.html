@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI-ISL — Yonsei University</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f7f6f2;
+      --surface: #ffffff;
+      --border: #e2e0d8;
+      --text: #1a1917;
+      --muted: #7a7870;
+      --accent: #1a3a6b;
+      --accent-light: #e8edf5;
+      --tag-bg: #efefeb;
+      --mono: 'DM Mono', monospace;
+      --sans: 'DM Sans', sans-serif;
+      --radius: 6px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(247,246,242,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 48px;
+      height: 56px;
+    }
+    .nav-logo {
+      font-family: var(--mono);
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+    .nav-logo span { color: var(--accent); }
+    .nav-links {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--muted);
+      text-decoration: none;
+      letter-spacing: 0.01em;
+      transition: color 0.15s;
+    }
+    .nav-links a:hover { color: var(--text); }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 96px 48px 80px;
+      max-width: 860px;
+    }
+    .hero-eyebrow {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 300;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      color: var(--text);
+      margin-bottom: 20px;
+    }
+    .hero h1 em {
+      font-style: normal;
+      font-weight: 500;
+    }
+    .hero p {
+      font-size: 16px;
+      font-weight: 300;
+      color: var(--muted);
+      max-width: 560px;
+      line-height: 1.75;
+    }
+    .hero-divider {
+      width: 48px;
+      height: 1px;
+      background: var(--accent);
+      margin: 40px 0;
+      opacity: 0.4;
+    }
+
+    /* ── RESEARCH TAGS ── */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 0 48px 72px;
+    }
+    .tag {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      padding: 6px 12px;
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      border-radius: 99px;
+      color: var(--muted);
+    }
+
+    /* ── LAYOUT ── */
+    .main-grid {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 0;
+      border-top: 1px solid var(--border);
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* ── NEWS ── */
+    .news-section {
+      padding: 56px 48px;
+      border-right: 1px solid var(--border);
+    }
+    .section-label {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 32px;
+    }
+    .news-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .news-item {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      gap: 16px;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--border);
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+    }
+    .news-item.visible {
+      opacity: 1;
+      transform: none;
+    }
+    .news-year {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+      padding-top: 3px;
+    }
+    .news-body { }
+    .news-venue {
+      display: inline-block;
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      font-weight: 500;
+      color: var(--accent);
+      background: var(--accent-light);
+      padding: 2px 8px;
+      border-radius: 3px;
+      margin-bottom: 6px;
+    }
+    .news-title {
+      font-size: 13.5px;
+      font-weight: 400;
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    /* ── SIDEBAR ── */
+    .sidebar {
+      padding: 56px 36px;
+    }
+    .sidebar-block {
+      margin-bottom: 48px;
+    }
+    .sidebar-block .section-label {
+      margin-bottom: 20px;
+    }
+    .pi-card {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .pi-name {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text);
+    }
+    .pi-title {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .pi-links {
+      display: flex;
+      gap: 12px;
+      margin-top: 4px;
+    }
+    .pi-links a {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s;
+    }
+    .pi-links a:hover { border-color: var(--accent); }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-bottom: 24px;
+    }
+    .stat-cell {
+      background: var(--surface);
+      padding: 16px;
+    }
+    .stat-num {
+      font-family: var(--mono);
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--text);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .stat-label {
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.02em;
+    }
+
+    .recruit-box {
+      background: var(--accent);
+      border-radius: var(--radius);
+      padding: 20px;
+      color: white;
+    }
+    .recruit-box p {
+      font-size: 13px;
+      line-height: 1.6;
+      opacity: 0.85;
+      margin-bottom: 12px;
+    }
+    .recruit-link {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      color: white;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .recruit-link::after { content: "→"; }
+    .recruit-link:hover { opacity: 0.8; }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 48px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    footer p {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+    }
+    footer a { color: inherit; text-decoration: none; }
+    footer a:hover { color: var(--text); }
+
+    @media (max-width: 768px) {
+      nav { padding: 0 20px; }
+      .nav-links { display: none; }
+      .hero { padding: 56px 20px 48px; }
+      .tags { padding: 0 20px 48px; }
+      .main-grid { grid-template-columns: 1fr; }
+      .news-section { padding: 40px 20px; border-right: none; }
+      .sidebar { padding: 40px 20px; border-top: 1px solid var(--border); }
+      footer { padding: 24px 20px; flex-direction: column; gap: 8px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#"><span>AI</span>-ISL</a>
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Team</a></li>
+    <li><a href="#">Research</a></li>
+    <li><a href="#">Publications</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Courses</a></li>
+    <li><a href="#">Join Us</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <p class="hero-eyebrow">Yonsei University · Department of Artificial Intelligence</p>
+  <h1>Artificial Intelligence &amp;<br><em>Information Systems Lab</em></h1>
+  <div class="hero-divider"></div>
+  <p>We explore information-theoretic approaches to machine learning — focusing on generative models, differential privacy, knowledge distillation, and model compression.</p>
+</section>
+
+<!-- RESEARCH TAGS -->
+<div class="tags">
+  <span class="tag">Diffusion Models</span>
+  <span class="tag">LLM Safety</span>
+  <span class="tag">Machine Unlearning</span>
+  <span class="tag">Differential Privacy</span>
+  <span class="tag">Knowledge Distillation</span>
+  <span class="tag">Model Quantization</span>
+  <span class="tag">Information Theory</span>
+  <span class="tag">Federated Learning</span>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="main-grid">
+
+  <!-- NEWS FEED -->
+  <section class="news-section">
+    <p class="section-label">Recent News</p>
+    <div class="news-list">
+
+      <div class="news-item">
+        <span class="news-year">2026</span>
+        <div class="news-body">
+          <span class="news-venue">ICLR 2026</span>
+          <p class="news-title">3 papers accepted — A2D: Any-Order Any-Step Safety Alignment for Diffusion LMs; Rainbow Padding; Rethinking Benign Relearning</p>
+        </div>
+      </div>
+
+      <div class="news-item">
+        <span class="news-year">2026</span>
+        <div class="news-body">
+          <span class="news-venue">SaTML 2026</span>
+          <p class="news-title">Differentially Private Adaptation of Diffusion Models via Noisy Aggregated Embeddings</p>
+        </div>
+      </div>
+
+      <div class="news-item">
+        <span class="news-year">2026</span>
+        <div class="news-body">
+          <span class="news-venue">AAAI 2026</span>
+          <p class="news-title">An Information Theoretic Evaluation Metric For Strong Unlearning</p>
+        </div>
+      </div>
+
+      <div class="news-item">
+        <span class="news-year">2025</span>
+        <div class="news-body">
+          <span class="news-venue">NeurIPS 2025</span>
+          <p class="news-title">2 papers — SAFEPATH: Preventing Harmful Reasoning via Early Alignment; Information-Theoretic Discrete Diffusion</p>
+        </div>
+      </div>
+
+      <div class="news-item">
+        <span class="news-year">2025</span>
+        <div class="news-body">
+          <span class="news-venue">EMNLP 2025</span>
+          <p class="news-title">2 papers — R-TOFU: Unlearning in Large Reasoning Models; SEPS: A Separability Measure for Robust Unlearning in LLMs</p>
+        </div>
+      </div>
+
+      <div class="news-item">
+        <span class="news-year">2025</span>
+        <div class="news-body">
+          <span class="news-venue">ICML 2025 Spotlight</span>
+          <p class="news-title">Understanding and Mitigating Memorization in Generative Models via Sharpness of Probability Landscape</p>
+        </div>
+      </div>
+
+      <div class="news-item">
+        <span class="news-year">2025</span>
+        <div class="news-body">
+          <span class="news-venue">ACL 2025</span>
+          <p class="news-title">Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition</p>
+        </div>
+      </div>
+
+      <div class="news-item">
+        <span class="news-year">2024</span>
+        <div class="news-body">
+          <span class="news-venue">ICML 2024</span>
+          <p class="news-title">Improved Communication-Privacy Trade-offs in L2 Mean Estimation under Streaming Differential Privacy</p>
+        </div>
+      </div>
+
+      <div class="news-item">
+        <span class="news-year">2023</span>
+        <div class="news-body">
+          <span class="news-venue">NeurIPS 2023</span>
+          <p class="news-title">2 papers — Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback; Exact Optimality of Communication-Privacy-Utility Tradeoffs</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+
+    <div class="sidebar-block">
+      <p class="section-label">Principal Investigator</p>
+      <div class="pi-card">
+        <span class="pi-name">Prof. [Name]</span>
+        <span class="pi-title">Department of Artificial Intelligence<br>Yonsei University, Seoul</span>
+        <div class="pi-links">
+          <a href="#">Scholar</a>
+          <a href="#">CV</a>
+          <a href="#">Email</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-block">
+      <p class="section-label">Lab at a Glance</p>
+      <div class="stat-grid">
+        <div class="stat-cell">
+          <div class="stat-num">20+</div>
+          <div class="stat-label">Publications</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-num">10+</div>
+          <div class="stat-label">Members</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-num">8</div>
+          <div class="stat-label">Research Areas</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-num">2026</div>
+          <div class="stat-label">ICLR · 3 Papers</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-block">
+      <div class="recruit-box">
+        <p>We are looking for passionate graduate students and undergraduate interns to join the lab.</p>
+        <a class="recruit-link" href="#">Join Us</a>
+      </div>
+    </div>
+
+  </aside>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 AI-ISL · <a href="#">Yonsei University</a></p>
+  <p>Department of Artificial Intelligence</p>
+</footer>
+
+<script>
+  // Staggered fade-in for news items on scroll
+  const items = document.querySelectorAll('.news-item');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 60);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.05 });
+  items.forEach(item => observer.observe(item));
+</script>
+
+</body>
+</html>
