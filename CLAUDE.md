@@ -62,6 +62,7 @@ Both casing variants below should be underlined when they appear.
 
 ### Alumni
 
+- Pyo Min Hong
 - Halyn Yu
 - Beom Soo Lee / Beomsoo Lee
 - Junseok Jang
@@ -89,8 +90,8 @@ removed/added there, update the underline list here too.
 | Sangyeon Yoon | https://ssangyeon.github.io/ |
 | Pyo Min Hong | https://pyomin.github.io/ |
 
-Pyo Min Hong is not a lab member (not in `team.html`), so his name is linked
-but not underlined.
+Pyo Min Hong is a visiting researcher alumna (listed in `team.html`), so her
+name is both linked and underlined in publication entries.
 
 ## Project pages already linked
 

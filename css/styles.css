@@ -599,6 +599,11 @@ button:hover {
   color: var(--muted);
 }
 
+.team-list li a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   .team-member {
     grid-template-columns: 1fr;
