@@ -273,6 +273,12 @@ button:hover {
   box-shadow: var(--shadow);
 }
 
+.page-publications .publication-legend {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
 .page-publications .publication-links {
   display: flex;
   flex-wrap: wrap;
@@ -315,8 +321,11 @@ button:hover {
 
 .publication-list li a {
   color: var(--text);
-  font-weight: 600;
   text-decoration: none;
+}
+
+.publication-list li > a:first-of-type {
+  font-weight: 600;
 }
 
 .publication-list li a:hover {
