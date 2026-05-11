@@ -6,17 +6,21 @@
   <meta name="description" content="AI-ISL team page: meet our lab members and research collaborators." />
   <title>Team | AI-ISL</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header spy-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html"><span>AI</span>-ISL</a>
+      <div class="brand-group">
+        <a class="institution-link" href="https://www.yonsei.ac.kr/" target="_blank" rel="noopener">
+          <img src="old/images/logo/yonsei.png" alt="Yonsei University" />
+        </a>
+        <span class="brand-divider" aria-hidden="true"></span>
+        <a class="brand" href="index.html">
+          <img src="old/images/logo/lab_logo.png" alt="AI-ISL" />
+        </a>
+      </div>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link active" href="team.html">Team</a>
         <a class="nav-link" href="research.html">Research</a>
         <a class="nav-link" href="publications.html">Publications</a>
@@ -29,22 +33,15 @@
   </header>
 
   <main class="page page-team">
-    <section class="hero">
-      <p class="eyebrow">Team</p>
-      <h1 class="page-title">Group members</h1>
-      <p class="page-intro">Professor, PhD and MS candidates, and alumni forming AI-ISL.</p>
-    </section>
-
     <section class="section">
       <div class="section-heading">
-        <p class="section-label">Professor</p>
         <h2>Advisor</h2>
       </div>
       <article class="team-card team-member">
         <img src="assets/images/team/albert_230824.jpg" alt="Professor Albert No" />
         <div>
           <h3>Albert No (노알버트/노승문)</h3>
-          <p class="member-role">Associate Professor</p>
+          <p class="member-role">Faculty</p>
           <p class="member-contact">
             Department of Artificial Intelligence<br />
             Yonsei University<br />
@@ -73,22 +70,20 @@
 
     <section class="section">
       <div class="section-heading">
-        <p class="section-label">PhD candidates</p>
         <h2>Doctoral researchers</h2>
       </div>
       <div class="team-grid">
         <article class="team-card">
           <img src="assets/images/team/yoonjun.jpg" alt="Yoonjun Cho" />
-          <h3>Yoonjun Cho (조윤준)</h3>
-          <p class="member-role">PhD Candidate</p>
+          <h3><a class="member-link" href="https://cyoonjun.github.io/" target="_blank" rel="noopener">Yoonjun Cho (조윤준)</a></h3>
+          <p class="member-role">PhD Student</p>
           <p class="member-contact">cyoonjun [at] yonsei [dot] ac [dot] kr</p>
           <p>Research interest: Quantization.</p>
-          <p><a class="member-link" href="https://cyoonjun.github.io/" target="_blank" rel="noopener">Personal website</a></p>
         </article>
         <article class="team-card">
           <img src="assets/images/team/yeachan.jpeg" alt="Yeachan Jun" />
           <h3>Yeachan Jun (전예찬)</h3>
-          <p class="member-role">PhD Candidate</p>
+          <p class="member-role">PhD Student</p>
           <p class="member-contact">dpcks8942 [at] yonsei [dot] ac [dot] kr</p>
           <p>Research interest: AI Safety.</p>
         </article>
@@ -97,94 +92,90 @@
 
     <section class="section">
       <div class="section-heading">
-        <p class="section-label">MS candidates</p>
         <h2>Masters researchers</h2>
       </div>
       <div class="team-grid">
         <article class="team-card">
           <img src="assets/images/team/kyelim.jpg" alt="Kyelim Lee" />
           <h3>Kyelim Lee (이계림)</h3>
-          <p class="member-role">MS Candidate</p>
+          <p class="member-role">MS Student</p>
           <p class="member-contact">thisislim [at] yonsei [dot] ac [dot] kr</p>
           <p>Research interest: Explainable AI.</p>
         </article>
         <article class="team-card">
           <img src="assets/images/team/wonje.jpg" alt="Wonje Jeung" />
-          <h3>Wonje Jeung (정원제)</h3>
-          <p class="member-role">MS Candidate</p>
+          <h3><a class="member-link" href="https://wonjejeung.github.io/" target="_blank" rel="noopener">Wonje Jeung (정원제)</a></h3>
+          <p class="member-role">MS Student</p>
           <p class="member-contact">specific0924 [at] yonsei [dot] ac [dot] kr</p>
           <p>Research interest: AI Safety.</p>
-          <p><a class="member-link" href="https://wonjejeung.github.io/" target="_blank" rel="noopener">Personal website</a></p>
         </article>
         <article class="team-card">
           <img src="assets/images/team/hyesoo.jpg" alt="Hyesoo Hong" />
           <h3>Hyesoo Hong (홍혜수)</h3>
-          <p class="member-role">MS Candidate</p>
+          <p class="member-role">MS Student</p>
           <p class="member-contact">hyesoo.hong [at] yonsei [dot] ac [dot] kr</p>
           <p>Research interest: AI Safety and Vision Language Models.</p>
         </article>
         <article class="team-card">
           <img src="assets/images/team/soeun.jpg" alt="Soeun Kim" />
           <h3>Soeun Kim (김소은)</h3>
-          <p class="member-role">MS Candidate</p>
+          <p class="member-role">MS Student</p>
           <p class="member-contact">soeunkim [at] yonsei [dot] ac [dot] kr</p>
           <p>Research interest: Quantization.</p>
         </article>
         <article class="team-card">
           <img src="assets/images/team/bumjun.jpeg" alt="BumJun Kim" />
           <h3>BumJun Kim (김범준)</h3>
-          <p class="member-role">MS Candidate</p>
+          <p class="member-role">MS Student</p>
           <p class="member-contact">quasar529 [at] yonsei [dot] ac [dot] kr</p>
           <p>Research interest: Diffusion Models.</p>
         </article>
         <article class="team-card">
           <img src="assets/images/team/dueun.jpg" alt="Dueun Kim" />
           <h3>Dueun Kim (김두은)</h3>
-          <p class="member-role">MS Candidate</p>
+          <p class="member-role">MS Student</p>
           <p class="member-contact">jinha2536 [at] yonsei [dot] ac [dot] kr</p>
           <p>Research interest: Diffusion Models.</p>
         </article>
         <article class="team-card">
           <img src="assets/images/team/sangwoo.jpg" alt="Sangwoo Shin" />
           <h3>Sangwoo Shin (신상우)</h3>
-          <p class="member-role">MS Candidate</p>
+          <p class="member-role">MS Student</p>
           <p class="member-contact">2019142201 [at] yonsei [dot] ac [dot] kr</p>
           <p>Research interest: Diffusion Models.</p>
         </article>
         <article class="team-card">
           <img src="assets/images/team/moongyu.jpg" alt="Moongyu Jeon" />
           <h3>Moongyu Jeon (전문규)</h3>
-          <p class="member-role">MS Candidate</p>
+          <p class="member-role">MS Student</p>
           <p class="member-contact">mkjmkjmkj [at] yonsei [dot] ac [dot] kr</p>
           <p>Research interest: Diffusion Models.</p>
         </article>
         <article class="team-card">
           <img src="assets/images/team/dongjae.jpg" alt="Dongjae Jeon" />
-          <h3>Dongjae Jeon (전동재)</h3>
-          <p class="member-role">MS Candidate</p>
+          <h3><a class="member-link" href="https://dongjae0324.github.io/" target="_blank" rel="noopener">Dongjae Jeon (전동재)</a></h3>
+          <p class="member-role">MS Student</p>
           <p class="member-contact">dongjae0324 [at] yonsei [dot] ac [dot] kr</p>
           <p>Research interest: Diffusion Models, Quantization and AI Safety.</p>
-          <p><a class="member-link" href="https://dongjae0324.github.io/" target="_blank" rel="noopener">Personal website</a></p>
         </article>
         <article class="team-card">
           <img src="assets/images/team/sangyeon.jpg" alt="Sangyeon Yoon" />
-          <h3>Sangyeon Yoon (윤상연)</h3>
-          <p class="member-role">MS Candidate</p>
+          <h3><a class="member-link" href="https://ssangyeon.github.io/" target="_blank" rel="noopener">Sangyeon Yoon (윤상연)</a></h3>
+          <p class="member-role">MS Student</p>
           <p class="member-contact">2025324135 [at] yonsei [dot] ac [dot] kr</p>
           <p>Research interest: AI Safety.</p>
-          <p><a class="member-link" href="https://ssangyeon.github.io/" target="_blank" rel="noopener">Personal website</a></p>
         </article>
         <article class="team-card">
           <img src="assets/images/team/minsu.jpg" alt="MinSoo Kim" />
           <h3>MinSoo Kim (김민수)</h3>
-          <p class="member-role">MS Candidate</p>
+          <p class="member-role">MS Student</p>
           <p class="member-contact">markkim1 [at] yonsei [dot] ac [dot] kr</p>
           <p>Research interest: Vision Language Models.</p>
         </article>
         <article class="team-card">
           <img src="assets/images/team/Shin.jpg" alt="Shin So" />
           <h3>Shin So (소신)</h3>
-          <p class="member-role">MS Candidate</p>
+          <p class="member-role">MS Student</p>
           <p class="member-contact">thtls456 [at] yonsei [dot] ac [dot] kr</p>
           <p>Research interest: Diffusion Models.</p>
         </article>
@@ -193,7 +184,6 @@
 
     <section class="section">
       <div class="section-heading">
-        <p class="section-label">Alumni</p>
         <h2>Former members</h2>
       </div>
       <ul class="team-list">
@@ -218,8 +208,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>AI-ISL · Yonsei University</p>
-      <p>Department of Artificial Intelligence</p>
+      <p>© 2026 <a href="https://www.yonsei.ac.kr/" target="_blank" rel="noopener">Yonsei University</a> | <a href="https://ai.yonsei.ac.kr/" target="_blank" rel="noopener">Department of Artificial Intelligence</a> | AI-ISL</p>
     </div>
   </footer>
 </body>

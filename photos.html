@@ -6,17 +6,21 @@
   <meta name="description" content="Photos page for AI-ISL: laboratory and event images." />
   <title>Photos | AI-ISL</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header spy-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html"><span>AI</span>-ISL</a>
+      <div class="brand-group">
+        <a class="institution-link" href="https://www.yonsei.ac.kr/" target="_blank" rel="noopener">
+          <img src="old/images/logo/yonsei.png" alt="Yonsei University" />
+        </a>
+        <span class="brand-divider" aria-hidden="true"></span>
+        <a class="brand" href="index.html">
+          <img src="old/images/logo/lab_logo.png" alt="AI-ISL" />
+        </a>
+      </div>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="team.html">Team</a>
         <a class="nav-link" href="research.html">Research</a>
         <a class="nav-link" href="publications.html">Publications</a>
@@ -29,12 +33,6 @@
   </header>
 
   <main class="page page-photos">
-    <section class="hero">
-      <p class="eyebrow">Photos</p>
-      <h1 class="page-title">Gallery</h1>
-      <p class="page-intro">A calm collection of lab moments, events, and research snapshots.</p>
-    </section>
-
     <section class="section">
       <div class="gallery-grid">
         <img src="assets/images/gallery/2024_group.jpg" alt="2024 Group Photo" />
@@ -56,8 +54,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>AI-ISL · Yonsei University</p>
-      <p>Department of Artificial Intelligence</p>
+      <p>© 2026 <a href="https://www.yonsei.ac.kr/" target="_blank" rel="noopener">Yonsei University</a> | <a href="https://ai.yonsei.ac.kr/" target="_blank" rel="noopener">Department of Artificial Intelligence</a> | AI-ISL</p>
     </div>
   </footer>
 </body>

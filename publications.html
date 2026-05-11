@@ -6,17 +6,21 @@
   <meta name="description" content="Publications page for AI-ISL: latest papers and conference contributions." />
   <title>Publications | AI-ISL</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header spy-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html"><span>AI</span>-ISL</a>
+      <div class="brand-group">
+        <a class="institution-link" href="https://www.yonsei.ac.kr/" target="_blank" rel="noopener">
+          <img src="old/images/logo/yonsei.png" alt="Yonsei University" />
+        </a>
+        <span class="brand-divider" aria-hidden="true"></span>
+        <a class="brand" href="index.html">
+          <img src="old/images/logo/lab_logo.png" alt="AI-ISL" />
+        </a>
+      </div>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="team.html">Team</a>
         <a class="nav-link" href="research.html">Research</a>
         <a class="nav-link active" href="publications.html">Publications</a>
@@ -30,9 +34,7 @@
 
   <main class="page page-publications">
     <section class="hero">
-      <p class="eyebrow">Publications</p>
       <h1 class="page-title">Publications</h1>
-      <p class="page-intro">Complete lab publication list with authors, links, and venue details organized by category.</p>
       <p class="publication-legend"><u>Underline</u>: lab members &nbsp;·&nbsp; * Equal contribution &nbsp;·&nbsp; <sup>&dagger;</sup> Co-correspondence</p>
       <div class="publication-links">
         <a href="#preprints">Preprints</a>
@@ -68,139 +70,139 @@
             <li>
               <a href="https://arxiv.org/abs/">[C33] Position: The Term “Machine Unlearning” Is Overused in LLMs</a><br />
               <a href="https://ssangyeon.github.io/" target="_blank" rel="noopener"><u>Sangyeon Yoon</u></a>*, <u>Yeachan Jun</u>*, and <u>Albert No</u><br />
-              International Conference on Machine Learning (<span class="publication-acronym">ICML2026 Position</span>)
+              International Conference on Machine Learning (ICML2026 Position)
             </li>
             <li>
               <a href="https://arxiv.org/abs/2601.22985">[C32] dgMARK: Decoding-Guided Watermarking for Diffusion Language Models</a><br />
               <a href="https://pyomin.github.io/" target="_blank" rel="noopener"><u>Pyo Min Hong</u></a> and <u>Albert No</u><br />
-              International Conference on Machine Learning (<span class="publication-acronym">ICML2026</span>)<br />
+              International Conference on Machine Learning (ICML2026)<br />
               <a href="https://dgmark-watermarking.github.io/">[Project Page]</a>
             </li>
             <li>
               <a href="https://arxiv.org/abs/2602.02001">[C31] Preserve-Then-Quantize: Balancing Rank Budgets for Quantization Error Reconstruction in LLMs</a><br />
               <a href="https://cyoonjun.github.io/" target="_blank" rel="noopener"><u>Yoonjun Cho</u></a>*, <a href="https://dongjae0324.github.io/" target="_blank" rel="noopener"><u>Dongjae Jeon</u></a>*, <u>Soeun Kim</u>, <u>Moongyu Jeon</u>, and <u>Albert No</u><br />
-              International Conference on Machine Learning (<span class="publication-acronym">ICML2026</span>)
+              International Conference on Machine Learning (ICML2026)
             </li>
             <li>
               <a href="https://arxiv.org/abs/2603.12996">[C30] Dependency-Aware Parallel Decoding via Attention for Diffusion LLMs</a><br />
               <u>Bumjun Kim</u>*, <a href="https://dongjae0324.github.io/" target="_blank" rel="noopener"><u>Dongjae Jeon</u></a>*, <u>Moongyu Jeon</u>, and <u>Albert No</u><br />
-              International Conference on Machine Learning (<span class="publication-acronym">ICML2026</span>)
+              International Conference on Machine Learning (ICML2026)
             </li>            
             <li>
               <a href="https://arxiv.org/abs/2505.15209">[C29] DUSK: Do Not Unlearn Shared Knowledge</a><br />
               <a href="https://wonjejeung.github.io/" target="_blank" rel="noopener"><u>Wonje Jeung</u></a>*, <a href="https://ssangyeon.github.io/" target="_blank" rel="noopener"><u>Sangyeon Yoon</u></a>*, <u>Hyesoo Hong</u>*, <u>Soeun Kim</u>, Seungju Han, Youngjae Yu, and <u>Albert No</u><br />
-              Annual Meeting of the Association for Computational Linguistics (<span class="publication-acronym">ACL2026</span> Findings)<br />
+              Annual Meeting of the Association for Computational Linguistics (ACL2026 Findings)<br />
               <a href="https://ai-isl.github.io/dusk">[Project Page]</a>
             </li>
             <li>
               <a href="https://arxiv.org/abs/2605.02908">[C28] Memorization In Stable Diffusion Is Unexpectedly Driven by CLIP Embeddings</a><br />
               <u>Bumjun Kim</u> and <u>Albert No</u><br />
-              The IEEE/CVF Conference on Computer Vision and Pattern Recognition (<span class="publication-acronym">CVPR2026</span> Findings)
+              The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR2026 Findings)
             </li>
             <li>
               <a href="https://openreview.net/forum?id=IU4rqTlpRb">[C27] Rethinking Benign Relearning: Syntax as the Hidden Driver of Unlearning Failures</a><br />
               <a href="https://ssangyeon.github.io/" target="_blank" rel="noopener"><u>Sangyeon Yoon</u></a>, <u>Hyesoo Hong</u>, <a href="https://wonjejeung.github.io/" target="_blank" rel="noopener"><u>Wonje Jeung</u></a>, and <u>Albert No</u><br />
-              International Conference on Learning Representations (<span class="publication-acronym">ICLR2026</span>)
+              International Conference on Learning Representations (ICLR2026)
             </li>
             <li>
               <a href="https://openreview.net/forum?id=URTnuyQJI1">[C26] A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models</a><br />
               <a href="https://wonjejeung.github.io/" target="_blank" rel="noopener"><u>Wonje Jeung</u></a>*, <a href="https://ssangyeon.github.io/" target="_blank" rel="noopener"><u>Sangyeon Yoon</u></a>*, <a href="https://cyoonjun.github.io/" target="_blank" rel="noopener"><u>Yoonjun Cho</u></a>, <a href="https://dongjae0324.github.io/" target="_blank" rel="noopener"><u>Dongjae Jeon</u></a>, <u>Sangwoo Shin</u>, <u>Hyesoo Hong</u>, and <u>Albert No</u><br />
-              International Conference on Learning Representations (<span class="publication-acronym">ICLR2026</span>)<br />
+              International Conference on Learning Representations (ICLR2026)<br />
               <a href="https://ai-isl.github.io/A2D">[Project Page]</a>
             </li>
             <li>
               <a href="https://openreview.net/forum?id=cznTlh7Msz">[C25] Rainbow Padding: Mitigating Early Termination in Instruction-Tuned Diffusion LLMs</a><br />
               <u>Bumjun Kim</u>*, <a href="https://dongjae0324.github.io/" target="_blank" rel="noopener"><u>Dongjae Jeon</u></a>*, <u>Dueun Kim</u>*, <a href="https://wonjejeung.github.io/" target="_blank" rel="noopener"><u>Wonje Jeung</u></a>, and <u>Albert No</u><br />
-              International Conference on Learning Representations (<span class="publication-acronym">ICLR2026</span>)<br />
+              International Conference on Learning Representations (ICLR2026)<br />
               <a href="https://ai-isl.github.io/rainbow-padding">[Project Page]</a>
             </li>
             <li>
               <a href="http://arxiv.org/abs/2411.14639">[C24] Differentially Private Adaptation of Diffusion Models via Noisy Aggregated Embeddings</a><br />
               Pura Peetathawatchai, Wei-Ning Chen, Berivan Isik, Sanmi Koyejo, and <u>Albert No</u><br />
-              IEEE Secure and Trustworthy Machine Learning Conference (<span class="publication-acronym">SaTML2026</span>)
+              IEEE Secure and Trustworthy Machine Learning Conference (SaTML2026)
             </li>
             <li>
               <a href="https://arxiv.org/abs/2405.17878">[C23] An Information Theoretic Evaluation Metric For Strong Unlearning</a><br />
               <a href="https://dongjae0324.github.io/" target="_blank" rel="noopener"><u>Dongjae Jeon</u></a>*, <a href="https://wonjejeung.github.io/" target="_blank" rel="noopener"><u>Wonje Jeung</u></a>*, Taeheon Kim, <u>Albert No</u><sup>&dagger;</sup>, and Jonghyun Choi<sup>&dagger;</sup><br />
-              Association for the Advancement of Artificial Intelligence (<span class="publication-acronym">AAAI2026</span>)
+              Association for the Advancement of Artificial Intelligence (AAAI2026)
             </li>
             <li>
               <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/119416">[C22] Information-Theoretic Discrete Diffusion</a><br />
               <u>Moongyu Jeon</u>, <u>Sangwoo Shin</u>, <a href="https://dongjae0324.github.io/" target="_blank" rel="noopener"><u>Dongjae Jeon</u></a>, and <u>Albert No</u><br />
-              Neural Information Processing Systems (<span class="publication-acronym">NeurIPS2025</span>)
+              Neural Information Processing Systems (NeurIPS2025)
             </li>
             <li>
               <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/115425">[C21] SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment</a><br />
               <a href="https://wonjejeung.github.io/" target="_blank" rel="noopener"><u>Wonje Jeung</u></a>, <a href="https://ssangyeon.github.io/" target="_blank" rel="noopener"><u>Sangyeon Yoon</u></a>, Minsuk Kahng<sup>&dagger;</sup>, and <u>Albert No</u><sup>&dagger;</sup><br />
-              Neural Information Processing Systems (<span class="publication-acronym">NeurIPS2025</span>)
+              Neural Information Processing Systems (NeurIPS2025)
             </li>
             <li>
               <a href="https://aclanthology.org/2025.emnlp-main.283/">[C20] SEPS: A Separability Measure for Robust Unlearning in LLMs</a><br />
               <a href="https://wonjejeung.github.io/" target="_blank" rel="noopener"><u>Wonje Jeung</u></a>*, <a href="https://ssangyeon.github.io/" target="_blank" rel="noopener"><u>Sangyeon Yoon</u></a>*, and <u>Albert No</u><br />
-              Conference on Empirical Methods in Natural Language Processing (<span class="publication-acronym">EMNLP2025</span> Main)
+              Conference on Empirical Methods in Natural Language Processing (EMNLP2025 Main)
             </li>
             <li>
               <a href="https://aclanthology.org/2025.emnlp-main.265/">[C19] R-TOFU: Unlearning in Large Reasoning Models</a><br />
               <a href="https://ssangyeon.github.io/" target="_blank" rel="noopener"><u>Sangyeon Yoon</u></a>, <a href="https://wonjejeung.github.io/" target="_blank" rel="noopener"><u>Wonje Jeung</u></a>, and <u>Albert No</u><br />
-              Conference on Empirical Methods in Natural Language Processing (<span class="publication-acronym">EMNLP2025</span> Main)
+              Conference on Empirical Methods in Natural Language Processing (EMNLP2025 Main)
             </li>
             <li>
               <a href="https://aclanthology.org/2025.findings-acl.746/">[C18] Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition</a><br />
               <a href="https://cyoonjun.github.io/" target="_blank" rel="noopener"><u>Yoonjun Cho</u></a>, <u>Soeun Kim</u>, <a href="https://dongjae0324.github.io/" target="_blank" rel="noopener"><u>Dongjae Jeon</u></a>, <u>Kyelim Lee</u>, <u>Beomsoo Lee</u>, and <u>Albert No</u><br />
-              Annual Meeting of the Association for Computational Linguistics (<span class="publication-acronym">ACL2025</span> Findings)
+              Annual Meeting of the Association for Computational Linguistics (ACL2025 Findings)
             </li>
             <li>
               <a href="https://icml.cc/virtual/2025/poster/45941">[C17] Understanding and Mitigating Memorization in Generative Models via Sharpness of Probability Landscapes</a><br />
               <a href="https://dongjae0324.github.io/" target="_blank" rel="noopener"><u>Dongjae Jeon</u></a>*, <u>Dueun Kim</u>*, and <u>Albert No</u><br />
-              International Conference on Machine Learning (<span class="publication-acronym">ICML2025</span> Spotlight, top 2.6%)<br />
+              International Conference on Machine Learning (ICML2025 Spotlight, top 2.6%)<br />
               (based on the preliminary version [W7])
             </li>
             <li>
               <a href="https://icml.cc/virtual/2024/poster/32729">[C16] Improved Communication-Privacy Trade-offs in L2 Mean Estimation under Streaming Differential Privacy</a><br />
               Wei-Ning Chen, Berivan Isik, Peter Kairouz, <u>Albert No</u>, Sewoong Oh, and Zheng Xu<br />
-              International Conference on Machine Learning (<span class="publication-acronym">ICML2024</span>)
+              International Conference on Machine Learning (ICML2024)
             </li>
             <li>
               <a href="https://nips.cc/virtual/2023/poster/72833">[C15] Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback</a><br />
               TaeHo Yoon, Kibeom Myoung, Keon Lee, Jaewoong Cho, <u>Albert No</u>, and Ernest K. Ryu<br />
-              Neural Information Processing Systems (<span class="publication-acronym">NeurIPS2023</span>)
+              Neural Information Processing Systems (NeurIPS2023)
             </li>
             <li>
               <a href="https://nips.cc/virtual/2023/poster/72717">[C14] Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation</a><br />
               Berivan Isik, Wei-Ning Chen, Ayfer Ozgur, Tsachy Weissman, and <u>Albert No</u><br />
-              Neural Information Processing Systems (<span class="publication-acronym">NeurIPS2023</span>)<br />
+              Neural Information Processing Systems (NeurIPS2023)<br />
               (based on the preliminary version [W3])
             </li>
             <li>
               <a href="https://link.springer.com/chapter/10.1007/978-3-031-20083-0_8">[C13] Prune Your Model Before Distill It</a><br />
               <u>Jinhyuk Park</u> and <u>Albert No</u><br />
-              European Conference on Computer Vision (<span class="publication-acronym">ECCV2022</span>)
+              European Conference on Computer Vision (ECCV2022)
             </li>
             <li>
               <a href="https://proceedings.mlr.press/v162/lee22a.html">[C12] Neural Tangent Kernel Analysis of Deep Narrow Neural Networks</a><br />
               Jongmin Lee, Joo Young Choi, Ernest K. Ryu<sup>&dagger;</sup>, and <u>Albert No</u><sup>&dagger;</sup><br />
-              International Conference on Machine Learning (<span class="publication-acronym">ICML2022</span>)
+              International Conference on Machine Learning (ICML2022)
             </li>
             <li>
               <a href="https://proceedings.mlr.press/v151/isik22a.html">[C11] An Information-Theoretic Justification for Model Pruning</a><br />
               Berivan Isik, Tsachy Weissman, and <u>Albert No</u><br />
-              International Conference on Artificial Intelligence and Statistics (<span class="publication-acronym">AISTATS2022</span>)<br />
+              International Conference on Artificial Intelligence and Statistics (AISTATS2022)<br />
               (based on the preliminary version [W1])
             </li>
             <li>
               <a href="http://proceedings.mlr.press/v139/no21a.html">[C10] WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points</a><br />
               <u>Albert No</u>, Taeho Yoon, Se-Hyeon Kwon, and Ernest K. Ryu<br />
-              International Conference on Machine Learning (<span class="publication-acronym">ICML2021</span>)
+              International Conference on Machine Learning (ICML2021)
             </li>
             <li>
               <a href="https://ieeexplore.ieee.org/abstract/document/7606808">[C9] CROMqs: Rateless Lossy Compression of Quality Scores</a><br />
               Idoia Ochoa, <u>Albert No</u>, Mikel Hernaez, and Tsachy Weissman<br />
-              Information Theory Workshop (<span class="publication-acronym">ITW2016</span>)
+              Information Theory Workshop (ITW2016)
             </li>
             <li>
               <a href="https://ieeexplore.ieee.org/abstract/document/7282839">[C8] Universality of Logarithmic Loss in Lossy Compression</a><br />
               <u>Albert No</u> and Tsachy Weissman<br />
-              International Symposium on Information Theory (<span class="publication-acronym">ISIT2015</span>)
+              International Symposium on Information Theory (ISIT2015)
             </li>
             <li>
               <a href="https://ieeexplore.ieee.org/document/7028440">[C7] Rateless Lossy Compression via the Extremes</a><br />
@@ -210,12 +212,12 @@
             <li>
               <a href="https://ieeexplore.ieee.org/document/6874853">[C6] Information Divergences and the Curious Case of the Binary Alphabet</a><br />
               Jiantao Jiao, Thomas Courtade, <u>Albert No</u>, Kartik Venkat, and Tsachy Weissman<br />
-              International Symposium on Information Theory (<span class="publication-acronym">ISIT2014</span>)
+              International Symposium on Information Theory (ISIT2014)
             </li>
             <li>
               <a href="https://ieeexplore.ieee.org/abstract/document/6875316">[C5] Strong Successive Refinability: Sufficient Conditions</a><br />
               <u>Albert No</u>, Amir Ingber, and Tsachy Weissman<br />
-              International Symposium on Information Theory (<span class="publication-acronym">ISIT2014</span>)
+              International Symposium on Information Theory (ISIT2014)
             </li>
             <li>
               <a href="https://ieeexplore.ieee.org/abstract/document/6736709">[C4] Complexity and Rate-Distortion Tradeoff via Successive Refinement</a><br />
@@ -225,17 +227,17 @@
             <li>
               <a href="https://ieeexplore.ieee.org/document/6620265">[C3] Minimax Filtering via Relations between Information and Estimation</a><br />
               <u>Albert No</u> and Tsachy Weissman<br />
-              International Symposium on Information Theory (<span class="publication-acronym">ISIT2013</span>)
+              International Symposium on Information Theory (ISIT2013)
             </li>
             <li>
               <a href="https://ieeexplore.ieee.org/document/6404708">[C2] Reference Based Genome Compression</a><br />
               Bobbie G. Chern, Idoia Ochoa, Alexandros Manolakos, <u>Albert No</u>, Kartik Venkat, and Tsachy Weissman<br />
-              Information Theory Workshop (<span class="publication-acronym">ITW2012</span>)
+              Information Theory Workshop (ITW2012)
             </li>
             <li>
               <a href="https://ieeexplore.ieee.org/document/6283737">[C1] Joint Source-Channel Coding of one Random Variable over the Poisson Channel</a><br />
               <u>Albert No</u>, Kartik Venkat, and Tsachy Weissman<br />
-              International Symposium on Information Theory (<span class="publication-acronym">ISIT2012</span>)
+              International Symposium on Information Theory (ISIT2012)
             </li>
           </ul>
         </article>
@@ -246,40 +248,40 @@
             <li>
               <a href="https://openreview.net/forum?id=cHUXlmsSXK">[W8] Preserve then Quantize: Dominant-Subspace Guided Low-Rank Reconstruction</a><br />
               <a href="https://cyoonjun.github.io/" target="_blank" rel="noopener"><u>Yoonjun Cho</u></a>*, <a href="https://dongjae0324.github.io/" target="_blank" rel="noopener"><u>Dongjae Jeon</u></a>*, <u>Soeun Kim</u>, and <u>Albert No</u><br />
-              International Conference on Machine Learning Workshop (TTODLer-FM @ <span class="publication-acronym">ICML2025</span>, Oral)
+              International Conference on Machine Learning Workshop (TTODLer-FM @ ICML2025, Oral)
             </li>
             <li>
               <a href="https://ppai-workshop.github.io/">[W7] Understanding Memorization In Generative Models Through A Geometric Framework</a><br />
               <a href="https://dongjae0324.github.io/" target="_blank" rel="noopener"><u>Dongjae Jeon</u></a>, <u>Dueun Kim</u>, and <u>Albert No</u><br />
-              Association for the Advancement of Artificial Intelligence Workshop (PPAI @ <span class="publication-acronym">AAAI2025</span>, Oral)<br />
+              Association for the Advancement of Artificial Intelligence Workshop (PPAI @ AAAI2025, Oral)<br />
               (the newer version [P4] available)
             </li>
             <li>
               <a href="https://arxiv.org/abs/2412.01756">[W6] Adversarial Sample-Based Approach for Tighter Privacy Auditing in Final Model-Only Scenarios</a><br />
               <a href="https://ssangyeon.github.io/" target="_blank" rel="noopener"><u>Sangyeon Yoon</u></a>*, <a href="https://wonjejeung.github.io/" target="_blank" rel="noopener"><u>Wonje Jeung</u></a>*, and <u>Albert No</u><br />
-              Neural Information Processing Systems Workshop (Statistical Frontiers in LLMs and Foundation Models @ <span class="publication-acronym">NeurIPS2024</span>)
+              Neural Information Processing Systems Workshop (Statistical Frontiers in LLMs and Foundation Models @ NeurIPS2024)
             </li>
             <li>
               <a href="https://openreview.net/forum?id=TV3puxNDAE">[W5] LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models</a><br />
               Joo Young Choi, Jaesung Park, Inkyu Park, Jaewoong Cho, <u>Albert No</u>, and Ernest Ryu<br />
-              Neural Information Processing Systems Workshop (Diffusion Models @ <span class="publication-acronym">NeurIPS2023</span>)<br />
-              (the newer version [J22] available at <span class="publication-acronym">TMLR</span>)
+              Neural Information Processing Systems Workshop (Diffusion Models @ NeurIPS2023)<br />
+              (the newer version [J22] available at TMLR)
             </li>
             <li>
               <a href="https://sites.google.com/view/lbqnn-iccv-23/accepted-papers?authuser=0">[W4] Fully Quantized Always-on Face Detector Considering Mobile Image Sensors</a><br />
               Haechang Lee, Wongi Jeong, Dongil Ryu, Hyunwoo Je, <u>Albert No</u>, Kijeong Kim, and Se Young Chun<br />
-              International Conference on Computer Vision Workshop (LBQNN @ <span class="publication-acronym">ICCV2023</span>, Oral)
+              International Conference on Computer Vision Workshop (LBQNN @ ICCV2023, Oral)
             </li>
             <li>
               <a href="https://openreview.net/forum?id=TF2sP6bTUI">[W3] Exact Optimality in Communication-Privacy-Utility Tradeoffs</a><br />
               Berivan Isik, Wei-Ning Chen, Ayfer Ozgur, Tsachy Weissman, and <u>Albert No</u><br />
-              International Conference on Machine Learning Workshop (FL @ <span class="publication-acronym">ICML2023</span>)<br />
+              International Conference on Machine Learning Workshop (FL @ ICML2023)<br />
               (the newer version [C14] available at NeurIPS 2023)
             </li>
             <li>
               <a href="https://link.springer.com/chapter/10.1007/978-3-031-25066-8_3">[W2] Learned Smartphone ISP on Mobile GPUs with Deep Learning, Mobile AI & AIM 2022 Challenge: Report</a><br />
               Andrey Ignatov, Radu Timofte, Shuai Liu, Chaoyu Feng, Furui Bai, Xiaotao Wang, Lei Lei, Ziyao Yi, Yan Xiang, Zibin Liu, Shaoqing Li, Keming Shi, Dehui Kong, Ke Xu, Minsu Kwon, Yaqi Wu, Jiesi Zheng, Zhihao Fan, Xun Wu, Feng Zhang, <u>Albert No</u>, <u>Minhyeok Cho</u>, Zewen Chen, Xiaze Zhang, Ran Li, Juan Wang, Zhiming Wang, Marcos V. Conde, Ui-Jin Choi, Georgy Perevozchikov, Egor Ershov, Zheng Hui, Mengchuan Dong, Xin Lou, Wei Zhou, Cong Pang, Haina Qin, and Mingxuan Cai<br />
-              European Conference on Computer Vision Workshop (AIM @ <span class="publication-acronym">ECCV2022</span>)
+              European Conference on Computer Vision Workshop (AIM @ ECCV2022)
             </li>
             <li>
               <a href="https://sites.google.com/view/sparsity-workshop-2021/schedule">[W1] Neural Network Pruning via Rate-Distortion Theory</a><br />
@@ -306,7 +308,7 @@
             <li>
               <a href="https://openreview.net/forum?id=38P40gJPrI">[J22] Simple Drop-in LoRA Conditioning on Attention Layers Will Improve Your Diffusion Model</a><br />
               Joo Young Choi, Jaesung R. Park, Inkyu Park, Jaewoong Cho, <u>Albert No</u>, and Ernest K. Ryu<br />
-              Transactions on Machine Learning Research (<span class="publication-acronym">TMLR</span>), October 2024<br />
+              Transactions on Machine Learning Research (TMLR), October 2024<br />
               (based on the preliminary version [W5])
             </li>
             <li>
@@ -449,10 +451,8 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>AI-ISL 쨌 Yonsei University</p>
-      <p>Department of Artificial Intelligence</p>
+      <p>© 2026 <a href="https://www.yonsei.ac.kr/" target="_blank" rel="noopener">Yonsei University</a> | <a href="https://ai.yonsei.ac.kr/" target="_blank" rel="noopener">Department of Artificial Intelligence</a> | AI-ISL</p>
     </div>
   </footer>
 </body>
 </html>
-

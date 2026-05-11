@@ -6,17 +6,21 @@
   <meta name="description" content="AI-ISL at Yonsei University: information-theoretic research in privacy, robustness, and generative intelligence." />
   <title>AI-ISL | Yonsei University</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header spy-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html"><span>AI</span>-ISL</a>
+      <div class="brand-group">
+        <a class="institution-link" href="https://www.yonsei.ac.kr/" target="_blank" rel="noopener">
+          <img src="old/images/logo/yonsei.png" alt="Yonsei University" />
+        </a>
+        <span class="brand-divider" aria-hidden="true"></span>
+        <a class="brand" href="index.html">
+          <img src="old/images/logo/lab_logo.png" alt="AI-ISL" />
+        </a>
+      </div>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a class="nav-link active" href="index.html">Home</a>
         <a class="nav-link" href="team.html">Team</a>
         <a class="nav-link" href="research.html">Research</a>
         <a class="nav-link" href="publications.html">Publications</a>
@@ -29,95 +33,161 @@
   </header>
 
   <main class="page page-home">
-    <section class="hero">
-      <p class="eyebrow">Yonsei University · Department of Artificial Intelligence</p>
-      <h1 class="hero-title">
-        <span class="hero-title-mark">AI</span>
-        <span class="hero-title-separator">•</span>
-        <span class="hero-title-main">ISL</span>
-      </h1>
-      <p class="hero-subtitle">Artificial Intelligence and Information Systems Laboratory (AI-ISL) is a deep learning research lab focused on information-theoretic approaches to machine learning problems.</p>
-    </section>
-
-    <section class="section intro-cards">
-      <article class="card">
-        <p class="card-label">Research focus</p>
-        <h2>Information-theoretic foundations</h2>
-        <p>We focus on the theoretical understanding of diverse deep learning problems, including generative models, privacy and safety, and network compression.</p>
-        <div class="card-actions">
-          <a class="button button-primary" href="research.html">Explore research</a>
-        </div>
-      </article>
-      <article class="card">
-        <p class="card-label">Join Us</p>
-        <h2>Become part of AI-ISL</h2>
-        <p>Join our lab to work on foundational research in discrete diffusion language models, machine unlearning, safety, and LLM quantization.</p>
-        <div class="card-actions">
-          <a class="button button-primary" href="joinus.html">Join the lab</a>
-        </div>
-      </article>
-    </section>
-
-    <section class="section split-grid">
-      <div>
-        <p class="section-label">Core themes</p>
-        <div class="tags">
-          <span class="tag">Diffusion Models</span>
-          <span class="tag">dLLM</span>
-          <span class="tag">Privacy</span>
-          <span class="tag">Safety</span>
-          <span class="tag">LLM Compression</span>
-        </div>
-      </div>
-      <div class="panel">
-        <p class="section-label">Current priorities</p>
-        <ul class="panel-list">
-          <li>Advancing the theoretical understanding of discrete diffusion language models</li>
-          <li>Developing machine unlearning methods for large language models</li>
-          <li>Building safety alignment and agent-level controls for LLM behavior</li>
-          <li>Applying LLM quantization to make large models efficient and deployable</li>
-        </ul>
+    <section class="home-intro">
+      <img class="lab-banner" src="old/images/slider7001400/group1-700-1400.png" alt="AI-ISL group photo" />
+      <p class="intro">
+        Artificial Intelligence and Information Systems Laboratory (AI-ISL) is a deep learning research lab focused on information-theoretic approaches to machine learning problems.
+        We focus on the theoretical understanding of diverse deep learning problems, including generative models, privacy and safety, and network compression.
+      </p>
+      <div class="home-socials" aria-label="Lab links">
+        <a href="https://github.com/AI-ISL" target="_blank" rel="noopener" aria-label="AI-ISL GitHub">
+          <img src="old/images/logo/github.png" alt="" />
+        </a>
       </div>
     </section>
 
-    <section class="section news-section">
+    <section class="section news-section" id="news">
       <div class="section-heading">
-        <p class="section-label">News</p>
-        <h2>Lab updates</h2>
+        <h2>News</h2>
       </div>
       <ul class="news-list">
-        <li><strong>[ICML 2026]</strong> Our group has 4 papers accepted:<br /><span class="news-paper-title">Dependency-Aware Parallel Decoding via Attention for Diffusion LLMs</span><span class="news-paper-title">Preserve-Then-Quantize: Balancing Rank Budgets for Quantization Error Reconstruction in LLMs</span><span class="news-paper-title">dgMARK: Decoding-Guided Watermarking for Diffusion Language Models</span><span class="news-paper-title">Position: The Term “Machine Unlearning” Is Overused in LLMs</span></li>
-        <li><strong>[ACL 2026 Findings]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">DUSK: Do Not Unlearn Shared Knowledge</span></li>
-        <li><strong>[CVPR 2026 Findings]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">Memorization In Stable Diffusion Is Unexpectedly Driven by CLIP Embeddings.</span></li>
-        <li><strong>[ICLR 2026]</strong> Our group has 3 papers accepted:<br /><span class="news-paper-title">A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models</span><span class="news-paper-title">Rainbow Padding: Mitigating Early Termination in Instruction-Tuned Diffusion LLMs</span><span class="news-paper-title">Rethinking Benign Relearning: Syntax as the Hidden Driver of Unlearning Failures.</span></li>
-        <li><strong>[SaTML 2026]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">Differentially Private Adaptation of Diffusion Models via Noisy Aggregated Embeddings.</span></li>
-        <li><strong>[AAAI 2026]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">An Information Theoretic Evaluation Metric For Strong Unlearning.</span></li>
-        <li><strong>[NeurIPS 2025]</strong> Our group has 2 papers accepted:<br /><span class="news-paper-title">SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment</span><span class="news-paper-title">Information-Theoretic Discrete Diffusion.</span></li>
-        <li><strong>[EMNLP 2025 Main]</strong> Our group has 2 papers accepted:<br /><span class="news-paper-title">R-TOFU: Unlearning in Large Reasoning Models</span><span class="news-paper-title">SEPS: A Separability Measure for Robust Unlearning in LLMs.</span></li>
-        <li><strong>[ICML 2025 Workshop on Tiny Titans]</strong> Our group has 1 oral presentation:<br /><span class="news-paper-title">Preserve then Quantize: Dominant-Subspace Guided Low-Rank Reconstruction.</span></li>
-        <li><strong>[ACL 2025 Findings]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition.</span></li>
-        <li><strong>[ICML 2025 Spotlight]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">Understanding and Mitigating Memorization in Generative Models via Sharpness of Probability Landscape.</span></li>
-        <li><strong>[AAAI 2025 Workshop on Privacy-Preserving Artificial Intelligence]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">Understanding Memorization In Generative Models Through A Geometric Framework.</span></li>
-        <li><strong>[NeurIPS 2024 Workshop on Statistical Foundations of LLMs]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">Adversarial Sample-Based Approach for Tighter Privacy Auditing in Final Model-Only Scenarios.</span></li>
-        <li><strong>[ICML 2024]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">Improved Communication-Privacy Trade-offs in L2 Mean Estimation under Streaming Differential Privacy.</span></li>
-        <li class="older"><strong>[Lab news]</strong> ISL moved to the Department of Artificial Intelligence at Yonsei University.</li>
-        <li class="older"><strong>[NeurIPS 2023 Workshop on Diffusion Models]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models.</span></li>
-        <li class="older"><strong>[NeurIPS 2023]</strong> Our group has 2 papers accepted:<br /><span class="news-paper-title">Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback</span><span class="news-paper-title">Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation.</span></li>
-        <li class="older"><strong>[ICCV 2023 Workshop on Low-Bit Quantized Neural Networks]</strong> Our group has 1 oral presentation: Fully Quantized Always-on Face Detector Considering Mobile Image Sensors.</li>
-        <li class="older"><strong>[ICML 2023 Workshop on Federated Learning]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation.</span></li>
-        <li class="older"><strong>[ECCV 2022]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">Prune Your Model Before Distill It.</span></li>
-        <li class="older"><strong>[ICML 2022]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">Neural Tangent Kernel Analysis of Deep Narrow Neural Networks.</span></li>
-        <li class="older"><strong>[AISTATS 2022]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">An Information-Theoretic Justification for Model Pruning.</span></li>
-        <li class="older"><strong>[ICML 2021]</strong> Our group has 1 paper accepted:<br /><span class="news-paper-title">WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points.</span></li>
+        <li>Our group has 4 papers accepted at <a href="https://icml.cc/Conferences/2026" target="_blank" rel="noopener">ICML 2026</a>.</li>
+        <li>Our group has 1 paper accepted at <a href="https://2026.aclweb.org/" target="_blank" rel="noopener">ACL 2026 Findings</a>.</li>
+        <li>Our group has 1 paper accepted at <a href="https://cvpr.thecvf.com/Conferences/2026" target="_blank" rel="noopener">CVPR 2026 Findings</a>.</li>
+        <li>Our group has 3 papers accepted at <a href="https://iclr.cc/Conferences/2026" target="_blank" rel="noopener">ICLR 2026</a>.</li>
+        <li>Our group has 1 paper accepted at <a href="https://satml.org/" target="_blank" rel="noopener">SaTML 2026</a>.</li>
+        <li>Our group has 1 paper accepted at <a href="https://aaai.org/conference/aaai/aaai-26/" target="_blank" rel="noopener">AAAI 2026</a>.</li>
+        <li>Our group has 2 papers accepted at <a href="https://neurips.cc/Conferences/2025" target="_blank" rel="noopener">NeurIPS 2025</a>.</li>
+        <li>Our group has 2 papers accepted at <a href="https://2025.emnlp.org/" target="_blank" rel="noopener">EMNLP 2025 Main</a>.</li>
+        <li>Our group has 1 paper accepted at <a href="https://2025.aclweb.org/" target="_blank" rel="noopener">ACL 2025 Findings</a>.</li>
+        <li>Our group has 1 paper accepted as an <a href="https://icml.cc/Conferences/2025" target="_blank" rel="noopener">ICML 2025</a> spotlight.</li>
+        <li>Our group has 1 paper accepted at <a href="https://icml.cc/Conferences/2024" target="_blank" rel="noopener">ICML 2024</a>.</li>
+        <li>ISL moved to the Department of Artificial Intelligence at Yonsei University.</li>
+        <li>Our group has 2 papers accepted at <a href="https://neurips.cc/Conferences/2023" target="_blank" rel="noopener">NeurIPS 2023</a>.</li>
+        <li>Our group has 1 paper accepted at <a href="https://eccv2022.ecva.net/" target="_blank" rel="noopener">ECCV 2022</a>.</li>
+        <li>Our group has 1 paper accepted at <a href="https://icml.cc/Conferences/2022" target="_blank" rel="noopener">ICML 2022</a>.</li>
+        <li>Our group has 1 paper accepted at <a href="https://aistats.org/aistats2022/" target="_blank" rel="noopener">AISTATS 2022</a>.</li>
+        <li>Our group has 1 paper accepted at <a href="https://icml.cc/Conferences/2021" target="_blank" rel="noopener">ICML 2021</a>.</li>
       </ul>
-      <button type="button" class="button button-secondary news-toggle" aria-expanded="false">Show earlier updates</button>
+    </section>
+
+    <section class="section people-section" id="people">
+      <div class="section-heading">
+        <h2>People</h2>
+      </div>
+      <div class="people-list">
+        <article class="person">
+          <img src="assets/images/team/albert_230824.jpg" alt="Professor Albert No" />
+          <div>
+            <h3>Albert No</h3>
+            <p>Faculty</p>
+          </div>
+        </article>
+        <article class="person">
+          <img src="assets/images/team/yoonjun.jpg" alt="Yoonjun Cho" />
+          <div>
+            <h3><a href="https://cyoonjun.github.io/" target="_blank" rel="noopener">Yoonjun Cho</a></h3>
+            <p>PhD Student</p>
+          </div>
+        </article>
+        <article class="person">
+          <img src="assets/images/team/yeachan.jpeg" alt="Yeachan Jun" />
+          <div>
+            <h3>Yeachan Jun</h3>
+            <p>PhD Student</p>
+          </div>
+        </article>
+        <article class="person">
+          <img src="assets/images/team/kyelim.jpg" alt="Kyelim Lee" />
+          <div>
+            <h3>Kyelim Lee</h3>
+            <p>MS Student</p>
+          </div>
+        </article>
+        <article class="person">
+          <img src="assets/images/team/wonje.jpg" alt="Wonje Jeung" />
+          <div>
+            <h3><a href="https://wonjejeung.github.io/" target="_blank" rel="noopener">Wonje Jeung</a></h3>
+            <p>MS Student</p>
+          </div>
+        </article>
+        <article class="person">
+          <img src="assets/images/team/hyesoo.jpg" alt="Hyesoo Hong" />
+          <div>
+            <h3>Hyesoo Hong</h3>
+            <p>MS Student</p>
+          </div>
+        </article>
+        <article class="person">
+          <img src="assets/images/team/soeun.jpg" alt="Soeun Kim" />
+          <div>
+            <h3>Soeun Kim</h3>
+            <p>MS Student</p>
+          </div>
+        </article>
+        <article class="person">
+          <img src="assets/images/team/bumjun.jpeg" alt="BumJun Kim" />
+          <div>
+            <h3>BumJun Kim</h3>
+            <p>MS Student</p>
+          </div>
+        </article>
+        <article class="person">
+          <img src="assets/images/team/dueun.jpg" alt="Dueun Kim" />
+          <div>
+            <h3>Dueun Kim</h3>
+            <p>MS Student</p>
+          </div>
+        </article>
+        <article class="person">
+          <img src="assets/images/team/sangwoo.jpg" alt="Sangwoo Shin" />
+          <div>
+            <h3>Sangwoo Shin</h3>
+            <p>MS Student</p>
+          </div>
+        </article>
+        <article class="person">
+          <img src="assets/images/team/moongyu.jpg" alt="Moongyu Jeon" />
+          <div>
+            <h3>Moongyu Jeon</h3>
+            <p>MS Student</p>
+          </div>
+        </article>
+        <article class="person">
+          <img src="assets/images/team/dongjae.jpg" alt="Dongjae Jeon" />
+          <div>
+            <h3><a href="https://dongjae0324.github.io/" target="_blank" rel="noopener">Dongjae Jeon</a></h3>
+            <p>MS Student</p>
+          </div>
+        </article>
+        <article class="person">
+          <img src="assets/images/team/sangyeon.jpg" alt="Sangyeon Yoon" />
+          <div>
+            <h3><a href="https://ssangyeon.github.io/" target="_blank" rel="noopener">Sangyeon Yoon</a></h3>
+            <p>MS Student</p>
+          </div>
+        </article>
+        <article class="person">
+          <img src="assets/images/team/minsu.jpg" alt="MinSoo Kim" />
+          <div>
+            <h3>MinSoo Kim</h3>
+            <p>MS Student</p>
+          </div>
+        </article>
+        <article class="person">
+          <img src="assets/images/team/Shin.jpg" alt="Shin So" />
+          <div>
+            <h3>Shin So</h3>
+            <p>MS Student</p>
+          </div>
+        </article>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>AI-ISL · Yonsei University</p>
-      <p>Department of Artificial Intelligence</p>
+      <p>© 2026 <a href="https://www.yonsei.ac.kr/" target="_blank" rel="noopener">Yonsei University</a> | <a href="https://ai.yonsei.ac.kr/" target="_blank" rel="noopener">Department of Artificial Intelligence</a> | AI-ISL</p>
     </div>
   </footer>
 

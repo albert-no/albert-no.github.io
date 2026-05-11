@@ -6,17 +6,21 @@
   <meta name="description" content="Research page for AI-ISL: information-theoretic machine learning, robust generative systems, and privacy." />
   <title>Research | AI-ISL</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header spy-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html"><span>AI</span>-ISL</a>
+      <div class="brand-group">
+        <a class="institution-link" href="https://www.yonsei.ac.kr/" target="_blank" rel="noopener">
+          <img src="old/images/logo/yonsei.png" alt="Yonsei University" />
+        </a>
+        <span class="brand-divider" aria-hidden="true"></span>
+        <a class="brand" href="index.html">
+          <img src="old/images/logo/lab_logo.png" alt="AI-ISL" />
+        </a>
+      </div>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="team.html">Team</a>
         <a class="nav-link active" href="research.html">Research</a>
         <a class="nav-link" href="publications.html">Publications</a>
@@ -29,37 +33,30 @@
   </header>
 
   <main class="page page-research">
-    <section class="hero">
-      <p class="eyebrow">Research</p>
-      <h1 class="page-title">Research themes</h1>
-      <p class="page-intro">We explore discrete diffusion language models, privacy and safety in machine learning, efficient LLM compression, and foundational deep learning theory.</p>
-    </section>
-
     <section class="section">
       <div class="section-heading">
-        <p class="section-label">Research topics</p>
         <h2>Focused themes</h2>
       </div>
       <div class="panel-grid research-grid">
         <article class="panel research-card">
-          <img src="assets/images/research/dllm.png" alt="Discrete diffusion language models" />
           <h3>Discrete diffusion language models</h3>
           <p>We study discrete token diffusion for language generation to understand sampling behavior, convergence, and model dynamics. Publications emphasize how discrete diffusion reveals new insights into text modeling.</p>
+          <img src="assets/images/research/dllm.png" alt="Discrete diffusion language models" />
         </article>
         <article class="panel research-card">
-          <img src="assets/images/research/unlearning.png" alt="Privacy and safety machine learning" />
           <h3>Privacy &amp; safety ML</h3>
           <p>We develop training methods that protect data and reduce harmful outputs. Our work combines differential privacy, robust training, and safety-aligned model design.</p>
+          <img src="assets/images/research/unlearning.png" alt="Privacy and safety machine learning" />
         </article>
         <article class="panel research-card">
-          <img src="assets/images/research/quantization.png" alt="LLM quantization and compression" />
           <h3>LLM quantization &amp; compression</h3>
           <p>Large language models must be made efficient for real-world use. We focus on low-bit quantization, compression-aware training, and model scaling that preserves performance.</p>
+          <img src="assets/images/research/quantization.png" alt="LLM quantization and compression" />
         </article>
         <article class="panel research-card">
-          <img src="assets/images/research/theory.png" alt="Deep learning theory" />
           <h3>Deep learning theory</h3>
           <p>We investigate learning dynamics, optimization landscapes, and theoretical foundations of deep networks. This research helps connect empirical results with principled understanding.</p>
+          <img src="assets/images/research/theory.png" alt="Deep learning theory" />
         </article>
       </div>
     </section>
@@ -67,8 +64,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>AI-ISL · Yonsei University</p>
-      <p>Department of Artificial Intelligence</p>
+      <p>© 2026 <a href="https://www.yonsei.ac.kr/" target="_blank" rel="noopener">Yonsei University</a> | <a href="https://ai.yonsei.ac.kr/" target="_blank" rel="noopener">Department of Artificial Intelligence</a> | AI-ISL</p>
     </div>
   </footer>
 </body>
