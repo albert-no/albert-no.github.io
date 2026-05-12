@@ -872,6 +872,10 @@ button:hover {
   max-width: none;
 }
 
+.page-team .advisor-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .page-team .team-grid .team-card {
   text-align: center;
 }
@@ -882,6 +886,31 @@ button:hover {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.page-profile {
+  width: min(820px, calc(100% - 48px)) !important;
+}
+
+.profile-header {
+  display: grid;
+  grid-template-columns: minmax(180px, 240px) 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.profile-header img {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 500;
+  line-height: 1.1;
 }
 
 .page-home {
@@ -1108,6 +1137,10 @@ button:hover {
   .page-team .team-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .page-team .advisor-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 720px) {
@@ -1158,6 +1191,11 @@ button:hover {
   }
 
   .page-team .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-team .advisor-grid,
+  .profile-header {
     grid-template-columns: 1fr;
   }
 
