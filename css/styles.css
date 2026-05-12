@@ -894,16 +894,17 @@ button:hover {
 
 .profile-header {
   display: grid;
-  grid-template-columns: 160px 1fr;
+  grid-template-columns: minmax(160px, 220px) 1fr;
   gap: 1.75rem;
   align-items: start;
 }
 
 .profile-header img {
   width: 100%;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  object-fit: cover;
+  max-width: 220px;
+  height: auto;
+  border-radius: 0;
+  object-fit: contain;
 }
 
 .profile-header h1 {
