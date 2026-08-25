@@ -68,6 +68,7 @@ Both casing variants below should be underlined when they appear.
 - Sangyeon Yoon
 - MinSoo Kim
 - Shin So
+- Jongbum Won
 - Minhyeok Jo
 
 ### Alumni
