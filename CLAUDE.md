@@ -69,6 +69,7 @@ Both casing variants below should be underlined when they appear.
 - MinSoo Kim
 - Shin So
 - Jongbum Won
+- Sunghyun Park
 - Minhyeok Jo
 
 ### Alumni
@@ -99,6 +100,7 @@ removed/added there, update the underline list here too.
 | Wonje Jeung | https://wonjejeung.github.io/ |
 | Dongjae Jeon | https://dongjae0324.github.io/ |
 | Sangyeon Yoon | https://ssangyeon.github.io/ |
+| Sunghyun Park | https://sunghyunp-ark.github.io/ |
 | Pyo Min Hong | https://pyomin.github.io/ |
 
 Pyo Min Hong is a visiting researcher alumna (listed in `team.html`), so her
