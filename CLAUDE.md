@@ -28,6 +28,16 @@ the `<a>`, so the underline still renders.
 <a href="https://name.github.io/" target="_blank" rel="noopener"><u>Name</u></a>
 ```
 
+### Venue formatting
+
+Wrap the text inside venue parentheses with `publication-acronym` so the
+acronym, track, and presentation details render in bold while the parentheses
+remain regular weight.
+
+```html
+Conference Name (<span class="publication-acronym">XXX2026 Main</span>)
+```
+
 ### Project pages
 
 If a publication has a project page, add a separate line after the venue line:

@@ -346,6 +346,10 @@ button:hover {
   color: var(--accent);
 }
 
+.publication-acronym {
+  font-weight: 700;
+}
+
 .page-publications h3 {
   scroll-margin-top: 96px;
 }
@@ -836,8 +840,6 @@ button:hover {
   line-height: 1.55;
 }
 
-.page-projects .panel,
-.page-courses .panel,
 .page-joinus .panel,
 .page-research .panel,
 .page-team .team-card {
@@ -847,17 +849,6 @@ button:hover {
   background: transparent !important;
   box-shadow: none !important;
   padding: 0 !important;
-}
-
-.page-projects .section > .panel + .panel {
-  margin-top: 2rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border);
-}
-
-.page-courses .panel-grid > .panel + .panel {
-  padding-left: 1.5rem;
-  border-left: 1px solid var(--border);
 }
 
 .page-team {
@@ -1182,13 +1173,6 @@ button:hover {
 
   .page-home .news-list li {
     min-height: 0;
-  }
-
-  .page-courses .panel-grid > .panel + .panel {
-    padding-left: 0;
-    padding-top: 2rem;
-    border-left: 0;
-    border-top: 1px solid var(--border);
   }
 
   .page-team .team-grid {
