@@ -96,6 +96,7 @@ removed/added there, update the underline list here too.
 
 | Author | URL |
 | --- | --- |
+| Hyesoo Hong | https://hyesoo0411.github.io/ |
 | Yoonjun Cho | https://cyoonjun.github.io/ |
 | Wonje Jeung | https://wonjejeung.github.io/ |
 | Dongjae Jeon | https://dongjae0324.github.io/ |
