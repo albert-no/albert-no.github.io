@@ -120,11 +120,21 @@ name is both linked and underlined in publication entries.
 
 CV sources live in `cv/main.tex` (full) and `cv/simple.tex` (short). On every
 push to `master`, the `Build CV` GitHub Actions workflow
-(`.github/workflows/build-cv.yml`) recompiles them and, if the output changed,
-commits the results to the repo root as `cv.pdf` and `cv-simple.pdf` (served at
-`https://albert-no.github.io/cv.pdf`). Never edit the root PDFs by hand — edit
-the `.tex` sources and let the workflow rebuild them. New publications should
-be added both to `publications.html` and `cv/main.tex`.
+(`.github/workflows/build-cv.yml`):
+
+1. runs `scripts/sync_cv.py`, which regenerates the PREPRINT, CONFERENCE
+   PUBLICATIONS, and JOURNAL PUBLICATIONS sections of `cv/main.tex` from
+   `publications.html` (the regions between `% BEGIN AUTO:` / `% END AUTO:`
+   markers — never edit inside those markers by hand);
+2. recompiles both tex files;
+3. commits `cv/main.tex` + root `cv.pdf` / `cv-simple.pdf` if anything changed
+   (served at `https://albert-no.github.io/cv.pdf`).
+
+So new publications only need to be added to `publications.html`; the CV
+follows automatically. Exceptions kept manual on purpose: the PEER-REVIEWED
+WORKSHOP section of `cv/main.tex` (the CV lists workshop papers not on the
+webpage) and all of `cv/simple.tex` (hand-curated selection). Never edit the
+root PDFs directly. `albert-no.html` links `cv.pdf` below the email line.
 
 ## Other site conventions
 
