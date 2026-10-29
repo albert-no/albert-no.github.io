@@ -138,10 +138,12 @@ root PDFs directly. `albert-no.html` links `cv.pdf` below the email line.
 
 ## Other site conventions
 
-- Each HTML page links the favicon: `<link rel="icon" type="image/x-icon" href="favicon.ico" />`.
-  Current `favicon.ico` is a placeholder (Avengers logo from the old Jekyll
-  theme); replace at the repo root when the real AI-ISL logo is available — no
-  HTML changes needed.
+- Pages link `assets/images/logo/lab_logo.png` as their icon; the root
+  `favicon.ico` (multi-size, generated from the lab logo) covers direct
+  `/favicon.ico` requests.
+- `404.html` at the root is the GitHub Pages custom not-found page; it reuses
+  the standard header/footer with root-absolute paths (so it renders correctly
+  at any URL depth).
 - Bold styling in publication entries is scoped to the title link only
   (`.publication-list li > a:first-of-type`). Author-name links and
   `[Project Page]` links should render with normal weight.
