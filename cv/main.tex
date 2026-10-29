@@ -1,0 +1,731 @@
+% Don't like 10pt? Try 11pt or 12pt
+\documentclass[10pt]{article}
+
+
+
+ 
+% This is a helpful package that puts math inside length specifications
+\usepackage{calc}
+% Layout: Puts the section titles on left side of page
+\reversemarginpar
+
+%
+%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT NOTES:
+%
+% The next \usepackage line changes the layout for CV style section
+% headings as marginal notes. It also sets up the paper size as either
+% letter or A4. By default, letter was used. If A4 paper is desired,
+% comment out the letterpaper lines and uncomment the a4paper lines.
+%
+% As you can see, the margin widths and section title widths can be
+% easily adjusted.
+%
+% ALSO: Notice that the includefoot option can be commented OUT in order
+% to put the PAGE NUMBER *IN* the bottom margin. This will make the
+% effective text area larger.
+%
+% IF YOU WISH TO REMOVE THE ``of LASTPAGE'' next to each page number,
+% see the note about the +LP and -LP lines below. Comment out the +LP
+% and uncomment the -LP.
+%
+% IF YOU WISH TO REMOVE PAGE NUMBERS, be sure that the includefoot line
+% is uncommented and ALSO uncomment the \pagestyle{empty} a few lines
+% below.
+%
+
+%% Use these lines for letter-sized paper
+%\usepackage[paper=letterpaper,
+%            %includefoot, % Uncomment to put page number above margin
+%            marginparwidth=1.2in,     % Length of section titles
+%            marginparsep=.05in,       % Space between titles and text
+%            margin=1in,               % 1 inch margins
+%            includemp]{geometry}
+
+% Use these lines for A4-sized paper
+\usepackage[paper=a4paper,
+            %includefoot, % Uncomment to put page number above margin
+            marginparwidth=30mm,    % Length of section titles
+            marginparsep=1.0mm,       % Space between titles and text
+            margin=15mm,              % 25mm margins
+            includemp]{geometry}
+
+%% More layout: Get rid of indenting throughout entire document
+\setlength{\parindent}{0in}
+
+%% This gives us fun enumeration environments. compactitem will be nice.
+\usepackage{paralist} %paralit
+
+%% Reference the last page in the page number
+%
+% NOTE: comment the +LP line and uncomment the -LP line to have page
+%       numbers without the ``of ##'' last page reference)
+%
+% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
+%       numbers (make sure includefoot is commented out above)
+%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+       \parbox{4in}{\, \hfill %
+                    %\arabic{page} of \protect\pageref*{LastPage} % +LP
+                    \arabic{page}                               % -LP
+                    \hfill \,}}
+
+% Finally, give us PDF bookmarks
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it
+%
+% Usage: \makeheading{name}
+%
+% Place at top of document. It should be the first thing.
+\newcommand{\makeheading}[1]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+                {\large \bfseries #1}\\[-0.15\baselineskip]%
+                 \rule{\columnwidth}{1pt}%
+         \end{minipage}}
+
+% The section headings
+%
+% Usage: \section{section name}
+%
+% Follow this section IMMEDIATELY with the first line of the section
+% text. Do not put whitespace in between. That is, do this:
+%
+%       \section{My Information}
+%       Here is my information.
+%
+% and NOT this:
+%
+%       \section{My Information}
+%
+%       Here is my information.
+%
+% Otherwise the top of the section header will not line up with the top
+% of the section. Of course, using a single comment character (%) on
+% empty lines allows for the function of the first example with the
+% readability of the second example.
+\renewcommand{\section}[2]%
+        {\pagebreak[2]\vspace{1.3\baselineskip}%
+         \phantomsection\addcontentsline{toc}{section}{#1}%
+         \hspace{0in}%
+         \marginpar{
+         \raggedright \scshape #1}#2}
+
+% An itemize-style list with lots of space between items
+\newenvironment{outerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1]}{\end{itemize}%
+         \vspace{-.6\baselineskip}}
+
+% An environment IDENTICAL to outerlist that has better pre-list spacing
+% when used as the first thing in a \section 
+\newenvironment{lonelist}[1][\enskip\textbullet]%
+        {\vspace{-\baselineskip}\begin{list}{#1}{%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{list}\vspace{-.6\baselineskip}}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{compactitem}[#1]}{\end{compactitem}}
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[2]}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\usepackage{url}
+\begin{document}
+\makeheading{Albert No}
+
+\section{\sl PERSONAL INFORMATIONS}
+{phone: +82-10-6280-3504}\\
+{e-mail: \url{albertno@yonsei.ac.kr}} \\
+{webpage: \url{http://ai-isl.yonsei.ac.kr}} \\
+
+ \vspace{3mm}
+\section{\sl CURRENT}
+{{\bf Yonsei University, Seoul, Korea}} \\
+{Associate Professor} \hfill {{\bf 03/2024 - }}\\
+
+ \vspace{3mm}
+\section{\sl EDUCATION}
+{{\bf Stanford University, Stanford, CA, USA}} \\
+{PhD in Electrical Engineering } \hfill {{\bf 01/2010 - 09/2015}}\\
+({Advisor: Prof. Tsachy Weissman})\\
+
+
+{{\bf Stanford University, Stanford, CA, USA}} \\
+{MS in Electrical Engineering} \hfill {{\bf 09/2009 - 1/2012}}\\
+({Advisor: Prof. Tsachy Weissman})\\
+
+{\bf Seoul National University, Seoul, Korea}\\
+{BS in Electrical Engineering and Mathematics (Double Major)} \hfill {\bf 03/2005 - 08/2009}\\
+
+
+% \vspace{3mm}
+% \section{\sl SELECTED PUBLICATIONS} 
+% \vspace{-7mm}
+% \begin{enumerate}[(S1)]
+% \itemsep -0.1in
+% 
+% \item  Berivan Isik, Wei-Ning Chen, Ayfer \"Ozg\"ur, Tsachy Weissman, and {{\bf Albert No}},
+% ``Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation,''
+% {\it Neural Information Processing Systems (NeurIPS)}, 2023.\\
+% 
+% \item  Taeho Yoon, Kibeom Myung, Jaewoong Cho, Keon Lee, {{\bf Albert No}}, and Ernest K.~Ryu,
+% ``Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback,'' 
+% {\it Neural Information Processing Systems (NeurIPS)}, 2023.\\
+% 
+% \item  Jinhyuk Park and {{\bf Albert No}},
+% ``Prune Your Model Before Distill It,''
+% {\it European Conference on Computer Vision (ECCV)}, 2022.\\
+% 
+% \item Jongmin Lee, Joo Young Choi, Ernest K. Ryu, and {{\bf Albert No}},
+% ``Neural Tangent Kernel Analysis of Deep Narrow Neural Networks,''
+% {\it International Conference on Machine Learning (ICML)}, 2022.\\
+% 
+% \item Berivan Isik, {{\bf Albert No}}, and Tsachy Weissman,
+% ``Successive Pruning for Model Compression via Rate Distortion Theory,''
+% {\it International Conference on Artificial Intelligence and Statistics (AISTATS)}, 2022.\\
+% 
+% \item {{\bf Albert No}}, Taeho Yoon, Se-Hyeon Kwon, and Ernest K. Ryu,
+% ``WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points,''
+% {\it International Conference on Machine Learning (ICML)}, 2021.
+% \end{enumerate}
+
+% {\bf Hansung Science High School, Seoul, Korea}\hfill {\bf 03/2003 - 02/2005}
+% \vspace{3mm}
+% \section{\sl PREPRINT} 
+% \vspace{-7mm}
+% \begin{enumerate}[(P1)]
+% \itemsep -0.1in
+% 
+% \item  Ki-wook Hong, Minhyeok Cho, Haechang Lee, Hyunwoo Je, Se Young Chun, and {{\bf Albert No}},
+% ``Do Not Reinvent the Quad Bayer Demosaicing Model: The Indispensible Role of PixelUnshuffle in Light-Weight Models,''
+% {\it submitted}.\\
+% 
+% \item  Yunfei Gao and {{\bf Albert No}},
+% ``Efficient and Low-Complexity Variable-to-Variable Length Coding for DNA Storage,''
+% {\it submitted}.\\
+% 
+% \item  Yunfei Gao and {{\bf Albert No}},
+% Adaptable DNA Storage Coding: An Efficient Framework for Homopolymer Constraint Transitions
+% {\it submitted}.\\
+% 
+% \item  Junseok Jang and {{\bf Albert No}},
+% ``Verifying an Information Theoretic Conjecture with a Deep Learning-Based Approach,''
+% {\it submitted}.\\
+% 
+% \item  Kyelim Lee and {{\bf Albert No}},
+% ``Needleman-Wunsch Attention: A Novel Framework for Enhancing DNA Sequence Embedding,''
+% {\it submitted}.\\
+% 
+% \item Beomseok Seo and {{\bf Albert No}},
+% ``How Does a Transformer Learn Compression? An Attention Study on Huffman and LZ4,''
+% {\it submitted}.\\
+% \end{enumerate}
+
+
+
+
+\vspace{3mm}
+\section{\sl CONFERENCE PUBLICATIONS} 
+\vspace{-7mm}
+\begin{enumerate}[(C1)]
+\itemsep -0.1in
+\item Sangyeon Yoon$^*$, Yeachan Jun$^*$, and {{\bf Albert No}},
+``Position: The Term `Machine Unlearning' Is Overused in LLMs,''
+{\it International Conference on Machine Learning (ICML Position)}, 2026\\
+
+\item Pyo Min Hong and {{\bf Albert No}},
+``dgMARK: Decoding-Guided Watermarking for Diffusion Language Models,''
+{\it International Conference on Machine Learning (ICML)}, 2026\\
+
+\item Yoonjun Cho$^*$, Dongjae Jeon$^*$, Soeun Kim, Moongyu Jeon, and {{\bf Albert No}},
+``Preserve-Then-Quantize: Balancing Rank Budgets for Quantization Error Reconstruction in LLMs,''
+{\it International Conference on Machine Learning (ICML)}, 2026\\
+
+\item Bumjun Kim$^*$, Dongjae Jeon$^*$, Moongyu Jeon, and {{\bf Albert No}},
+``Dependency-Aware Parallel Decoding via Attention for Diffusion LLMs,''
+{\it International Conference on Machine Learning (ICML)}, 2026\\
+
+\item Wonje Jeung$^*$, Sangyeon Yoon$^*$, Hyesoo Hong$^*$, Soeun Kim, Seungju Han, Youngjae Yu, and {{\bf Albert No}},
+``DUSK: Do Not Unlearn Shared Knowledge,''
+{\it Annual Meeting of the Association for Computational Linguistics (ACL Findings)}, 2026\\
+
+\item Bumjun Kim and {{\bf Albert No}},
+``Memorization In Stable Diffusion Is Unexpectedly Driven by CLIP Embeddings,''
+{\it Conference on Computer Vision and Pattern Recognition (CVPR Findings)}, 2026\\
+
+\item Sangyeon Yoon, Hyesoo Hong, Wonje Jeung, and {{\bf Albert No}},
+``Rethinking Benign Relearning: Syntax as the Hidden Driver of Unlearning Failures,''
+{\it International Conference on Learning Representations (ICLR)}, 2026\\
+
+\item Wonje Jeung$^*$, Sangyeon Yoon$^*$, Yoonjun Cho, Dongjae Jeon, Sangwoo Shin, Hyesoo Hong, and {{\bf Albert No}},
+``A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models,''
+{\it International Conference on Learning Representations (ICLR)}, 2026\\
+
+\item Bumjun Kim$^*$, Dongjae Jeon$^*$, Dueun Kim$^*$, Wonje Jeung, and {{\bf Albert No}},
+``Rainbow Padding: Mitigating Early Termination in Instruction-Tuned Diffusion LLMs,''
+{\it International Conference on Learning Representations (ICLR)}, 2026\\
+
+\item Pura Peetathawatchai, Wei-Ning Chen, Berivan Isik, Sanmi Koyejo, and {{\bf Albert No}},
+``Differentially Private Adaptation of Diffusion Models via Noisy Aggregated Embeddings,''
+{\it IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)}, 2026\\
+
+\item  Dongjae Jeon$^*$, Wonje Jeung$^*$, Taeheon Kim, {{\bf Albert No}}$^\dagger$, and Jonghyun Choi$^\dagger$,
+``An Information Theoretic Evaluation Metric For Strong Unlearning,''
+{\it Association for the Advancement of Artificial Intelligence (AAAI)}, 2026\\
+
+\item  Moongyu Jeon, Sangwoo Shin, Dongjae Jeon, and {{\bf Albert No}},
+``Information-Theoretic Discrete Diffusion,''
+{\it Neural Information Processing Systems (NeurIPS)}, 2025\\
+
+\item  Wonje Jeung, Sangyeon Yoon, Minsuk Kahng$^\dagger$, and {{\bf Albert No}}$^\dagger$,
+``SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment,''
+{\it Neural Information Processing Systems (NeurIPS)}, 2025\\
+
+\item  Wonje Jeung$^*$, Sangyeon Yoon$^*$, and {{\bf Albert No}},
+``SEPS: A Separability Measure for Robust Unlearning in LLMs,''
+{\it Conference on Empirical Methods in Natural Language Processing (EMNLP Main)}, 2025\\
+
+\item  Sangyeon Yoon, Wonje Jeung, and {{\bf Albert No}},
+``R-TOFU: Unlearning in Large Reasoning Models,''
+{\it Conference on Empirical Methods in Natural Language Processing (EMNLP Main)}, 2025\\
+
+\item  Yoonjun Cho, Soeun Kim, Dongjae Jeon, Kyelim Lee, Beomsoo Lee, and {{\bf Albert No}},
+``Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition,''
+{\it Annual Meeting of the Association for Computational Linguistics (ACL Findings)}, 2025\\
+
+\item  Dongjae Jeon$^*$, Dueun Kim$^*$, and {{\bf Albert No}},
+``Understanding and Mitigating Memorization in Generative Models via Sharpness of Probability Landscapes,''
+{\it International Conference on Machine Learning (ICML Spotlight (top 2.6\%))}, 2025\\
+
+\item  Wei-Ning Chen, Berivan Isik, Peter Kairouz, {{\bf Albert No}}, Sewoong Oh, and Zheng Xu,
+``Improved Communication-Privacy Trade-offs in L2 Mean Estimation under Streaming Differential Privacy,''
+{\it International Conference on Machine Learning (ICML)}, 2024\\
+
+\item  Berivan Isik, Wei-Ning Chen, Ayfer \"Ozg\"ur, Tsachy Weissman, and {{\bf Albert No}},
+``Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation,''
+{\it Neural Information Processing Systems (NeurIPS)}, 2023.\\
+
+\item  Taeho Yoon, Kibeom Myoung, Keon Lee, Jaewoong Cho, {{\bf Albert No}}, and Ernest K.~Ryu,
+``Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback,''
+{\it Neural Information Processing Systems (NeurIPS)}, 2023.\\
+
+\item  Jinhyuk Park and {{\bf Albert No}},
+``Prune Your Model Before Distill It,''
+{\it European Conference on Computer Vision (ECCV)}, 2022.\\
+
+\item Jongmin Lee, Joo Young Choi, Ernest K.~Ryu$^\dagger$, and {{\bf Albert No}}$^\dagger$,
+``Neural Tangent Kernel Analysis of Deep Narrow Neural Networks,''
+{\it International Conference on Machine Learning (ICML)}, 2022.\\
+
+\item Berivan Isik, Tsachy Weissman, and {{\bf Albert No}},
+``An Information-Theoretic Justification for Model Pruning,''
+{\it International Conference on Artificial Intelligence and Statistics (AISTATS)}, 2022.\\
+
+\item {{\bf Albert No}}, Taeho Yoon, Se-Hyeon Kwon, and Ernest K.~Ryu,
+``WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points,''
+{\it International Conference on Machine Learning (ICML)}, 2021.\\
+
+\item Idoia Ochoa, {{\bf Albert No}}, Mikel Hernaez, and Tsachy Weissman, 
+``CROMqs: An Infinitesimal Successive Refinement Lossy Compressor for the Quality Scores''
+{\it Proceedings of the Information Theory Workshop (ITW)}, 2016.\\
+
+\item {{\bf Albert No}} and Tsachy Weissman, ``Universality of Logarithmic Loss in Lossy Compression,''
+{\it Proceedings of the International Symposium on Information Theory (ISIT)}, 2015.\\
+
+\item {{\bf Albert No}} and Tsachy Weissman, ``Rateless Lossy Compression via the Extremes,''
+{\it Proceedings of the 52nd Annual Allerton Conference on Communication, Control, and Computing}, 2014.\\
+
+\item Jiantao Jiao, Thomas Courtade, {{\bf Albert No}}, Kartik Venkat, and Tsachy Weissman, 
+``Information Divergences and the Curious Case of the Binary Alphabet,''
+{\it Proceedings of the International Symposium on Information Theory (ISIT)}, 2014.\\
+
+\item  {{\bf Albert No}}, Amir Ingber, and Tsachy Weissman,
+``Strong Successive Refinability: Sufficient Conditions,''
+{\it Proceedings of the International Symposium on Information Theory (ISIT)}, 2014.\\
+
+\item {{\bf Albert No}}, Amir Ingber, and Tsachy Weissman,
+``Complexity and Rate-Distortion Tradeoff via Successive Refinement,''
+{\it Proceedings of the 51st Annual Allerton Conference on Communication, Control, and Computing}, 2013.\\
+
+\item {{\bf Albert No}} and Tsachy Weissman, 
+``Minimax Filtering via Relations between Information and Estimation,''
+{\it Proceedings of the International Symposium on Information Theory (ISIT)}, 2013.\\
+
+\item {{\bf Albert No}}, Kartik Venkat, and Tsachy Weissman, 
+``Joint Source-Channel Coding of one Random Variable over the Poisson Channel,''
+{\it Proceedings of the IEEE International Symposium on Information Theory (ISIT)}, 2012.\\
+
+\item Bobbie G. Chern, Idoia Ochoa, Alexandros Manolakos, {{\bf Albert No}}, Kartik Venkat, and Tsachy Weissman, 
+``Reference Based Genome Compression,'' {\it Proceedings of the Information Theory Workshop (ITW)}, 2012.
+\end{enumerate}
+
+\vspace{3mm}
+\section{\sl PEER-REVIEWED WORKSHOP} 
+\vspace{-7mm}
+\begin{enumerate}[(W1)]
+\itemsep -0.1in
+
+\item Yoonjun Cho$^*$, Dongjae Jeon$^*$, Soeun Kim, and {{\bf Albert No}},
+``Preserve then Quantize: Dominant-Subspace Guided Low-Rank Reconstruction,''
+{\it International Conference on Machine Learning Workshop (TTODLer-FM @ ICML, Oral)}, 2025\\
+
+\item Dongjae Jeon, Dueun Kim, and {{\bf Albert No}},
+``Understanding Memorization In Generative Models Through A Geometric Framework,''
+{\it Association for the Advancement of Artificial Intelligence Workshop (PPAI @ AAAI, Oral)}, 2025\\
+
+\item Sangyeon Yoon*, Wonje Jeung*, and {{\bf Albert No}},
+``Adversarial Sample-Based Approach for Tighter Privacy Auditing in Final Model-Only Scenarios,''
+{\it Neural Information Processing Systems Workshop (Statistical Frontiers in LLMs and Foundation Models @ NeurIPS)}, 2024\\
+
+\item  Joo Young Choi, Jaesung Park, Inkyu Park, Jaewoong Cho, {\bf Albert No}, and Ernest Ryu,
+``LoRA can Replace Time and Class Embeddings in Diffusion Probabilistic Models,''
+{\it Neural Information Processing Systems Workshop (Diffusion Models @ NeurIPS)}, 2023.\\
+
+\item  Haechang Lee, Wongi Jeong, Dongil Ryu, Hyunwoo Je, {\bf Albert No}, Kijeong Kim, and Se Young Chun,
+``Fully Quantized Always-on Face Detector Considering Mobile Image Sensors,''
+{\it International Conference on Computer Vision Workshop (LBQNN @ ICCV)}, 2023 ({\bf oral})\\
+
+\item  Berivan Isik, Wei-Ning Chen, Ayfer \"Ozg\"ur, Tsachy Weissman, and {{\bf Albert No}},
+``Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation,''
+{\it International Conference on Machine Learning Workshop (FL @ ICML)}, 2023\\
+
+\item 
+Andrey Ignatov, Radu Timofte, Shuai Liu, Chaoyu Feng, Furui Bai, Xiaotao
+Wang, Lei Lei, Ziyao Yi, Yan Xiang, Zibin Liu, Shaoqing Li, Keming Shi,
+Dehui Kong, Ke Xu, Minsu Kwon, Yaqi Wu, Jiesi Zheng, Zhihao Fan, Xun
+Wu, Feng Zhang, {{\bf Albert No}}, Minhyeok Cho, Zewen Chen, Xiaze Zhang, Ran
+Li, Juan Wang, Zhiming Wang, Marcos V. Conde, Ui-Jin Choi, Georgy
+Perevozchikov, Egor Ershov, Zheng Hui, Mengchuan Dong, Xin Lou, Wei
+Zhou, Cong Pang, Haina Qin, and Mingxuan Cai,
+``Learned Smartphone ISP on Mobile GPUs with Deep Learning, Mobile AI \& AIM 2022 Challenge: Report,''
+{\it European Conference on Computer Vision Workshop (ECCVW)}, 2022 ({\bf 4th place})\\
+
+\item Berivan Isik, {{\bf Albert No}}, and Tsachy Weissman,
+``Neural Network Pruning via Rate-Distortion Theory,'' 
+{\it Sparsity in Neural Networks Workshop (SNN)}, 2021 ({\bf spotlight}).
+\end{enumerate}
+
+
+
+
+\vspace{3mm}
+\section{\sl JOURNAL PUBLICATIONS} 
+\vspace{-7mm}
+\begin{enumerate}[(J1)]
+\itemsep -0.1in
+\item Ki-Wook Hong$^*$, Minhyeok Jo$^*$, Haechang Lee$^*$, Se Young Chun, and {{\bf Albert No}},
+``A Simple Extension of Bayer Demosaicing For Lightweight Non-Bayer Demosaicing,''
+{\it IEEE Access}, July, 2025.\\
+
+\item Yunfei Gao and {{\bf Albert No}},
+``Efficient and Low-Complexity Variable-to-VariableLength Coding for DNA Storage,''
+{\it BMC Bioinformatics}, October 2024.\\
+
+\item Joo Young Choi, Jaesung R. Park, Inkyu Park, Jaewoong Cho, {{\bf Albert No}}, and Ernest K. Ryu
+``Simple Drop-in LoRA Conditioning on Attention Layers Will Improve Your Diffusion Model,''
+{\it Transactions on Machine Learning Research (TMLR)}, October 2024.\\
+
+\item Kyelim Lee and {{\bf Albert No}},
+``Needleman-Wunsch Attention: A Framework for Enhancing DNA Sequence Embedding,''
+{\it IEEE Access}, May 2024.\\
+
+\item Yunfei Gao and {{\bf Albert No}},
+``Adaptable DNA Storage Coding: An Efficient Framework for Homopolymer Constraint Transitions,''
+{\it IEEE Access}, January 2024.\\
+
+\item Beomseok Seo and {{\bf Albert No}},
+``How Does a Transformer Learn Compression? An Attention Study on Huffman and LZ4,''
+{\it IEEE Access}, December 2023.\\
+
+\item Seong-Joon Park, Sunghwan Kim, Jaeho Jeong, {\bf Albert No}, Jong-Seon No, and Hosung Park,
+``Reducing cost in DNA-based data storage by sequence analysis-aided soft information decoding 
+of variable-length reads,''
+{\it Bioinformatics}, September 2023.\\
+
+\item  Minhyeok Cho, Haechang Lee, Hyunwoo Je, Kijeong Kim, Dongil Ryu, and {{\bf Albert No}},
+``PyNET-QxQ: An Efficient PyNET Variant for QxQ Bayer Pattern Demosaicing in CMOS Image Sensors,''
+{\it IEEE Access}, May 2023.\\
+
+\item Sanghoon Kang$^*$, Yunfei Gao$^*$, Jaeho Jeong, Seong-Joon Park, Jae-Won Kim, Jong-Seon No, Ha Hyeon Jeon, Jeong Wook Lee, Sunghwan Kim, Hosung Park, and {{\bf Albert No}},
+``Generative Adversarial Networks for DNA Storage Channel Simulator,''
+{\it IEEE Access}, January 2023.\\
+
+\item  Yunfei Gao and {{\bf Albert No}},
+``Age Estimation from fMRI Data Using Recurrent Neural Network,''
+{\it Applied Science},  vol.\ 1, no.\ 2, p.\ 749, January 2022.\\
+
+\item  Minhyeok Cho and {{\bf Albert No}},
+``FCLQC: Fast and Concurrent Lossless Quality Scores Compressor,''
+{\it BMC Bioinformatics}, vol.\ 22, no.\ 1, p.\ 1--14, December 2021\\
+
+\item Jaeho Jeong, Seong-Joon Park, Jae-Won Kim, Jong-Seon No, Ha Hyeon Jeon, Jeong Wook Lee, {{\bf Albert No}}, Sunghwan Kim, and Hosung Park, 
+``Cooperative Sequence Clustering and Decoding for DNA Storage System with Fountain Codes,''
+{\it Bioinformatics}, vol.\ 37, no.\ 19, p.\ 3136--3143, October 2021.\\
+
+\item  Xiaozhou Lu, Jaeho Jeong, Jae-Won Kim, Jong-Seon No, Hosung Park, {{\bf Albert No}}, and Sunghwan Kim,
+``Error Rate-Based Log-Likelihood Ratio Processing for Low-Density Parity-Check Codes in DNA Storage,''
+{\it IEEE Access}, vol.\ 8, pp.\ 162892--162902, September 2020.\\
+
+\item  {{\bf Albert No}}, Mikel Hernaez, and Idoia Ochoa,
+``CROMqs: Rateless Lossy Compression of Quality Scores,''
+{\it Journal of Bioinformatics and Computational Biology}, vol.\ 18, no.\ 6, p.\ 2050031, September 2020.\\
+
+\item  {{\bf Albert No}},
+``Nonasymptotic Upper Bounds on Binary Single Deletion Codes via Mixed Integer Linear Programming,''
+{\it Entropy}, vol.\ 21, no.\ 12, p.\ 1202, December 2019.\\
+
+\item  Minseok Choi, {{\bf Albert No}}$^\dagger$, Mingyue Ji, and Joongheon Kim$^\dagger$,
+``Markov Decision Policies for Dynamic Video Delivery in Wireless Caching Networks,''
+{\it IEEE Transactions on Wireless Communications},
+vol.\ 18, no.\ 12, pp. 5705--5718, December 2019.\\
+
+\item  {{\bf Albert No}},
+``Universality of Logarithmic Loss in Fixed-Length Lossy Compression,''
+{\it Entropy},
+vol.\ 21, no.\ 6, p.\ 580,
+June 2019.\\
+
+\item  {{\bf Albert No}},
+``Universality of Logarithmic Loss in Successive Refinement,''
+{\it Entropy},
+vol.\ 21, no.\ 2, p.\ 158,
+February 2019.\\
+
+\item  Hyun Kim, {{\bf Albert No}}, and Hyuk-jae Lee,
+``SPIHT Algorithm with Adaptive Selection of Compression Ratio Depending on DWT Coefficients,''
+{{\it IEEE Transactions on Multimedia}}, vol.\ 20, no.\ 12, pp.\ 3200--3211, December 2018.\\
+
+\item  {{\bf Albert No}}, ``Information Geometric Approach on Most Informative Boolean Function Conjecture,''
+{\it Entropy},
+vol.\ 20, no.\ 9, p.\ 688,
+September 2018.\\
+
+\item   {{\bf Albert No}} and Tsachy Weissman,
+``Rateless Lossy Compression via the Extremes,''
+{\it IEEE Transactions on Information Theory}, vol.\ 62, no.\ 10, pp.\ 5484-5495, October 2016.\\
+
+\item  {{\bf Albert No}}, Amir Ingber, and Tsachy Weissman, ``Strong Successive Refinability and Rate-Distortion-Complexity Tradeoff,''
+{\it IEEE Transactions on Information Theory}, vol.\ 62, no.\ 6, pp.\ 3618--3635, June 2016.\\
+
+\item  Jiantao Jiao, Thomas A. Courtade, {{\bf Albert No}}, Katik Venkat, and Tsachy Weissman,
+``Information Measures: The Curious Case of the Binary Alphabet,''
+{\it IEEE Transactions on Information Theory}, vol.\ 60, no.\ 12, pp.\ 7616--7626, December 2014.\\
+
+\item {{\bf Albert No}} and Tsachy Weissman, ``Minimax Filtering via Relations between Information and Estimation, ''
+{\it IEEE Transactions on Information Theory}, vol.\ 60, no.\ 8, pp.\ 4832--4847, August 2014. 
+\end{enumerate}
+
+
+
+\vspace{3mm}
+\section{\sl FUNDINGS}
+\itemsep -0.1in
+{\sl Detecting and Mitigating Memorization in Diffusion Models for Privacy Protection}\\
+Funded by the National Research Foundation of Korea (NRF) grant (No. RS-2025-23525649)\\
+(2025.09 - 2028.08)\\
+
+{\sl AI Research Hub Project}; Co-PI\\
+Funded by Institute for Information \& Communication Technology Planning \& Evaluation (IITP)\\
+(2024.07 - 2028.12)\\
+
+{\sl DNA Computing Systems and Algorithms for Large-Scale Artificial Neural Networks}; Co-PI\\
+Funded by the National Research Foundation of Korea (NRF) grant (No. NRF-)\\
+(2024.09 - 2026.12)\\
+
+{\sl Development of Transformer Acceleration Solution Including Quantization and Scheduling Techniques for LLM}\\
+Funded by Ministry of Trade, Industry and Energy\\
+(2024.04 - 2026.12)\\
+
+{\sl  Optimal Transport for Diffusion Models}\\
+Funded by KRAFTON\\
+(2022.10 - 2024.09)\\
+
+{\sl Development of High-performance, high-reliability DNA Memory Software and Hardware}\\
+Funded by National Research Foundation of Korea (NRF) grant (no. NRF-2022M3C1A3090863)\\
+(2022.06 - 2026.12)\\
+
+{\sl Development for Processing Software on AI Semiconductor Devices}; Co-PI\\
+Funded by Institute for Information \& Communication Technology Planning \& Evaluation (IITP)\\
+(2022.07 - 2029.12)\\
+
+{\sl CIS Deep Learning Solution}; Primary-PI\\
+Funded by SK hynix\\
+(2022.07 - 2023.06)\\
+
+{\sl  Information Theoretic Compression for Overparameterized Deep Neural Network}; Primary-PI\\
+Funded by the National Research Foundation of Korea (NRF) grant (No. NRF-2021R1F1A105956711)\\
+(2021.06 - 2024.02)\\
+
+{\sl CIS QxQ Remosaic Deep Learning Solution}; Primary-PI\\
+Funded by SK hynix\\
+(2021.07 - 2022.06)\\
+
+{\sl MPEG-G Based Sequencing Data Compression}; Primary-PI\\
+Funded by the Korean Institute of Science and Technology Information\\
+(2021.01 - 2022.12)\\
+
+{\sl  Next Generation Terahertz Communication and Semiconductor}\\
+BK21, Funded by the National Research Foundation of Korea (NRF) grant\\
+(2020.09 - 2027.08)\\
+
+{\sl Large-Scale Korean DNA Sequencing Data Compression}; Primary-PI\\
+Funded by the Korean Institute of Science and Technology Information\\
+(2020.02 - 2020.09)\\
+
+{\sl Error Control Coding for DNA Storage}; Co-PI\\
+Funded by Samsung Research Funding and Incubation Center for Future Technology\\
+(2018.12 - 2022.11)\\
+
+{\sl Information Theoretic Approaches on DNA Sequencing Data Compression}; Primary-PI\\
+Funded by the National Research Foundation of Korea(NRF) grant (No. NRF-2017R1C1B5019298)\\
+(2017.03 - 2020.02)\\
+
+\vspace{3mm}
+\section{\sl DISSERTATION} 
+\textbf{Rateless Lossy Compression via the Extremes}\\
+Advisor: prof. Tsachy Weissman\\
+The aim of my thesis research is to understand successive refinement more thoroughly so that we can use its ideas to construct a practical lossy compressor with theoretically attractive properties. I proposed an iterative lossy compressor achieving the information theoretic optimum distortion-rate bound with low computational complexity, low storage requirements, and additional properties of both theoretical and practical merit.
+
+\vspace{3mm}
+\section{\sl RESEARCH INTERESTS} 
+Information Theory, Deep Learning Theory, Bioinformatics.
+
+\vspace{3mm}
+\section{\sl PROFESSIONAL EXPERIENCE}
+{{\bf Hongik University, Seoul, Korea}} \\
+{Associate Professor} \hfill {{\bf 03/2023 - 02/2024}}\\
+
+{{\bf Hongik University, Seoul, Korea}} \\
+{Assistant Professor} \hfill {{\bf 03/2017 - 02/2023}}\\
+
+{{\bf Roche Sequencing Solutions, Santa Clara, CA, USA}} \\
+{Principal Scientist I} \hfill {{\bf 11/2015 - 02/2017}}\\
+\quad{\sl - Implemented signal processing pipeline for Next Generating Sequencing (NGS).}\\
+\quad{\sl - Designed simulators for Next Generation Sequencing.}\\
+
+{{\bf Ericsson, CA, USA}} \\
+{\sl Summer Internship} \hfill{{\bf 06/2013 - 09/2013}}\\
+\quad{\sl - Designed algorithms for virtual load balancing for routers.}\\
+\quad{\sl - Implemented RFC 6330 using C programming.}\\
+
+\vspace{3mm}
+\section{\sl PATENT} 
+{{\bf Data Compression and Decompression}}\\
+{{\bf Albert No}}\\
+{{Korean Patent (KR 10-2016125 B1)}}\\
+
+{{\bf Method, program, and appratus of decoding based on soft information of a DNA storage device}}\\
+Sunghwan Kim, Hosung Park, {{\bf Albert No}}, Jae Won Kim, Jaeho Jeong, and Jong Seon No\\
+PCT patent, application No. PCT/KR2020/010571, 20200810.
+
+
+\vspace{3mm}
+\section{\sl TEACHING EXPERIENCE} {{\bf Stanford University, Stanford, CA, USA }}\\
+{{\bf Teaching Assistant}} in the Electrical Engineering Department \\
+{\sl EE378A : Statistical Signal Processing} \\
+{\sl EE376A : Information Theory}\\
+{\sl EE376C : Universal Schemes in Information Theory}\\
+{\sl EE178 : Probabilistic Systems Analysis}\\
+{\sl CS103 : Mathematical Foundations of Computing}\\
+
+{{\bf Hongik University,  Seoul, Korea}}\\
+{{\bf Undergraduate Courses}} in the Electronic and Electrical Engineering Department \\
+\quad {\sl - Communication Theory}\\
+\quad {\sl - Digital Communications}\\
+\quad {\sl - Mobile Communications}\\
+\quad {\sl - Introduction to Creative System Design}\\
+\quad {\sl - IT System Design}\\
+\quad {\sl - Artificial Intelligence and Machine Learning}\\
+\quad {\sl - Digital Logic Circuits}\\
+\quad {\sl - Digital Logic Circuits Lab}\\
+{{\bf Graduate Courses}} in the Electronic and Electrical Engineering Department \\
+\quad {\sl - Information Theory}\\
+\quad {\sl - Rate Distortion Theory}\\
+\quad {\sl - Special Lectures on Digital Signal Processing}\\
+\quad {\sl - Probability and Decision Theory}\\
+\quad {\sl - Recent Progress in Network Compression}\\
+\quad {\sl - Differential Privacy}\\
+\quad {\sl - Sequential Data Processing}
+% 
+% \vspace{3mm}
+% \section{\sl PERSONAL}
+%     Date of Birth: December 23, 1987\\
+%     Citizenship: USA\\
+\end{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% END%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{3mm}
+\section{\sl ADDITIONAL INFORMATION} 
+ {{\bf Techniques:}}
+ Information Theory, Signal Processing, Machine Learning, Data Compression,
+ Probability Theory, Algorithm, Bioinformatics.\\
+ {{\bf Computer skills:}}
+ MATLAB, C, C++, \LaTeX, Python (SciPy, NumPy, Pandas, etc).\\
+ {{\bf Reviewer:}}
+ IEEE Transactions on Information Theory,
+ IEEE International Symposium on Information Theory,
+ MDPI Entorpy.\\
+ {{\bf Languages:}}
+ Native: Korean, Proficiency: English\\
+% {{\bf Membership:}} Institute of Electrical and Electronics Engineers (IEEE).\\
+ 
+\vspace{3mm}
+\section{\sl POSTERS} 
+{{\bf Reliability of a Binary Channel with Feedback}}\\
+{\it Stanford Computer Forum, Annual Meeting at Stanford University} \hfill{{\bf April 12, 2011}}
+
+{{\bf Does Optimal Encoding Depend on the Statistics of the Environment?}}\\
+{\it Center for Science of Information, NSF Site Visit at Purdue University} \hfill{{\bf December 1, 2011}}
+
+\vspace{3mm}
+\section{\sl SCHOLARSHIPS AND AWARDS} 
+Ranked 18$^{th}$ out of 152 candidates in the EE Qualifying Examination at Stanford (2010)\\
+Scholarship, awarded by Korean Semiconductor Industry Association, 2008\\
+National Collegiate Engineering Mathematics Competition, 1st place (Gold Medal), 2007\\
+Academic Excellence Scholarship, 2007\\
+Scholarship recipient for excellent performance in Mathematics and Science, 2006\\
+National Collegiate Mathematics Competition - Category 2, 2$^{nd}$ place (Silver Medal), 2005\\
+Asian Pacific Mathematical Olympiad, Honorable Mention, 2003 and 2004 (Twice)\\
+The Korean Mathematical Olympiad, Gold Prize, 2002 and 2003 (Twice)\\
+
+
+% \vspace{3mm}
+% \section{\sl RELEVANT COURSES} 
+% Information Theory A and B, Universal Schemes in Information Theory, Cooperation in Wireless Networks, Statistical Signal Processing, Network Information Theory, Theory of Probability A, B and C, Large Deviations, Stochastic Differential Equations, Stochastic Systems, Convex Optimization, Compressed Sensing, Design and Analysis of Algorithms, Machine Learning.
+% 
+\vspace{3mm}
+\section{\sl TEACHING EXPERIENCE} {{\bf Stanford University, Stanford, CA, USA }}\\
+{{\bf Teaching Assistant}} in the Electrical Engineering Department \\
+{\sl EE378A : Statistical Signal Processing} \hfill{{\bf 01/2011 - 03/2011}}\\
+{\sl EE376A : Information Theory}\hfill{{\bf 01/2013 - 03/2013}}\\
+{\sl EE378A : Statistical Signal Processing}\hfill{{\bf 04/2013 - 06/2013}}\\
+{\sl EE376A : Information Theory}\hfill{{\bf 01/2014 - 03/2014}}\\
+{\sl EE376C : Universal Schemes in Information Theory}\hfill{{\bf 04/2014 - 06/2014}}\\
+{\sl EE178 : Probabilistic Systems Analysis}\hfill{{\bf 09/2014 - 12/2014}}\\
+{\sl CS103 : Mathematical Foundations of Computing}\hfill{{\bf 06/2016 - 08/2016}}\\

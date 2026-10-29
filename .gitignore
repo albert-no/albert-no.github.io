@@ -8,3 +8,11 @@ _data/.jekyll-cache/
 .DS_Store
 .jekyll-metadata
 
+
+# LaTeX build artifacts (CV sources in cv/; built PDFs live at repo root)
+cv/*.aux
+cv/*.log
+cv/*.out
+cv/*.pdf
+cv/*.fls
+cv/*.fdb_latexmk

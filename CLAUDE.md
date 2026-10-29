@@ -116,6 +116,16 @@ name is both linked and underlined in publication entries.
 | [C26] A2D | https://ai-isl.github.io/A2D |
 | [C25] Rainbow Padding | https://ai-isl.github.io/rainbow-padding |
 
+## CV auto-build
+
+CV sources live in `cv/main.tex` (full) and `cv/simple.tex` (short). On every
+push to `master`, the `Build CV` GitHub Actions workflow
+(`.github/workflows/build-cv.yml`) recompiles them and, if the output changed,
+commits the results to the repo root as `cv.pdf` and `cv-simple.pdf` (served at
+`https://albert-no.github.io/cv.pdf`). Never edit the root PDFs by hand — edit
+the `.tex` sources and let the workflow rebuild them. New publications should
+be added both to `publications.html` and `cv/main.tex`.
+
 ## Other site conventions
 
 - Each HTML page links the favicon: `<link rel="icon" type="image/x-icon" href="favicon.ico" />`.
