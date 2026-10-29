@@ -27,10 +27,9 @@ jobs:
             cv/main.tex
             cv/simple.tex
           work_in_root_file_dir: true
-        env:
-          # Reproducible PDFs: identical sources produce identical bytes,
-          # so the commit step below is a no-op when nothing changed.
-          SOURCE_DATE_EPOCH: "0"
+        # Reproducibility (identical sources -> identical bytes) is handled in
+        # the tex preambles (\pdfinfoomitdate etc.); env vars don't reach the
+        # action's Docker container.
 
       - name: Publish PDFs if changed
         run: |

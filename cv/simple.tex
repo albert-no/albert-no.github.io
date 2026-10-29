@@ -156,6 +156,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\usepackage{url}
+% Reproducible builds: identical sources must give identical PDF bytes,
+% or CI (.github/workflows/build-cv.yml) commits a rebuilt PDF on every push.
+\ifdefined\pdfinfoomitdate\pdfinfoomitdate=1\fi
+\ifdefined\pdftrailerid\pdftrailerid{}\fi
+\ifdefined\pdfsuppressptexinfo\pdfsuppressptexinfo=-1\fi
+
 \begin{document}
 \makeheading{Albert No}
 
