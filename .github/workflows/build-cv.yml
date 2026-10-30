@@ -21,7 +21,7 @@ jobs:
         run: python3 scripts/sync_cv.py
 
       - name: Compile CV
-        uses: xu-cheng/latex-action@v3
+        uses: xu-cheng/latex-action@v4
         with:
           root_file: cv/main.tex
           work_in_root_file_dir: true
