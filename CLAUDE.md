@@ -118,23 +118,32 @@ name is both linked and underlined in publication entries.
 
 ## CV auto-build
 
-CV sources live in `cv/main.tex` (full) and `cv/simple.tex` (short). On every
-push to `master`, the `Build CV` GitHub Actions workflow
-(`.github/workflows/build-cv.yml`):
+The CV source is `cv/main.tex`. On every push to `master`, the `Build CV`
+GitHub Actions workflow (`.github/workflows/build-cv.yml`):
 
 1. runs `scripts/sync_cv.py`, which regenerates the PREPRINT, CONFERENCE
-   PUBLICATIONS, and JOURNAL PUBLICATIONS sections of `cv/main.tex` from
-   `publications.html` (the regions between `% BEGIN AUTO:` / `% END AUTO:`
-   markers — never edit inside those markers by hand);
-2. recompiles both tex files;
-3. commits `cv/main.tex` + root `cv.pdf` / `cv-simple.pdf` if anything changed
+   PUBLICATIONS, PEER-REVIEWED WORKSHOP, JOURNAL PUBLICATIONS, and PATENT
+   sections of `cv/main.tex` from `publications.html` (the regions between
+   `% BEGIN AUTO:` / `% END AUTO:` markers — never edit inside those markers
+   by hand);
+2. recompiles the tex file;
+3. commits `cv/main.tex` + root `cv.pdf` if anything changed
    (served at `https://albert-no.github.io/cv.pdf`).
 
-So new publications only need to be added to `publications.html`; the CV
-follows automatically. Exceptions kept manual on purpose: the PEER-REVIEWED
-WORKSHOP section of `cv/main.tex` (the CV lists workshop papers not on the
-webpage) and all of `cv/simple.tex` (hand-curated selection). Never edit the
-root PDFs directly. `albert-no.html` links `cv.pdf` below the email line.
+So new publications, workshop papers, and patents only need to be added to
+`publications.html`; the CV follows automatically. Workshop papers whose
+content was later published at a conference or journal are intentionally
+left off the webpage (and therefore the CV); do not re-add them. Never edit the root PDF
+directly. `albert-no.html` links `cv.pdf` below the email line.
+
+Patents live in the `#patents` panel of `publications.html` (tags `[PT1]`,
+`[PT2]`, ...). Each entry is three lines like the other panels: title link,
+inventors, then `<Kind> (<span class="publication-acronym">number</span>),
+<status/year>`.
+
+The CV has no FUNDINGS or TEACHING EXPERIENCE section. Funding is listed on
+`fundings.html` (linked from `albert-no.html` as `[Fundings]`, not in the
+site nav); update that page directly when a grant is added or ends.
 
 ## Other site conventions
 
